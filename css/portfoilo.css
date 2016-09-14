@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+font-size:100%;
+letter spacing: .15em;
+background-color: #efefef;
+background-image: url(../white-wood-background.jpg);
+background-repeat:repeat;
+background-attachment: scroll;
+max-height:100%;
+max-width:100%;
+text-decoration:none;
+  position: absolute;
+  margin: 0;
+  padding-top: 70px;
+    padding-top: 40px;
+  font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+#page{
+	max-height:100%;
+	min-width:100%;
+	margin: 20%;
+	background-color: #F7F4F4;
+	background-position:center;
+	position: relative;}
+	
+.container h3, .text-center{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif ;
+	font-size:3em;
+	color:#3D9FAB;
+	align-content:center;}
+
+.dropdown-menu{
+	background-color: #3D9FAB;}
+	.text-left{ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif}
+
+.navbar-brand, .navbar-header,.dropdown-menu, .dropdown-toggle, .dropdown, .nav, .nav navbar-nav, #navbar{ 
+color: #00000;
+text-decoration:none;
+text-align:;
+left: 10%;
+ font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+ font-size:1em;}
+		
+		/* unvisited link */
+
+.container{ padding: 15px;
+	margin:20px;}
+		
+.container-fluid { 
+background-color:#B2C3C7;
+font-size: 18px;
+color:#808080;
+padding: 15px 15px 15px 0px;
+margin: 30px 30px 30px 0px;
+ }
+
+    /* Tabled Portrait */
+    @media screen and (max-width: 768px) {
+        #wrapper { width:100%;
+		height:auto; }
+     }
+
+    /* Tabled Portrait */
+    @media screen and (max-width: 768px) {
+        #wrapper { width:100%;
+		height:auto; }
+     }
+
+     /* iphone */
+    @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        img { max-width: 100%;
+		height:auto;}
+    }
+
+    /* ipad */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+img { max-width: 100%;
+height:auto; }

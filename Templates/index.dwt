@@ -1,0 +1,206 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Introduction</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<!-- CSS links-->
+<link rel="icon" href="../logo2.jpg"> 
+<link href="../css/bootstrap.css" rel="stylesheet">
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/imagehover.css" rel="stylesheet">
+<link href="../css/portfoilo.css" rel="stylesheet">
+
+
+<body>     
+
+    
+<!-- Header -->
+<nav class="navbar navbar-default navbar-fixed-top">
+
+
+
+<button type="button" class="navbar-toggle collapsed"  aria-expanded="false">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="../index.html">CHIARA BOISAUBIN</a>
+
+
+<!-- Collapsible Navbar -->
+            <div class="collapse navbar-collapse" id="example-1">
+            <ul class="nav navbar-nav">
+            <li class="active"><a href="../index.html">HOME<span class="sr-only"></span></a></li>
+             
+           <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PORTFOILO <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            	<li> <a href="/Digital-work/Digitalwork.html"> Digital Work</a></li>
+           			 <li> <a href="/Drawings/drawing.html">Drawings </a></li>
+						<li> <a href="/motorchi/motorchi.html">Motor Chi</a></li>
+							<li> <a href="../motor-vent/Motorvent.html"> Motor Vent</a></li>  
+								<li> <a href="../Photos/photos.html"> Photos </a></li>
+            						<li> <a href="../Save-every-last-drop/Saveeverydrop.html"> Save Every Last Drop </a></li>
+           								<li> <a href="../United Synergy/united synergy.html"> United Synergy</a></li>
+     										<li > <a href="/Videos/video.html">Videos</a></li>
+        	
+        </li>
+        </ul>
+</div>
+    </nav>
+
+  			 
+     
+    
+ <!--intrduction-->
+<div class="intro">
+	<div class="container-fluid">
+ 		<div class="row">
+  			<div class="img-responsive">
+	 			<div class="col-md-3 col-md-offset-1 col-md-3">
+  					 <img src="Chiara-BoisAubin.jpg" img-responsive  height="300" width="300">
+  </div>
+
+  
+<div class="container-fluid">
+
+   <div class="col-lg-offset-0 col-lg-7 col-md-offset-1 col-md-5">
+  
+   <h2> <strong> Hello! </strong></h2>  <p> My name is Chiara BoisAubin. I currently live in Boston, MA but I am originally from New York. I attended Wheaton College for Asian Studies and Studio Art and received my Digital Design Certification from Art Institute of Pittsburgh. Designing and coding is something that I enjoy doing. My designing interest started when I was in high school; I would use my artistic skills to create posters for non-profits that I was involved with and for school events.
+
+  Digital design allows me to use my passion for technology and the fine arts; it is a challenge that allows me to learn and create something from scratch, or improve an existing design.
+<p>
+ Coding and Designing make me smile and feel as though I am accomplishing something, turning fantasy into reality. When I was learning how to code it was an amazing experience to see what I wrote come to life. Designing and coding are the adventures that I want to continue. </p>
+ 
+ <h2> Fun Facts:</h2>
+ 
+ <ul>
+ <ol>I like to paint, take photos, learn calligraphy, cook, and draw.</ol>
+  <ol>   I enjoy hiking, camping, skiing, or just taking a nice stroll.</ol>
+   <ol> I rather be on a motorcycle than ride in a car. </ol>
+   
+ </ul>
+
+    
+</div>
+	</div>
+  		</div>
+	  </div>
+</div>
+<div class="col-sm-6 col-sm-offset-2 col-md-6 col-md-offset-3">
+  <h3> Some Recent Work </h3>
+</div>
+  
+<div class="container">
+<div class="row">
+   <div class="col-md-6 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">	
+  <div class="img-responsive" src="../images/UX-UI-LESSON.jpg" height="300" width="300" >
+   <div class="overlay">
+
+    <h2>lesson Plan</h2>
+      <a href="../pdf/Lessonplan.pdf">
+    <p>  I took a UI/UX design course with Adobe to learn how to make protypes. </p>	
+  </a>
+   </div>
+    </div>
+</div>
+
+    
+    
+
+    
+ 
+               
+<div class="col-md-6 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+<img class="img-responsive" src="../images/loading.jpg" height="300" width="300">
+ <div class="overlay">
+
+ <h2>MotorVent</h2>
+ <a  href="../pdf/MotorVent.pdf">
+<p> This is a webite prototype that I have created for a UI/UX design course. The prototype is a webpage for motorcyclist to socialize. </p>
+</a>
+	</div>
+		</div>
+			</div>
+			
+
+
+<div class="col-md-6 col-md-4 col-sm-6 col-xs-12">
+    <div class="hovereffect">
+  <img class="img-responsive" src="../images/fab-rides-to-white-mt.jpg" height="300" width="300">
+   <div class="overlay">
+    <h2>Fab Rides Agian </h2>
+		<a href="https://youtu.be/6HMRR1n70zw">
+        <p> I started to teach myself how to edit videos.  This is my second video of my friend touring with his motorcycles. </p>
+    
+			</a>
+		   </div>
+    			</div>
+					</div>
+						</div>
+ 							</div>
+	
+ 
+ 
+
+<!-- icons -->
+ 
+
+
+ <footer class="footer"> 
+ <div class="container">
+      <nav class="navbar navbar-default navbar-fixed-bottom">
+       
+<div class="col-lg-3"> 
+<a href="https://www.linkedin.com/in/chiara-boisaubin-08848b16" target="_blank"> 
+<img src="../icons/Linkedin-Icon.png" height="30" width="30">
+
+</a> <a href="https://www.instagram.com/chiluvbears" target="_blank">
+ <img src="../icons/Instagram-Icon.png" height="30" width="30"></a>
+ 
+  <a href="https://www.facebook.com/ChiaraBoisaubin/?fref=ts" target="_blank"> 
+  <img src="../icons/Facebook-Icon.png"  height="30" width="30"></a>
+  
+   <a href="https://www.youtube.com/channel/UCtbJ7UQDU5Lkf2S9JAvOV2g" target="_blank"> 
+   <img src="../icons/Youtube-Icon.png" height="30" width="30"></a> 
+   
+   <a href="https://gist.github.com/chi1289" target="_blank"> 
+   <img src="../icons/IfBHeiV.png" height="30" width="30"></a> 
+   
+   <a href="../icons/Chiara-BoisAubin-CV.pdf" target="_blank">
+    <img src="../icons/document-xxl.png" height="30" width="30"></a> 
+
+<a href="mailto:chiara.boisaubin@gmail.com">
+ <img src="../icons/aTqo5RjXc.png"  height="30" width="30"></a> </div>
+
+ <div class="col-lg-2  offset-10">
+          <h6> &copy; Chiara BoisAubin Copyright 2016</h6>
+        </div>
+        
+            </div>
+   </nav>
+        </div>
+       </div>
+           </div>
+</footer>
+
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="../js/bootstrap.min.js"> </script>
+<script src="../js/bootstrap.js"></script>
+
+</body>
+
+</html>
