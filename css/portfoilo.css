@@ -50,6 +50,9 @@ padding: 15px 15px 15px 0px;
 margin: 100px 30px 100px 30px;
  }
 
+.row{
+	margin:20px;}
+	
 h6{color:#3D9FAB;}
 	.navbar-header{
 		padding-top: 6em;}
