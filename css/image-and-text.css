@@ -30,6 +30,7 @@
     -o-transition: all 300ms ease-out;
     -ms-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
+
 }
 
 #mainwrapper .box .caption {
@@ -43,6 +44,7 @@
     -ms-transition: all 300ms ease-out;
     transition: all 300ms ease-out;
     left: 0;
+	
 }
 #mainwrapper .box .full-caption {
     width:100%;
@@ -50,6 +52,7 @@
     top: -300px;
     text-align: left;
     padding: 15px;
+	
 }
 #mainwrapper .box:hover .full-caption {
     -moz-transform: translateY(100%);
@@ -57,3 +60,6 @@
     -webkit-transform: translateY(100%);
     transform: translateY(100%);
 }
+
+#mainwrapper a{
+	cursor:pointer;
