@@ -3,9 +3,9 @@
 body
 {
 font-size:100%;
-letter spacing: 1em;
+letter åspacing: 1em;
 background-color: #efefef;
-background-image: url(../white-wood-background.jpg);
+background-image: url(../chiaraboisaubin.github.io/white-wood-background.jpg);
 background-repeat:repeat;
 background-attachment: scroll;
 max-height:100%;
@@ -29,19 +29,20 @@ text-decoration:none;
 .container h3, .text-center{
 	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif ;
 	font-size:3em;
+	padding-top:5em;
 	color:#3D9FAB;
-	align-content:center;}
-.container{
+	align-content:center;
 	margin:30px;}
+
 .dropdown-menu{
 	background-color: #3D9FAB;}
 .nav, .navbar-nav{ 
-color: #00000;
+color: #3D9FAB;
 text-decoration:none;
-left: 50%;
-padding-top: 3em;
+padding-top:5em;
 font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
-font-size:2em;}
+font-size:2em;
+}
 	.container-fluid { 
 background-color:#8BDCDF;
 font-size: 18px;
@@ -50,11 +51,6 @@ padding: 15px 15px 15px 0px;
 margin: 100px 30px 100px 30px;
  }
 
-.row{
-	margin:20px;
-	height:100%;
-	width: auto;}
-	
 h6{color:#3D9FAB;}
 	.navbar-header{
 		padding-top: 6em;}
