@@ -50,6 +50,10 @@ color:#808080;
 padding: 15px 15px 15px 0px;
 margin: 100px 30px 100px 30px;
  }
+.row{
+	margin:20px;
+	height:100%;
+	width: auto;}
 
 h6{color:#3D9FAB;}
 	.navbar-header{
