@@ -172,7 +172,7 @@ position:fixed;
 color:#269397;}
 
 .hovereffect {
-  width: 75%;
+  width: 50%;
   height: 100%;
   float: left;
   overflow: hidden;
@@ -180,7 +180,7 @@ color:#269397;}
   text-align: center;
   cursor: default;
   background:#99CBCB;
-  margin: 120px;
+  
   
 }
 
