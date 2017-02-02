@@ -1,26 +1,26 @@
-@charset "UTF-8";
-/* CSS Document */
-body
-{
-background-color: #efefef;
-background-image: url(../chiaraboisaubin.github.io/white-wood-background.jpg);
-background-repeat:repeat;
-background-attachment: scroll;
-font-family: "Lato", sans-serif;
+body {
+    font-family: "Lato", sans-serif;
+	height: auto;
+	width: 96%;
 	text-decoration: none;
-
+	
 }
-  header{
+header{
 	height:90px;
-	padding: 10px;
-    background:#ED232F;
+	padding: 0;
+    background-color: #97DDDF;
     position: relative;
-	 width: 100%;
+	width: 100%;
+	margin:  0;
+	overflow: hidden;
+	top: 0;
+	 list-style-type: none;
 }
 
-.logo{left:90%;
-padding-top: 30px;
-position: relative;}
+.logo{right:2%;
+padding-top: 1px;
+	position:absolute;
+}
 .nav{ 
 left:5%;
 color: #FFFFFF;
@@ -31,19 +31,17 @@ padding-top:30px;
 }
 
 
-.logo{padding-top:25px;}
-
 .sidenav a:hover{
 	 color: #FFFFFF;}
 	 
 .sidenav {
     height: 100%;
     width: 0;
-    position: fixed;
+    position: relative;
     z-index: 1;
     top: 0;
    	left: 0;
-    background-color: #ED232F;
+    background-color: #97DDDF;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 200px;
@@ -61,7 +59,7 @@ padding-top:30px;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #F58236;
+    color: #F5EA68;
 }
 
 .sidenav .closebtn {
@@ -74,7 +72,7 @@ padding-top:30px;
 h1{
  font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Neue", "Helvetica Neue Bold", "Helvetica Neue Bold Italic", "Helvetica Neue Condensed Black", "Helvetica Neue Condensed Bold", "Helvetica Neue Italic", "Helvetica Neue Light Italic", "Helvetica Neue Medium", "Helvetica Neue Medium Italic", "Helvetica Neue Thin", "Helvetica Neue Thin Italic", "Helvetica Neue UltraLight";
 	font-size: 26pt;
-	color: #ED232F;
+	color:#096A6A;
 }
 h3{  font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Neue", "Helvetica Neue Bold", "Helvetica Neue Bold Italic", "Helvetica Neue Condensed Black", "Helvetica Neue Condensed Bold", "Helvetica Neue Italic", "Helvetica Neue Light Italic", "Helvetica Neue Medium", "Helvetica Neue Medium Italic", "Helvetica Neue Thin", "Helvetica Neue Thin Italic", "Helvetica Neue UltraLight";
 	font-size: 18pt;
