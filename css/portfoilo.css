@@ -42,7 +42,7 @@ padding-top:20px;
     background-color: #97DDDF;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 200px;
+    padding-top: 150px;
 	
 }
 
@@ -69,13 +69,13 @@ padding-top:20px;
 }
 h1{
  font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Neue", "Helvetica Neue Bold", "Helvetica Neue Bold Italic", "Helvetica Neue Condensed Black", "Helvetica Neue Condensed Bold", "Helvetica Neue Italic", "Helvetica Neue Light Italic", "Helvetica Neue Medium", "Helvetica Neue Medium Italic", "Helvetica Neue Thin", "Helvetica Neue Thin Italic", "Helvetica Neue UltraLight";
-	font-size: 26pt;
+	font-size: 3em;
 	color:#096A6A;
 }
 h3{  font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Neue", "Helvetica Neue Bold", "Helvetica Neue Bold Italic", "Helvetica Neue Condensed Black", "Helvetica Neue Condensed Bold", "Helvetica Neue Italic", "Helvetica Neue Light Italic", "Helvetica Neue Medium", "Helvetica Neue Medium Italic", "Helvetica Neue Thin", "Helvetica Neue Thin Italic", "Helvetica Neue UltraLight";
 	font-size: 18pt;
 	color: #FFFFFF;
-background-color: #F2B8B9;
+background-color:#0FB1B7;
 padding: 20pt;}
 
 .resturants img {
@@ -107,7 +107,7 @@ form{
 }
 .container {
   position: relative;
-	width: 70%;
+	width: 79%;
   
 }
 
@@ -124,13 +124,13 @@ form{
   right: 0;
   background-color: #0F6E71;
   overflow: hidden;
-  width: ;
+  width:.0% ;
   height: 100%;
   transition: .5s ease;
 }
 
 .container:hover .overlay {
-  width: 100%;
+  width: 95%;
   left: 0;
 	
 }
