@@ -57,7 +57,7 @@ padding-top:20px;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #F5EA68;
+    color: #0F6E71;
 }
 
 .sidenav .closebtn {
@@ -69,7 +69,7 @@ padding-top:20px;
 }
 h1{
  font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Neue", "Helvetica Neue Bold", "Helvetica Neue Bold Italic", "Helvetica Neue Condensed Black", "Helvetica Neue Condensed Bold", "Helvetica Neue Italic", "Helvetica Neue Light Italic", "Helvetica Neue Medium", "Helvetica Neue Medium Italic", "Helvetica Neue Thin", "Helvetica Neue Thin Italic", "Helvetica Neue UltraLight";
-	font-size: 3em;
+	font-size: 2em;
 	color:#096A6A;
 }
 h3{  font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Neue", "Helvetica Neue Bold", "Helvetica Neue Bold Italic", "Helvetica Neue Condensed Black", "Helvetica Neue Condensed Bold", "Helvetica Neue Italic", "Helvetica Neue Light Italic", "Helvetica Neue Medium", "Helvetica Neue Medium Italic", "Helvetica Neue Thin", "Helvetica Neue Thin Italic", "Helvetica Neue UltraLight";
@@ -110,6 +110,9 @@ form{
 	width: 79%;
   
 }
+.container-fluid{
+	text-decoration: none;
+}
 
 .image {
   display: block;
@@ -130,21 +133,22 @@ form{
 }
 
 .container:hover .overlay {
-  width: 95%;
+  width: 100%;
   left: 0;
 	
 }
 
 .text {
-  white-space: nowrap; 
+  white-space: ; 
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   position: absolute;
   overflow: hidden;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%); 
+}
 
 @media screen and (max-height: 450px) 
   .sidenav {padding-top: 15px;}
