@@ -155,6 +155,19 @@ form{
   transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%); 
 }
+.footer{  list-style-type: none;
+		background-color: #97DDDF ;
+		position: static;
+	text-align: center;}
+	.footer li{text-decoration: none;
+		display: inline;
+	text-align: center;
+		 border-right: #FFFFFF;
+	text-align: center; }
+	.footer a{	text-decoration: none;
+		color: #FFFFFF;
+		 border-right: #FFFFFF;
+	text-align: center; }
 
 @media screen and (max-height: 450px) 
   .sidenav {padding-top: 15px;}
