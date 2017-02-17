@@ -14,6 +14,7 @@ header{
     position: relative;
 	 width: 102%;
 }
+
 .about  {margin: 20px;
 	padding: 20px;
 	color: #04595D;
@@ -143,7 +144,9 @@ form{
   left: 0;
 	
 }
-
+.row img{   width: 45%;
+    height: auto;}
+.row h2{color: #0F6E71;}
 .text {
   white-space: ; 
   color: white;
