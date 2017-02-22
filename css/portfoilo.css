@@ -114,12 +114,23 @@ form{
 .container {
   position: relative;
 	width: 79%;
+	text-decoration: none;
   
+}
+.container a{
+	color: #FFFFFF;
+	text-decoration: none;
 }
 .container-fluid{
 	text-decoration: none;
 	color: #04595D;
 }
+.container  a:hover, a:focus{
+    color: #11AFA5;
+	list-style: none;
+}
+.container a:hover{
+	 color: #11AFA5;}
 
 .image {
   display: block;
@@ -139,6 +150,7 @@ form{
   transition: .5s ease;
 }
 
+
 .container:hover .overlay {
   width: 100%;
   left: 0;
@@ -146,7 +158,7 @@ form{
 }
 .row img{   width: 45%;
     height: auto;}
-.row h2{color: #0F6E71;}
+.row h2{color: #FFFFFF;}
 .text {
   white-space: ; 
   color: white;
