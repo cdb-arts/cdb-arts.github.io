@@ -120,6 +120,7 @@ form{
 .container a{
 	color: #FFFFFF;
 	text-decoration: none;
+	
 }
 .container-fluid{
 	text-decoration: none;
@@ -156,7 +157,7 @@ form{
   left: 0;
 	
 }
-.row img{   width: 45%;
+.row img{   width: 25%;
     height: auto;}
 .row h2{color: #FFFFFF;}
 .text {
