@@ -149,6 +149,7 @@ text-decoration: none;}
 .hon {
   position: relative;
   width: 50%;
+	 float: left;
 }
 
 .image {
