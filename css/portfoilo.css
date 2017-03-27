@@ -119,15 +119,84 @@ form{
 	padding: 15px;
 }
 
+.honey {
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background-color: #11AFA5;
+	transition-property: background;
+	transition-duration: 1s;
+	transition-timing-function: linear;
+
+
+}
+
+
+.honey:hover{
+	 background: #05484A;
+}
+.honey a, .honey a:visited, .honey a:focus, .honey a:active {
+ 	color: #FFF;
+
+text-decoration: none;}
+.honey ul {}
+
+
+
+
+.hon {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0FB1B7;
+}
+
+.hon:hover .overlay {
+  opacity:1;
+}
+
+.text {
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-40%, -40%);
+  -ms-transform: translate(-50%, -50%);
+}
+/* Container information
 .container {
 	position: relative;
-	width: 80%;
+	width: 100%;
+
 	text-decoration: none;
-  
+	font: 1em;
 }
+
 .container a{
 	color: #FFFFFF;
 	text-decoration: none;
+
+	font: 1em;
 }
 
 .container-fluid{
@@ -146,12 +215,11 @@ form{
 	color: #11AFA5;
 	font: 1em;
 }
-
-.image {
-	display: block;
+.container:hover .overlay {
 	width: 100%;
-	height: auto;
+	left: 0;
 }
+
 
 .overlay {
 	position: absolute;
@@ -160,19 +228,16 @@ form{
 	right: 0;
 	background-color: #0F6E71;
 	overflow: hidden;
-	width:.0% ;
-	height: 100%;
+	width: ;
+	height: 50%;
 	transition: .5s ease;
 	font: 1em;
+	
 }
-
-.container:hover .overlay {
-	width: 100%;
-	left: 0;
-}
+*/
 
 .row img{  
-	width: 25%;
+	width: 75%;
 	height: auto;}
 .row h2{
 	color: #FFFFFF;}
