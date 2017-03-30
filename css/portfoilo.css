@@ -151,9 +151,6 @@ form{
  	color: #FFF;
 
 text-decoration: none;}
-.honey ul {}
-
-
 
 
 .hon {
@@ -164,7 +161,7 @@ text-decoration: none;}
 
 .image {
   display: block;
-  width: 100%;
+  width: 70%;
   height: auto;
 	transition:all 0.3s ease;
 }
@@ -181,7 +178,7 @@ text-decoration: none;}
   left: 0;
   right: 0;
   height: 100%;
-  width: 100%;
+  width: 70%;
   opacity: 0;
   transition: .5s ease;
   background-color: #0FB1B7;
@@ -194,9 +191,10 @@ text-decoration: none;}
 .text {
   color: white;
   font-size: 14px;
-  position: absolute;
-  top: 40%;
-  left: 50%;
+  position:relative;
+  bottom: 90%;
+  left: 30%;
+	text-align: center;
   transform: translate(-40%, -40%);
   -ms-transform: translate(-50%, -50%);
 }
