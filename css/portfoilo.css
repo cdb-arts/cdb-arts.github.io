@@ -307,7 +307,7 @@ transition: all 0.5s;
 .enter a, .enter a:visited{
 	border-radius: 20px;
 	border: #FFFFFF 3px solid;
-	padding: 20px;
+	padding: 15%;
 	text-decoration: none;
 	color: #FFFFFF;
 }
@@ -316,7 +316,7 @@ transition: all 0.5s;
 	color: #0A7A7E;
 	background-color: #FFFFFF;
 	text-decoration: none;
-	padding: 20px;
+	padding: 15%;
 	
 }
 .text {
