@@ -16,12 +16,13 @@ header{
 .about{
 	width:100%;
 	height:auto;
+	float:left;
 }
 .about  {
 	margin: 20px;
 	padding: 20px;
 	color: #04595D;
-	  -webkit-column-gap: 40px; 
+	-webkit-column-gap: 40px; 
     -moz-column-gap: 40px; 
     column-gap: 40px;
 }
@@ -183,7 +184,7 @@ float: left;}
     padding: 0;
     overflow: hidden;
     background-color: #97DDDF;
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
 	cursor: pointer;
@@ -294,6 +295,8 @@ transition: all 0.5s;
 }
 .enter{
 	padding: 60px;
+	width: 100%;
+	height:auto;
  }
 .winter h1{
 	font-family: skolar-sans-latin, sans-serif;
