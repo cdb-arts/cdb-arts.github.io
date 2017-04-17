@@ -295,8 +295,6 @@ transition: all 0.5s;
 }
 .enter{
 	padding: 60px;
-	width: 100%;
-	height:auto;
  }
 .winter h1{
 	font-family: skolar-sans-latin, sans-serif;
@@ -307,16 +305,18 @@ transition: all 0.5s;
 .enter a, .enter a:visited{
 	border-radius: 20px;
 	border: #FFFFFF 3px solid;
-	padding: 15%;
+	padding:10px;
 	text-decoration: none;
 	color: #FFFFFF;
+	width: 100%;
 }
 
 .enter a:hover{
 	color: #0A7A7E;
 	background-color: #FFFFFF;
 	text-decoration: none;
-	padding: 15%;
+	padding: 10px;
+	width: 100%;
 	
 }
 .text {
