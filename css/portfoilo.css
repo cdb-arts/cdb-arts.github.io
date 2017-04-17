@@ -13,11 +13,18 @@ header{
 	position: relative;
 	width: 100%;
 }
-
+.about{
+	width:100%;
+	height:auto;
+}
 .about  {
 	margin: 20px;
 	padding: 20px;
 	color: #04595D;
+	  -webkit-column-gap: 40px; 
+    -moz-column-gap: 40px; 
+    column-gap: 40px;
+}
 }
 	.about p{
 	padding-left: 150px;}
@@ -343,7 +350,6 @@ transition: all 0.5s;
 .active, .dot:hover {
   background-color: #717171;
 }
-
 
 @media only screen and (min-width: 1170px) {
   .cd-section {
