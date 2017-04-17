@@ -86,19 +86,96 @@ body {font-family: Verdana,sans-serif;}
     .weekdays li, .days li {width: 12.2%;}
 }
 	</style>
+	<tr>
+	<td>
 <body>
+<div class="cal_today">
  <div class="month">
   <ul>
-    <li class="prev">&#10094;</li>
-    <li class="next">&#10095;</li>
     <li>
       August<br>
       <span style="font-size:18px">2016</span>
     </li>
   </ul>
-</div>
+	 </td>
+   </div>
+   <div class="cal_today">
+ <div class="month">
+  <ul>
+    <li>
+      August<br>
+      <span style="font-size:18px">2016</span>
+    </li>
+  </ul>
+	 </td>
+   </div>
+   <div class="cal_today">
+ <div class="month">
+  <ul>
+    <li>
+      August<br>
+      <span style="font-size:18px">2016</span>
+    </li>
+  </ul>
+	 </td>
+   </div>
+   <div class="cal_today">
+ <div class="month">
+  <ul>
+    <li>
+      August<br>
+      <span style="font-size:18px">2016</span>
+    </li>
+  </ul>
+	 </td>
+   </div>
+   <div class="cal_today">
+ <div class="month">
+  <ul>
+    <li>
+      August<br>
+      <span style="font-size:18px">2016</span>
+    </li>
+  </ul>
+	 </td>
+   </div>
+   <div class="cal_today">
+ <div class="month">
+  <ul>
+    <li>
+      August<br>
+      <span style="font-size:18px">2016</span>
+    </li>
+  </ul>
+	 </td>
+   </div>
+   <div class="cal_today">
+ <div class="month">
+  <ul>
+    <li>
+      August<br>
+      <span style="font-size:18px">2016</span>
+    </li>
+  </ul>
+	 </td>
+   </div>
+   <div class="cal_today">
+ <div class="month">
+  <ul>
+    <li>
+      August<br>
+      <span style="font-size:18px">2016</span>
+    </li>
+  </ul>
+	 </td>
+   </div>
+	   
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+	</div>
 
-<ul class="weekdays">
+<td>
+<ul class="weekdays" >
   <li>Mo</li>
   <li>Tu</li>
   <li>We</li>
@@ -107,6 +184,7 @@ body {font-family: Verdana,sans-serif;}
   <li>Sa</li>
   <li>Su</li>
 </ul>
+	</td>
 
 <ul class="days">
   <li>1</li>
@@ -122,6 +200,15 @@ body {font-family: Verdana,sans-serif;}
   <li>11</li>
   ...etc
 </ul>
+	</div>
+	</tr>
 </body>
 	<script src="calendar.js"></script>
+	<script type="text/javascript">
+    window.onload = function() {
+        var cal = new Calendar();
+        cal.drawCalendar();
+    }
+    ...
+</script>
 </html>
