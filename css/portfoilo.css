@@ -293,9 +293,7 @@ transition: all 0.5s;
 .prev:hover, .next:hover {
   background-color: rgba(15,177,183,1.00);
 }
-.enter{
-	padding: 60px;
- }
+
 .winter h1{
 	font-family: skolar-sans-latin, sans-serif;
 	font-style: normal;
@@ -309,6 +307,7 @@ transition: all 0.5s;
 	text-decoration: none;
 	color: #FFFFFF;
 	width: 100%;
+	height: auto;
 }
 
 .enter a:hover{
@@ -317,7 +316,7 @@ transition: all 0.5s;
 	text-decoration: none;
 	padding: 10px;
 	width: 100%;
-	
+	height: auto;
 }
 .text {
   color: #F2DB06;
