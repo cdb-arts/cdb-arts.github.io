@@ -310,7 +310,6 @@ transition: all 0.5s;
 	padding: 20px;
 	text-decoration: none;
 	color: #FFFFFF;
-	animation: animatetop 0.4s;
 }
 
 .enter a:hover{
