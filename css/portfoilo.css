@@ -419,10 +419,10 @@ $dark :  #044C7F;
   padding: 0 1em 0 0;
 }
  .bar {
- 	background:$red;
+ 	background:#11FFE0;
  	width: 0;
  	margin: .25em 0;
- 	color: #fff;
+ 	color:#00635C ;
  	position: relative;
  	 transition:width 2s, background .2s;
    -webkit-transform: translate3d(0,0,0);
@@ -433,7 +433,7 @@ $dark :  #044C7F;
  	.bar .label {
 		font-size: .75em;
 		padding: 1em;
-		background: $dark;
+		background: #F3F5E6;
 		width: 8em;
 		display: inline-block;
 		position: relative;
