@@ -93,6 +93,49 @@ h3{
 	border-bottom: solid #096A6A 3px;
 	padding: 20pt;
 }
+.hon{
+	
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.88), 
+      rgba(0, 0, 0, 0.88)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #D4D4D4;
+	width:100%;
+	min-height: auto;
+	padding-bottom: 30%;
+}
+.hon p {
+	padding: 20px;
+}
+.container-fluid {	
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.50), 
+      rgba(0, 0, 0, 0.50)), url("../Web Design/best-laptop-for-developers.jpeg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #D4D4D4;
+	width: 100%;
+	min-height: auto;
+	padding-bottom: 20%;}
+
+.container-fluid p{
+	padding: 20px;
+		-webkit-column-gap: 40px; 
+    -moz-column-gap: 40px; 
+    column-gap: 40px;}
+}
+	
+	.hm h1{font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Neue", "Helvetica Neue Bold", "Helvetica Neue Bold Italic", "Helvetica Neue Condensed Black", "Helvetica Neue Condensed Bold", "Helvetica Neue Italic", "Helvetica Neue Light Italic", "Helvetica Neue Medium", "Helvetica Neue Medium Italic", "Helvetica Neue Thin", "Helvetica Neue Thin Italic", "Helvetica Neue UltraLight";
+	font-size: 2em;
+	color:#096A6A;
+}
 .hu{ 
 	color: #D4D4D4;
 	 min-height: auto;
@@ -293,6 +336,7 @@ transition: all 0.5s;
 }
 .winter h2, .winter p {
 	color: #D4D4D4;
+	padding: 10px;
 }
 
 .next {
@@ -310,6 +354,7 @@ transition: all 0.5s;
 	font-weight: 100;
 	color: #FFFFFF;
 }
+.enter{padding: 20px;}
 .enter a, .enter a:visited{
 	border-radius: 20px;
 	border: #FFFFFF 3px solid;
