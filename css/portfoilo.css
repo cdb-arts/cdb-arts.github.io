@@ -316,7 +316,7 @@ transition: all 0.5s;
 }
 
 #container { 
-  font-family: "Open sans";
+  font-family: skolar-sans-latin, sans-serif;
   width: 50%;
   height: auto;
   margin: auto;
@@ -341,7 +341,6 @@ transition: all 0.5s;
   box-sizing: border-box;
   position: relative;
   font-size: .8em;
-  font-weight: lighter;
   cursor: pointer;
 }
 
