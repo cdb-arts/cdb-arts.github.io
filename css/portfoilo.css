@@ -632,7 +632,27 @@ $dark :  #044C7F;
 	font-family: $fontSans;
  }
 
+.lala{	width: 200px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 50px;
+}
+.sweet{	padding: 0px;
+	width: 960px;
+	margin: 0px 60px;
+}
+.middle{
+	width: 200px; 
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;}
 
+.side {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+	margin: 0px 5px 5px 5px;
+}
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
