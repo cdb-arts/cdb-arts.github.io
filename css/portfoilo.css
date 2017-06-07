@@ -108,8 +108,15 @@ h3{
 	min-height: auto;
 	padding-bottom: 30%;
 }
-.hon p {
+.hon a, .hon:visited, .hon:active, .hon:focus {
 	padding: 20px;
+	text-decoration: none;
+	color: #D4D4D4;
+	
+}
+.hon:hover{
+	color: #EEAB17;
+	text-decoration: none;
 }
 .container-fluid {	
 	background:  linear-gradient(
@@ -631,27 +638,52 @@ $dark :  #044C7F;
 	font-weight: bold;
 	font-family: $fontSans;
  }
+.hm h1{
+font-family: gineso, sans-serif;
+font-style: normal;
+font-weight: 100;
+border-bottom:#0A7A7E solid 1px;}
 
-.lala{	width: 200px;
+.lala{	width: 250px;
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 50px;
 }
-.sweet{	padding: 0px;
-	width: 960px;
-	margin: 0px 60px;
+.sweet {	
+background:linear-gradient(
+      rgba(0, 0, 0, 0.70), 
+      rgba(0, 0, 0, 0.70)),
+	url("../Web Design/holiday-hack-the-top-x-thanksgiving-cocktails.jpg");
+    height: 20%;
+	width: 100%;
+	padding: 5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: #D4D4D4
 }
+
+
 .middle{
 	width: 200px; 
 	float: left;
 	padding: 5px 15px;
-	margin: 0px 5px 5px 5px;}
+	margin: 0px 5px 5px 50px;}
 
 .side {
-	width: 270px;
+	width: 200px;
 	padding: 5px 15px;
 	float: left;
-	margin: 0px 5px 5px 5px;
+	margin: 0px 5px 5px 50px;
+}
+
+.projects h1{
+	border-bottom:#0A7A7E solid 1px;
+}
+.projects {
+	margin: 0px 5px 5px 50px;
+float: left;
+	width: 500px;
 }
 @-webkit-keyframes fade {
   from {opacity: .4} 
