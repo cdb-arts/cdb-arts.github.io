@@ -475,6 +475,7 @@ transition: all 0.5s;
 	width:100%;
 	min-height: auto;
 	padding-bottom: 30%;
+	font-size: 2em;
 }
 .text p, .text h2{
 	margin: 20px;
