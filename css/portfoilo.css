@@ -477,6 +477,10 @@ transition: all 0.5s;
 .text p, .text h2{
 	margin: 20px;
 }
+.text a{
+	color: #D4D4D4;
+	text-decoration: none;
+}
 
 /* Number text (1/3 etc) */
 .numbertext {
