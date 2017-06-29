@@ -743,6 +743,10 @@ button:focus{
 float: left;
 	width: 500px;
 }
+.compress img{
+	width: 100%;
+	height: auto;
+}
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
