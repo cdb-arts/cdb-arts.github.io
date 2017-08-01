@@ -753,6 +753,10 @@ float: left;
 .projects a:visted, .projects a:focus{
 	color: #11AFA5;
 }
+.projects {
+	margin: 0px 5px 5px 50px;
+	width: 300px;
+}
 .compress img{
 	width: 100%;
 	height: auto;
