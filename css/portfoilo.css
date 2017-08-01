@@ -743,6 +743,16 @@ button:focus{
 float: left;
 	width: 500px;
 }
+.projects a{
+	text-decoration: none;
+	color: #0A7A7E;
+}
+.projects a:hover{
+	color: #11AFA5;
+}
+.projects a:visted, .projects a:focus{
+	color: #11AFA5;
+}
 .compress img{
 	width: 100%;
 	height: auto;
