@@ -6,27 +6,46 @@
 
 <head>
 <title>Images</title>
-<link href="style.css" rel="stylesheet"> 
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link href="../css/style.css" rel="stylesheet"> 
 </head>
-<body>
+<script>
+	</script>
+<body layout="row" ng-app="myApp" ng-cloak>
+   <div layout="column" flex="100" ng-controller='TempController'>
     
-   <div class="header">
-    <header> <img src="motor-chi-poster.jpg" height="auto" width="100%">
-    <ul class="nav">
- <li><a href="motorchi.html">Home</a></li>|
+  <div class="navbar navbar-inverse navbar-static-top">
+  <div class="container">
+    <a href="" class="navbar-brand">   </a>
+    <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <div class="collapse navbar-collapse navHeaderCollapse">
+      <ul class="nav navbar-nav navbar-right text-center">
+      <li class="active"><a href="motorchi.html">Home</a></li>
+        <li><a href="images.html">Images</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
         
     </ul></div>
  </header>
-	 <div class="photo">
- <ul>
-	 <li><img src="C2lBnU3KQ5Wod4CobgFdxg_thumb_a08.jpg" ></li>
-	 <li><img src="UNADJUSTEDNONRAW_thumb_a05.jpg" ></li>
-	 <li><img src="UNADJUSTEDNONRAW_thumb_a43.jpg" ></li>
-	<ul>
-	   </div>
-	
-
+  <div class="photo">
+		<h1>Image</h1>
+<img src="../images/C2lBnU3KQ5Wod4CobgFdxg_thumb_a08.jpg" width="200px" height="300px">
+	<img src="../images/UNADJUSTEDNONRAW_thumb_a0a.jpg"  width="500px" height="300px">
+	<img src="../images/UNADJUSTEDNONRAW_thumb_a43.jpg" width="200px" height="300px">
+	<img src="../images/UNADJUSTEDNONRAW_thumb_a05.jpg" width="200px" height="300px">
+   	<img src="../images/the-road-is-calling.jpg" width="200px" height="300px">
+	  </ul>   
+	</div>
+    
 	   
 	   
 <div class="footer">
