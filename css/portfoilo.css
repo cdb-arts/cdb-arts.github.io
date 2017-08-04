@@ -756,6 +756,7 @@ float: left;
 .projects {
 	margin: 0px 5px 5px 50px;
 	width: 300px;
+	height: auto;
 }
 
 .projects-1 {
