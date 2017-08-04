@@ -46,7 +46,7 @@
 	font-family: gineso, sans-serif;
 	font-style: normal;
 	font-weight: 100;
-	font-size: 1.5em;
+	font-size: 2em;
 	color:#0E8191;}
 	
 .nav a, .footer a {  
@@ -58,11 +58,12 @@
 		
 
 .image {
-	margin-left: 50px;
+	margin-left: 40px;
 }
 
 .image h1, .photo h1{
 	color: #005A4E;
+	border-bottom: 2px solid
 }
 					
 .photo img{
