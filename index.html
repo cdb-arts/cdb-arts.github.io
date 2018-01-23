@@ -6,14 +6,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <!-- CSS links-->
-<link rel="icon" src="../logo2.jpg" > 
+<link rel="icon" src="../logo2.jpg" >
 <link href="css/portfoilo.css" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
-	
+
 
 </head>
-<body>       
+<body>
 <div class="welcome">
 <div class="winter"><center>
 <img src="Home/logo2.gif" width="15%">
@@ -23,27 +23,26 @@
 	</center>
 	</div>
 	<div class="enter">
-		<center><a href="Home/Portfolio.html" class="transition">Enter Here!</a></center>
+		<center><a href="Home/Portfolio" class="transition">Enter Here!</a></center>
 	</div>
 		</div>
 		<script type="text/javascript">
 $(document).ready(function() {
     $("body").css("display", "none");
- 
+
     $("body").fadeIn(2000);
- 
+
     $("a.transition").click(function(event){
         event.preventDefault();
         linkLocation = this.href;
-        $("body").fadeOut(1000, redirectPage);      
+        $("body").fadeOut(1000, redirectPage);
     });
-         
+
     function redirectPage() {
         window.location = linkLocation;
     }
 });
 </script>
  </body>
- 
+
 </html>
-      
