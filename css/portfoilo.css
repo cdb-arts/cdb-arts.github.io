@@ -783,9 +783,7 @@ float: left;
 	color: #D4D4D4;
 }
 .motor{
-	background: linear-gradient(
-	rgba(0, 0, 0, 0.70),
-	rgba(0, 0, 0, 0.70))url("../Motorchi/images/motorchi.jpg"),
+	background:url("../Motorchi/images/motorchi.jpg"),
 	width:10%, height 20%;
 }
 
