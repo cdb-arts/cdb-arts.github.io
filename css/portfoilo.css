@@ -784,7 +784,10 @@ float: left;
 }
 
 .motor{
-	padding: 5%;
+	background: linear-gradient(
+	      rgba(0, 0, 0, 0.70),
+	      rgba(0, 0, 0, 0.70));
+
 }
 
 @-webkit-keyframes fade {
