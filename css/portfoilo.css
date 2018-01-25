@@ -770,12 +770,8 @@ float: left;
 #video-background video{
 
 }
-.motor h1{
-	position: fixed;
+.overlay-desc h1{
 	text-align: center;
-	float: left;
-	right:45%;
-	top: 80%;
 	font-family: adorn-smooth-condensed-sans, sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -783,8 +779,7 @@ float: left;
 	color: #D4D4D4;
 }
 .motor{
-	background:url("../Motorchi/images/motorchi.jpg"),
-	width:10%, height 20%;
+	background:url("../Motorchi/images/motorchi.jpg");
 }
 
 @-webkit-keyframes fade {
