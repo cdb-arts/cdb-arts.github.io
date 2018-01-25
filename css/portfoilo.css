@@ -775,7 +775,7 @@ float: left;
 	font-family: adorn-smooth-condensed-sans, sans-serif;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 3em;
+	font-size: 9vw;
 	color: #D4D4D4;
 }
 .overlay-desc {
@@ -787,7 +787,12 @@ float: left;
   justify-content: center;
 }
 .motor{
-	background:url("../Motorchi/images/motorchi.jpg");
+	position: relative;
+}
+.motor video {
+  vertical-align: middle;
+  width: 100%;
+ overflow: hidden;
 }
 
 @-webkit-keyframes fade {
