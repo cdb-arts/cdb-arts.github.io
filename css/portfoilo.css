@@ -751,9 +751,9 @@ float: left;
 	width: 300px;
 }
 .compress img{
-	width: 50%;
+	width: 80%;
 	height: auto;
-	margin: 10px;
+	 margin: 10%;
 }
 
 #video-background {
