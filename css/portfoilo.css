@@ -768,6 +768,10 @@ float: left;
 }
 #video-background video{
 	height: 100px;
+	background: linear-gradient(
+				rgba(0, 0, 0, 0.70),
+				rgba(0, 0, 0, 0.70));
+
 
 }
 .motor h1{
@@ -784,9 +788,6 @@ float: left;
 }
 
 .motor{
-	background: linear-gradient(
-	      rgba(0, 0, 0, 0.70),
-	      rgba(0, 0, 0, 0.70));
 
 }
 
@@ -803,7 +804,7 @@ float: left;
 		  .enter{padding 25%;}
 	  }
 /* for mobile */
-@@media only screen and (max-width:700px) {
+@media only screen and (max-width:700px) {
 	.winter{
 		text-align: center;}
 
