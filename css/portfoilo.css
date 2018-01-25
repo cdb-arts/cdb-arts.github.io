@@ -779,9 +779,8 @@ float: left;
 	color: #D4D4D4;
 }
 .overlay-desc {
-  background: linear-gradient(
-	rgba(0, 0, 0, 0.80),
-	rgba(0, 0, 0, 0.80));
+  background:
+	rgba(0, 0, 0, 0.70);
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   display: flex;
