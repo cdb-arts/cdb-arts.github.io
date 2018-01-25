@@ -771,7 +771,7 @@ float: left;
 
 }
 .motor h1{
-	position: absolute;
+	position: fixed;
 	text-align: center;
 	float: left;
 	right:45%;
@@ -784,11 +784,6 @@ float: left;
 }
 
 .motor{
-	background:linear-gradient(
-	rgba(0, 0, 0, 0.70),
-	rgba(0, 0, 0, 0.70));
-	height: 20%;
-	width: 100%;
 	padding: 5%;
 }
 
