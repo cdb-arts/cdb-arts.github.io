@@ -135,6 +135,20 @@ h3{
 	min-height: auto;
 	padding-bottom: 20%;}
 
+	.grapicwork{
+		background:  linear-gradient(
+	      rgba(0, 0, 0, 0.50),
+	      rgba(0, 0, 0, 0.50)), url("../Digital-work/geo2");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #D4D4D4;
+		width: 100%;
+		min-height: auto;
+		padding-bottom: 20%;}
+
 .container-fluid p{
 	padding: 20px;
 		-webkit-column-gap: 40px;
