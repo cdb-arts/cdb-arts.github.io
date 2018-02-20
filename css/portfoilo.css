@@ -149,7 +149,7 @@ h3{
 		min-height: auto;
 		padding-bottom: 20%;}
 
-.container-fluid p{
+.container-fluid p, .grapicwork p{
 	padding: 20px;
 		-webkit-column-gap: 40px;
     -moz-column-gap: 40px;
