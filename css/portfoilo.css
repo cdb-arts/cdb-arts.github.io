@@ -95,7 +95,7 @@ h3{
 
 	background:  linear-gradient(
       rgba(0, 0, 0, 0.88),
-      rgba(0, 0, 0, 0.88)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.jpg");
+      rgba(0, 0, 0, 0.88)), url("../Web Design/images/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -124,7 +124,7 @@ h3{
 .container-fluid {
 	background:  linear-gradient(
       rgba(0, 0, 0, 0.50),
-      rgba(0, 0, 0, 0.50)), url("../Web Design/best-laptop-for-developers.jpeg");
+      rgba(0, 0, 0, 0.50)), url("../Web Design/images/best-laptop-for-developers.jpeg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -426,7 +426,7 @@ transition: all 0.5s;
     background:linear-gradient(
       rgba(0, 0, 0, 0.70),
       rgba(0, 0, 0, 0.70)),
-	url("../motor-vent/motor-vent-mockup-.jpg");
+	url("../motor-vent/images/motor-vent-mockup-.jpg");
     min-height: 100%;
 	width: 100%;
 	padding: 20%;
@@ -684,7 +684,7 @@ border-bottom:#0A7A7E solid 1px;}
 background:linear-gradient(
       rgba(0, 0, 0, 0.70),
       rgba(0, 0, 0, 0.70)),
-	url("../Web Design/holiday-hack-the-top-x-thanksgiving-cocktails.jpg");
+	url("../Web Design/images/holiday-hack-the-top-x-thanksgiving-cocktails.jpg");
     height: 20%;
 	width: 100%;
 	padding: 5%;
