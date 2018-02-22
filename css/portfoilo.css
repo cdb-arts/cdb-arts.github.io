@@ -138,7 +138,7 @@ h3{
 	.graphicwork{
 		background:  linear-gradient(
 	      rgba(0, 0, 0, 0.50),
-	      rgba(0, 0, 0, 0.50)), url("images/geo2.jpg");
+	      rgba(0, 0, 0, 0.50)), url("../Digital-work/images/geo2.jpg");
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -148,6 +148,19 @@ h3{
 		width: 100%;
 		min-height: auto;
 		padding-bottom: 20%;}
+		.funny{
+			background:  linear-gradient(
+		      rgba(0, 0, 0, 0.50),
+		      rgba(0, 0, 0, 0.50)), url("../photos/images/IMGP0437.JPG");
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+			background-repeat: no-repeat;
+			color: #D4D4D4;
+			width: 100%;
+			min-height: auto;
+			padding-bottom: 20%;}
 
 .container-fluid p, .grapicwork p{
 	padding: 20px;
@@ -578,6 +591,7 @@ transition: all 0.5s;
 
 #photo-gallery {
   width: 100%;
+	 height="auto";
 }
 /*for the graph on the About page*/
 @import "compass/css3";

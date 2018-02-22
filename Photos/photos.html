@@ -45,34 +45,43 @@
 		</div>
 
         	</header>
+          <div class="into">
 
+            	 <center>  <h2> <strong> Graphic Work </strong></h2></center>
+                 <p>Some photos came from my travels or just exploring the city. I do use some of my photos to practice my Digital work</p>
+                <div id="background-img"></div>
+                <div id="container">
 
-<div  class="into">
-
-  <h2> <center><strong> Photos  </strong></center></h2>
- <p> Some photos came from my travels or just exploring the city. I do use some of my photos to practice my Digital work</p>
- <h2>Material Used: </h2>
-
- <ul>
- <li>  A camera</li>
- 	</ul>
-
-  <h2> <center><strong>Application Used:  </strong></center></h2>
-  <ul>
+                  <div id="list-1" class="list">
+                    <div class="icon"></div>
+                    <div class="title">Material Used:</div>
+             <ul style="text-decoration: none">
+               <ul>
+               <li>  A camera</li>
+               	</ul>
+                <div id="list-1" class="list">
+                    <div class="icon"></div>
+                    <div class="title">Application Used: </div>
+            	 <ul style="text-decoration: none">
   <li> Photoshop </li>
-      </ul></div></div>
+             </ul>
+             </tr>
+        </div>
+            </div>
+                </div>
+                    </div>
 
 <div id="photos">
  <h2> <center><strong> Photos   </strong></center></h2>
     <ul id="photo-gallery" class="photo-gallery">
 
-		<li><a href="images/denver-colorado.jpg" target="_blank">  <img src="images/denver-colorado.jpg" width="100%"></a></li>
+		<li><a href="images/denver-colorado.jpg" target="_blank">  <img src="images/denver-colorado.jpg" width="100%" height="auto"></a></li>
 
-		<li><a href="images/crisp-sky.jpg" target="_blank">  <img src="images/crisp-sky.jpg" width="100%"></a> </li>
+		<li><a href="images/crisp-sky.jpg" target="_blank">  <img src="images/crisp-sky.jpg" width="100%"  height="auto"></a> </li>
 
-		<li> <a href="images/boat-america.jpg" target="_blank">  <img src="images/boat-america.jpg" width="100%"></a> </li>
+		<li> <a href="images/boat-america.jpg" target="_blank">  <img src="images/boat-america.jpg" width="100%"  height="auto"></a> </li>
 
-		<li> <a href="images/IMGP0442.JPG" target="_blank">  <img src="images/IMGP0442.JPG" width="100%"></a> </li>
+		<li> <a href="images/IMGP0442.JPG" target="_blank">  <img src="images/IMGP0442.JPG" width="100%"  height="auto"></a> </li>
 
 		<li> <a href="images/IMGP0335.JPG" target="_blank">  <img src="images/IMGP0335.JPG"  width="100%"></a> </li>
 
@@ -85,12 +94,8 @@
 		<li> <a href="images/IMGP0565.JPG" target="_blank">  <img src="images/IMGP0565.JPG"  width="100%"></a> </li>
 
 		<li> <a href="images/IMGP0173.JPG" target="_blank">  <img src="images/IMGP0173.JPG"  width="100%"></a> </li>
-
-
-
-	</ul>
-</div>
-
+        </ul>
+          </div>
 
 <footer>
      <div class="footer">
@@ -113,6 +118,11 @@ function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
 }
 </script>
+<script>$(document).ready(function(){
+  $('.list').click(function(){
+    $(this).find('ul').toggleClass('open');
+  });
+});</script>
 <script src="../js/galla.js"></script>
  </body>
 </html>
