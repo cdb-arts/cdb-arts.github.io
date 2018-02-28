@@ -102,24 +102,65 @@ h3{
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #D4D4D4;
-	width:35%;	
+	width:100%;
+	height: auto;
 	align-content: center;
+	margin: 10px;
+}
+.soul{
+
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.66),
+      rgba(0, 0, 0, 0.88)), url("../Soul-Marcos/../Soul-Marcos/logowithbackground.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #D4D4D4;
+	width:100%;
+	height: auto;
+	align-content: center;
+	margin: 10px;
+}
+
+
+.galla{
+  width: 45%;
+  float: right;
+  display: block;
+  margin: 2px;
+
 
 }
-.hon p{
+.text {
+ background:  linear-gradient(
+      rgba(0, 0, 0, 0.66),
+      rgba(0, 0, 0, 0.66)), url("../motorchi/images/motor-chi-tee.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #D4D4D4;
+	width:76%;
+	height: auto;
+	margin: 10px;
+	
+
+}
+.hon p, .soul p, .text p{
 	margin: 20px;
 	font-size: 1em;
+	align-content: center;
 }
-.hon a, .hon:visited, .hon:active, .hon:focus {
+.text a, .hon a, .hon:visited, .hon:active, .hon:focus, .soul a,  .soul:visited, .soul:active, .soul:focus{
 	padding: 20px;
 	text-decoration: none;
 	color: #D4D4D4;
 
 }
-.hon:hover{
-	color: #EEAB17;
-	text-decoration: none;
-}
+
 .container-fluid {
 	background:  linear-gradient(
       rgba(0, 0, 0, 0.50),
@@ -256,13 +297,14 @@ form{
 .honey a, .honey a:visited, .honey a:focus, .honey a:active {
  	color: #FFF;
 
-text-decoration: none;}
+	text-decoration: none;
+}
 
 
 .row img{
 	width: 25%;
 	height: auto;
-float: left;}
+	float: left;}
 .row h2{
 	color: #FFFFFF;}
 
@@ -277,20 +319,20 @@ float: left;}
     bottom: 0;
     width: 100%;
 	cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+  	display: inline-block;
+  	position: relative;
+  	transition: 0.5s;
 }
 .footer img:hover{
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-transition: all 0.5s;
-  cursor: pointer;
-	  -webkit-transform: scale(1.3);
-        -ms-transform: scale(1.3);
-        transform: scale(1.3);
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 28px;
+	transition: all 0.5s;
+	cursor: pointer;
+	-webkit-transform: scale(1.3);
+	-ms-transform: scale(1.3);
+	transform: scale(1.3);
  }
 
 
@@ -487,35 +529,6 @@ transition: all 0.5s;
 	padding: 10px;
 	width: 100%;
 	height: auto;
-}
-.galla{
-	margin: 3px;
-	justify-content: center;
-	width: 100%;
-
-}
-.text {
- background:  linear-gradient(
-      rgba(0, 0, 0, 0.66),
-      rgba(0, 0, 0, 0.66)), url("../motorchi/images/motor-chi-tee.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #D4D4D4;
-	width:35%;
-	align-content: center;
-
-}
-.text p, .text h2{
-	margin: 20px;
-	padding-bottom: 20px;
-}
-.text a{
-	color: #D4D4D4;
-	text-decoration: none;
-	font-size: 1em;
 }
 
 /* Number text (1/3 etc) */
