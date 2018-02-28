@@ -123,16 +123,20 @@ h3{
 	align-content: center;
 	margin: 10px;
 }
-
-
-.galla{
-  width: 45%;
-  float: right;
-  display: block;
-  margin: 2px;
-
-
+.ana{    
+	rgba(0, 0, 0, 0.66),
+    rgba(0, 0, 0, 0.66), url("..//analist/Analist-logo-with-background.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #D4D4D4;
+	width:76%;
+	height: auto;
+	margin: 10px;
 }
+
 .text {
  background:  linear-gradient(
       rgba(0, 0, 0, 0.66),
@@ -149,15 +153,23 @@ h3{
 	
 
 }
-.hon p, .soul p, .text p{
+.hon p, .soul p, .text p, .ana p{
 	margin: 20px;
 	font-size: 1em;
 	align-content: center;
 }
-.text a, .hon a, .hon:visited, .hon:active, .hon:focus, .soul a,  .soul:visited, .soul:active, .soul:focus{
+.text a, .hon a, .ana a, .ana:visited,  .hon:visited, .ana:active, .hon:active, .ana:focus, .hon:focus, .soul a,  .soul:visited, .soul:active, .soul:focus{
 	padding: 20px;
 	text-decoration: none;
 	color: #D4D4D4;
+
+}
+.galla{
+  width: 45%;
+  float: right;
+  display: block;
+  margin: 2px;
+
 
 }
 
