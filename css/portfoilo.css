@@ -105,13 +105,13 @@ h3{
 	width:100%;
 	height: auto;
 	align-content: center;
-	
+
 }
 .soul{
 
 	background:  linear-gradient(
       rgba(0, 0, 0, 0.66),
-      rgba(0, 0, 0, 0.88)), url("../Soul-Marcos/../Soul-Marcos/logowithbackground.jpg");
+      rgba(0, 0, 0, 0.88)), url("../Soul-Marcos/Logo/logowithbackground.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -121,9 +121,9 @@ h3{
 	width:100%;
 	height: auto;
 	align-content: center;
-	
+
 }
-.ana{ 
+.ana{
     background: linear-gradient(
 	rgba(0, 0, 0, 0.66),
     rgba(0, 0, 0, 0.66)), url("..//analist/Analist-logo.jpg");
@@ -150,8 +150,8 @@ h3{
 	color: #D4D4D4;
 	width:100%;
 	height: auto;
-	
-	
+
+
 
 }
 .hon p, .soul p, .text p, .ana p{
@@ -291,8 +291,6 @@ form{
 	align-items: center;
 	padding: 25px;
 	height: 300px;
-
-
 }
 
 .honey1{	position: relative;
@@ -313,7 +311,15 @@ form{
 
 	text-decoration: none;
 }
+.buttom{
+	position:relative;
+	left:20%;
+	right:20%;
+	bottom:5%;
+	top:60%;
 
+
+}
 
 .row img{
 	width: 25%;
@@ -801,8 +807,8 @@ float: left;
 	color: #11AFA5;
 }
 .projects {
-	margin: 0px 5px 5px 50px;
-	width: 200px;
+	margin: 0px 5px 5px 10px;
+	width: 80%;
 	height: auto;
 }
 
@@ -814,6 +820,10 @@ float: left;
 	width: 80%;
 	height: auto;
 	 margin: 10%;
+}
+.hm{
+	width: 100%;
+	height: auto;
 }
 
 #video-background {

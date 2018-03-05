@@ -14,16 +14,17 @@
 <header>
 <!--Navigation Bar !-->
 <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9747;</a>
 <a href="../index.html"> Home </a>
 <a href="../Home/Portfolio.html"> About Chiara </a>
 <a href="../Web Design/Web-Design.html"> Web Design</a>
+<a href="../UX-UI/UX-UI-Design.html">UX/UI Design </a>
 <a  href="../Digital-work/graphic-work.html"> Graphic Design </a>
 <a href="../Photos/photos.html"> Videos & Photos </a>
 
 </div>
 <div class="nav">
-<span style="font-size:2em; cursor:pointer;" style=" "onclick="openNav()" >&#9776; </span>
+<span style="font-size:2em; cursor:pointer;" style=" "onclick="openNav()" >&#9868; </span>
 </div>
 </div>
 <!-- End of Navigation Bar!-->
@@ -34,13 +35,17 @@
 	</header>
   <div class="hm">
 
-<div class="projects">
+<div class="lala">
 	<h1> Mockup </h1>
-	<p> The client wanted to have an active </p>
-	<video width="100%" autoplay>
-		<source src="Prototype/mobile-prototype.mp4">  type="video/mp4"></video>
-      <button> For the Experience Design </button>
-      <button> <a href="web-prototype.pdf">For the PDF </a> </button>
+	<p> My focus was to make sure that everything that the pages looked good on mobile, and made the site simple to naivgate and takes less time to find features.  </p>
+</div>
+<div class="buttom">
+<button> <a href="https://xd.adobe.com/view/8621bfa8-fbb7-465b-9e6f-7b8e1b78a135" target="_blank">For Experience Design </a> </button>
+<button> <a href="Prototype/webbroswer-prototype.pdf" target="_blank">For the PDF </a> </button>
+</div>
+<div class="middle">
+  <video width="500px" autoplay>
+		<source src="Prototype/webbroswer-prototype.mp4">  type="video/mp4"></video>
 	</div>
 </div>
 
@@ -57,3 +62,16 @@
      </ul>
 </div>
   </footer>
+
+  <script>
+  function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+  }
+
+  function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+  </script>
+</body>
+
+</html>
