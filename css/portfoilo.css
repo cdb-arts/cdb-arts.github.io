@@ -696,10 +696,10 @@ $dark :  #044C7F;
  	:nth-of-type(2n) {
  	 	background:lighten($red , 10% );
 	 }}
- 	.bar .label {
+ 	 .label {
 		font-size: .75em;
 		padding: 1em;
-		background: #F3F5E6;
+		background: #97DDDF;
 		width: 8em;
 		display: inline-block;
 		position: relative;
