@@ -727,7 +727,7 @@ font-style: normal;
 font-weight: 100;
 border-bottom:#0A7A7E solid 1px;}
 
-.lala{	width: 250px;
+.lala{	width: 75%;
 	float: left;
 	padding: 5px 15px;
 	margin: 0px 5px 5px 50px;
@@ -792,9 +792,15 @@ button:focus{
 	border-bottom:#0A7A7E solid 1px;
 }
 .projects {
-	margin: 0px 5px 5px 50px;
+	margin: 0px 5px 5px 35px;
 float: left;
 	width: 500px;
+}
+.vid{
+	margin: 0px 5px 5px 50px;
+	float: left;
+	height: auto;
+	r
 }
 .projects-1  a{
 	text-decoration: none;
@@ -893,6 +899,13 @@ float: left;
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
+	.hm{
+		float: right;
+	}
+	.lala{
+		float: right;
+		align-items: center;
+	}
 }
 @media screen and (max-height: 450px)
 .sidenav {padding-top: 15px;
