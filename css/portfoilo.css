@@ -829,8 +829,8 @@ float: left;
 	 margin: 10%;
 }
 .hm{
-	width: 100%;
-	height: auto;
+	float: right;
+	margin-left: 30%;
 }
 
 #video-background {
