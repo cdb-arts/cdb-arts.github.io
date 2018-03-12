@@ -788,7 +788,7 @@ button:focus{
 	margin: 0px 5px 5px 50px;
 }
 
-.projects h1{
+.projects h1, .projects-1 h1{
 	border-bottom:#0A7A7E solid 1px;
 }
 .projects {
@@ -819,8 +819,9 @@ float: left;
 }
 
 .projects-1 {
-	margin: 0px 5px 5px 60px;
-	width: 200px;
+	margin: 0px 5px 5px 10px;
+	width: 40%;
+	height: auto;
 }
 .compress img{
 	width: 80%;
