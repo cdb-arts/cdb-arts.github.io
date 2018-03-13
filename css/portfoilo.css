@@ -794,7 +794,7 @@ button:focus{
 .projects {
 	margin: 0px 5px 5px 35px;
 float: left;
-	width: 500px;
+	width: 100%%;
 }
 .vid{
 	margin: 0px 5px 5px 50px;
@@ -804,7 +804,7 @@ float: left;
 }
 .projects-1  a{
 	text-decoration: none;
-	color: #0A7A7E;
+
 }
 .projects-1 a:hover{
 	color: #11AFA5;
@@ -829,8 +829,9 @@ float: left;
 	 margin: 10%;
 }
 .hm{
-	float: right;
-	margin-left: 30%;
+			margin: auto;
+	    width: 50%;
+	    padding: 10px;
 }
 
 #video-background {
