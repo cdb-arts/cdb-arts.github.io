@@ -1,8 +1,11 @@
 
+  @import url("https://use.typekit.net/ltq7qpj.css");
+	@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
 body {
-	font-family: "Lato", sans-serif;
+	font-family: "proxima-soft",sans-serif;
 	text-decoration: none;
 	background-color: #ffffff;
+	-webkit-font-smoothing: antialiased;
 
 
 }
@@ -81,9 +84,10 @@ header{
 
 
 h1{
-	font-family:
-	font-size: 2em;
+	font-family:font-family: "proxima-soft";
+	font-size: 18px;
 	color:#096A6A;
+	margin-left: 10px
 }
 h3{
 	font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Neue", "Helvetica Neue Bold", "Helvetica Neue Bold Italic", "Helvetica Neue Condensed Black", "Helvetica Neue Condensed Bold", "Helvetica Neue Italic", "Helvetica Neue Light Italic", "Helvetica Neue Medium", "Helvetica Neue Medium Italic", "Helvetica Neue Thin", "Helvetica Neue Thin Italic", "Helvetica Neue UltraLight";
@@ -91,6 +95,10 @@ h3{
 	color: #04595D;
 	border-bottom: solid #096A6A 3px;
 	padding: 20pt;
+}
+p{
+	font-family: 'Quicksand', sans-serif;
+	color: #807777;
 }
 .hon{
 
@@ -165,14 +173,29 @@ h3{
 
 }
 .galla{
-  width: 100%;
-
-  float: left;
-  display: block;
-  margin: 1px;
-  margin-bottom: 5px;
-
-
+	display: flex;
+   flex-wrap: wrap;
+}
+.galla h1{
+color: #ff0d00;
+margin: 5%;
+}
+.galla p{
+	margin: 5%;
+}
+.lala, .middle, .side{
+	flex: 25%;
+ max-width: 50%;
+ margin-left: 5%;
+}
+.lala img, .middle img, .side img, .wee img{
+	margin: 5%;
+  /*vertical-align: middle;*/
+	width: 90%;
+	height: auto;
+}
+.projects video, .projects img{
+	margin: 5%;
 }
 
 
@@ -189,6 +212,25 @@ h3{
 	width: 100%;
 	min-height: auto;
 	padding-bottom: 20%;}
+
+	.he{	background:  linear-gradient(
+	      rgba(0, 0, 0, 0.90),
+	      rgba(0, 0, 0, 0.90)), url("../UX-UI/Resturant-wireframe.jpg");
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		background-repeat: no-repeat;
+		color: #D4D4D4;
+		width: 100%;
+		min-height: auto;
+		padding-bottom: 20%;
+
+	}
+	.he p{
+		margin: 5%;
+
+	}
 
 	.graphicwork{
 		background:  linear-gradient(
@@ -224,11 +266,6 @@ h3{
     column-gap: 40px;}
 }
 
-	.hm h1{font-family: Helvetica, "Helvetica Bold", "Helvetica Bold Oblique", "Helvetica Light", "Helvetica Light Oblique", "Helvetica Neue", "Helvetica Neue Bold", "Helvetica Neue Bold Italic", "Helvetica Neue Condensed Black", "Helvetica Neue Condensed Bold", "Helvetica Neue Italic", "Helvetica Neue Light Italic", "Helvetica Neue Medium", "Helvetica Neue Medium Italic", "Helvetica Neue Thin", "Helvetica Neue Thin Italic", "Helvetica Neue UltraLight";
-	font-weight: 200;
-	font-size: 24px;
-	color:#096A6A;
-}
 .hm p{
 	font-size: 24px;
 }
@@ -502,12 +539,7 @@ form{
   background-color: rgba(15,177,183,1.00);
 }
 
-.winter h1{
-	font-family: skolar-sans-latin, sans-serif;
-	font-style: normal;
-	font-weight: 100;
-	color: #FFFFFF;
-}
+
 .enter{padding: 20px;}
 .enter a, .enter a:visited{
 	border-radius: 20px;
@@ -628,17 +660,7 @@ $dark :  #044C7F;
   width: 60%;
   margin: 0 auto;
 }
-.graph h1{
-	  font-family: $fontSans;
-  font-weight: bold;
-  text-align: center;
-  font-size: 1.5em;
-  padding: .5em 0;
-  margin-bottom: 1em;
-  border-bottom: 1px solid #dadada;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-}
+
 .graph ul, .graph li  {
  	 {
   		line-height: 2;
@@ -694,27 +716,23 @@ $dark :  #044C7F;
 	font-weight: bold;
 	font-family: $fontSans;
  }
-.hm h1{
-font-family: gineso, sans-serif;
-font-style: normal;
-font-weight: 100;
-border-bottom:#0A7A7E solid 1px;}
+
 
 
 .sweet {
 background:linear-gradient(
       rgba(0, 0, 0, 0.70),
-      rgba(0, 0, 0, 0.70)),;
+      rgba(0, 0, 0, 0.70)),
+	url("../Web Design/images/dining.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #D4D4D4;
-	width:100%;
-	height: auto;
+	width: 100%;
 	align-content: center;
-	padding: 10%;
+	padding: 5%;
 }
 
 .button{
@@ -747,12 +765,12 @@ button:focus{
 }
 
 
-.middle, .side, .lala, .proj, .projects    {
-	width: 100%;
+.middle, .side, .lala,  {
 	margin: auto;
-	height: auto;
-	padding: 5px 15px;
+	padding: 5px 15px 5px 0px;
+	align-items: center;
 }
+
 
 .hm{
 	float: left;
@@ -891,7 +909,7 @@ video{
 	video{
 		max-width: 50%;}
 		h1{
-		font-size: 3em;}
+		font-size: 1.5em;}
 
 
 }
@@ -932,15 +950,11 @@ video{
 /* For Iphone X	*/
 	@media only screen and (max-width: 375px){
 		.footer{
-				height: 40px;
-
-
-			}
+				height: 40px;}
 			.footer img{
-				width: 20%;
+				width: 80%;
 				height: auto;
-
-	}
+}
 	h1{
 		font-size: 2em;
 
@@ -955,7 +969,7 @@ p{
 	width: 100%;
 
 }
-}
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
 	.enter{padding 25%;}
