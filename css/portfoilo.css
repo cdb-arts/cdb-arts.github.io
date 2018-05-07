@@ -176,11 +176,11 @@ p{
 	display: flex;
    flex-wrap: wrap;
 }
-.galla h1{
+.galla h1, .intro h1{
 color: #ff0d00;
 margin: 5%;
 }
-.galla p{
+.galla p, .intro p{
 	margin: 5%;
 }
 .lala, .middle, .side{
