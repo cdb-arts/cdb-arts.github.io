@@ -100,6 +100,41 @@ p{
 	font-family: 'Quicksand', sans-serif;
 	color: #807777;
 }
+.text {
+ background:  linear-gradient(
+      rgba(0, 0, 0, 0.66),
+      rgba(0, 0, 0, 0.66)), url("../motorchi/images/motor-chi-tee.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #D4D4D4;
+	height: auto;
+  margin: 1%;
+  flex: auto;
+  max-width: 50%;
+  align-items: center;
+
+}
+.text:hover {
+ background:  linear-gradient(
+   rgba(77,76,75,0.70),
+   rgba(04,89,93,0.70)), url("../motorchi/images/motor-chi-tee.jpg");
+   -webkit-background-size: cover;
+ 	-moz-background-size: cover;
+ 	-o-background-size: cover;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	color: #D4D4D4;
+ 	height: auto;
+   margin: 1%;
+   flex: auto;
+   max-width: 50%;
+   align-items: center;
+    }
+
+
 .hon{
 
 	background:  linear-gradient(
@@ -111,27 +146,66 @@ p{
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #D4D4D4;
-	width:100%;
 	height: auto;
-	align-content: center;
+  margin: 1%;
+  flex: auto;
+  max-width: 55%;
+  align-content: center;
+
 
 }
+
+.hon:hover{
+    background: linear-gradient(
+      rgba(77,76,75,0.70),
+      rgba(04,89,93,0.70)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.jpg");
+      -webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	color: #D4D4D4;
+    	height: auto;
+      margin: 1%;
+      flex: auto;
+      max-width: 55%;
+      align-items: center;
+  }
+
 .soul{
 
 	background:  linear-gradient(
       rgba(0, 0, 0, 0.66),
-      rgba(0, 0, 0, 0.88)), url("../Soul-Marcos/Logo/logowithbackground.jpg");
+      rgba(0, 0, 0, 0.88)), url("../Soul-Marcos/Logo/soulmarcoss-logo.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #D4D4D4;
-	width:100%;
-	height: auto;
-	align-content: center;
-
+  height: auto;
+  margin: 1%;
+  flex:auto;
+  max-width: 50%;
+  align-content: center;
 }
+.soul:hover{
+  background: linear-gradient(
+    rgba(77,76,75,0.70),
+    rgba(04,89,93,0.70)), url("../Soul-Marcos/Logo/soulmarcoss-logo.jpg");
+    -webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-repeat: no-repeat;
+  	color: #D4D4D4;
+  	height: auto;
+    margin: 1%;
+    flex: auto;
+    max-width: 50%;
+    align-items: center;
+}
+
 .ana{
     background: linear-gradient(
 	rgba(0, 0, 0, 0.66),
@@ -142,23 +216,27 @@ p{
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #D4D4D4;
-	width:100%;
-	height: auto;
-	align-content: center;
+  height: auto;
+  margin: 1%;
+  flex:auto;
+  max-width: 50%;
+  align-content: center;
 }
-
-.text {
- background:  linear-gradient(
-      rgba(0, 0, 0, 0.66),
-      rgba(0, 0, 0, 0.66)), url("../motorchi/images/motor-chi-tee.jpg");
-	-webkit-background-size: cover;
+.ana:hover{
+    background: linear-gradient(
+	rgba(0, 0, 0, 0.66),
+  rgba(0, 0, 0, 0.66)), url("../Analist/Logo/Analist-logo-background.jpg");
+  -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #D4D4D4;
-	width:100%;
 	height: auto;
+  margin: 1%;
+  flex: auto;
+  max-width: 50%;
+  align-items: center;
 }
 
 .hon p, .soul p, .text p, .ana p{
@@ -183,7 +261,7 @@ margin: 5%;
 .galla p, .intro p{
 	margin: 5%;
 }
-.lala, .middle, .side{
+.lala, .middle, .side, .hon, .soul, .ana{
 	flex: 25%;
  max-width: 50%;
  margin-left: 5%;
@@ -212,6 +290,11 @@ margin: 5%;
 	width: 100%;
 	min-height: auto;
 	padding-bottom: 20%;}
+  .galla p{
+    color: #ffffff;
+  }
+
+
 
 	.he{	background:  linear-gradient(
 	      rgba(0, 0, 0, 0.90),
@@ -977,7 +1060,7 @@ p{
 	.hm{
 		float: right;
 	}
-	.lala{
+	.lala, .hon, .soul, .ana{
 		float: right;
 		align-items: center;
 	}
