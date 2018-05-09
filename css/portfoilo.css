@@ -113,7 +113,7 @@ p{
 	height: auto;
   margin: 1%;
   flex: auto;
-  max-width: 50%;
+  max-width: 20%;
   align-items: center;
 
 }
@@ -130,7 +130,7 @@ p{
  	height: auto;
    margin: 1%;
    flex: auto;
-   max-width: 50%;
+   max-width: 20%;
    align-items: center;
     }
 
@@ -139,7 +139,7 @@ p{
 
 	background:  linear-gradient(
       rgba(0, 0, 0, 0.66),
-      rgba(0, 0, 0, 0.88)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.jpg");
+      rgba(0, 0, 0, 0.88)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -149,7 +149,7 @@ p{
 	height: auto;
   margin: 1%;
   flex: auto;
-  max-width: 55%;
+  max-width: 20%;
   align-content: center;
 
 
@@ -158,7 +158,7 @@ p{
 .hon:hover{
     background: linear-gradient(
       rgba(77,76,75,0.70),
-      rgba(04,89,93,0.70)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.jpg");
+      rgba(04,89,93,0.70)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.png");
       -webkit-background-size: cover;
     	-moz-background-size: cover;
     	-o-background-size: cover;
@@ -168,7 +168,7 @@ p{
     	height: auto;
       margin: 1%;
       flex: auto;
-      max-width: 55%;
+      max-width: 20%;
       align-items: center;
   }
 
@@ -186,7 +186,7 @@ p{
   height: auto;
   margin: 1%;
   flex:auto;
-  max-width: 50%;
+  max-width: 20%;
   align-content: center;
 }
 .soul:hover{
@@ -202,14 +202,14 @@ p{
   	height: auto;
     margin: 1%;
     flex: auto;
-    max-width: 50%;
+    max-width:20%;
     align-items: center;
 }
 
 .ana{
     background: linear-gradient(
 	rgba(0, 0, 0, 0.66),
-    rgba(0, 0, 0, 0.66)), url("../Analist/Logo/Analist-logo-background.jpg");
+    rgba(0, 0, 0, 0.66)), url("../Analist/Logo/Analist-logo-background.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -219,13 +219,13 @@ p{
   height: auto;
   margin: 1%;
   flex:auto;
-  max-width: 50%;
+  max-width: 20%;
   align-content: center;
 }
 .ana:hover{
     background: linear-gradient(
-	rgba(0, 0, 0, 0.66),
-  rgba(0, 0, 0, 0.66)), url("../Analist/Logo/Analist-logo-background.jpg");
+      rgba(77,76,75,0.70),
+      rgba(04,89,93,0.70)), url("../Analist/Logo/Analist-logo-background.png");
   -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -235,13 +235,13 @@ p{
 	height: auto;
   margin: 1%;
   flex: auto;
-  max-width: 50%;
+  max-width: 20%;
   align-items: center;
 }
 
 .hon p, .soul p, .text p, .ana p{
 	margin: 20px;
-	font-size: 1em;
+	font-size: 18px;
 	align-content: center;
 }
 .text a, .hon a, .ana a, .ana:visited,  .hon:visited, .ana:active, .hon:active, .ana:focus, .hon:focus, .soul a,  .soul:visited, .soul:active, .soul:focus{
@@ -250,10 +250,15 @@ p{
 	color: #D4D4D4;
 
 }
-.galla{
+.galla1, {
 	display: flex;
    flex-wrap: wrap;
+   margin-left: 10%;
 }
+.galla{
+	display: flex;
+   flex-wrap: wrap;}
+
 .galla h1, .intro h1{
 color: #ff0d00;
 margin: 5%;
@@ -261,7 +266,7 @@ margin: 5%;
 .galla p, .intro p{
 	margin: 5%;
 }
-.lala, .middle, .side, .hon, .soul, .ana{
+.lala, .middle, .side{
 	flex: 25%;
  max-width: 50%;
  margin-left: 5%;
@@ -995,6 +1000,7 @@ video{
 		font-size: 1.5em;}
 
 
+
 }
 
 @media only screen and (max-width:700px) {
@@ -1014,7 +1020,7 @@ video{
 			letter-spacing: 4px;
 		}
 		video{
-			max-width: 100%%;
+			max-width: 100%;
 			float: left;
 			margin: auto;
 			padding: 5px 15px;
@@ -1025,9 +1031,10 @@ video{
 		.hm p{ font-size: 1.5em;}
 	}
 	@media screen and (max-height: 450px){
-	.sidenav {padding-top: 15px;
-	.sidenav a {font-size: 18px;
-	}
+	.sidenav {padding-top: 15px;}
+	.sidenav a{ {font-size: 18px;}
+
+
 
 }
 /* For Iphone X	*/
@@ -1056,11 +1063,11 @@ p{
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
 	.enter{padding 25%;}
-  .prev, .next,.text {font-size: 11px}
+  .prev, .next,.text, .hon, .soul, .ana {font-size: 11px}
 	.hm{
 		float: right;
 	}
-	.lala, .hon, .soul, .ana{
+	.lala, {
 		float: right;
 		align-items: center;
 	}
