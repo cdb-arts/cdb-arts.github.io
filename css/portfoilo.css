@@ -648,10 +648,9 @@ form{
 			rgba(14, 133, 121, 0.87),
 	rgba(0, 0, 0, 0.70)),
 	url("../motor-vent/motor-vent-mockup-.jpg"),center;
-    height: 100%;
+    height: auto;
 		width: 100%;
-		padding-bottom:50%;
-		padding-top: 30%;
+    padding-top: 13%;
 		margin: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -661,9 +660,10 @@ form{
 .welcome:hover{
 	background-color: rgba(175,175,175,.49);
 }
+
 .winter h2, .winter p {
 	color: #D4D4D4;
-	padding: 10px;
+
 }
 
 .next {
@@ -676,7 +676,7 @@ form{
 }
 
 
-.enter{padding: 20px;}
+.enter{padding: 10%;}
 .enter a, .enter a:visited{
 	border-radius: 20px;
 	border: #FFFFFF 3px solid;
