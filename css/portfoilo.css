@@ -113,7 +113,7 @@ p{
 	color: #D4D4D4;
 	height: auto;
   margin: 1%;
-  width: 45%;
+  width: 50%;
   align-items: center;
 
 }
@@ -129,7 +129,7 @@ p{
  	color: #D4D4D4;
  	height: auto;
    margin: 1%;
-   width: 45%;
+   width: 50%;
    align-items: center;
      display: block;
     }
@@ -149,7 +149,7 @@ p{
 	height: auto;
   margin: 1%;
   flex: auto;
-  width: 45%;
+  width: 50%;
   align-content: center;
   display: inline-block;
 
@@ -167,7 +167,7 @@ p{
     	color: #D4D4D4;
     	height: auto;
       margin: 1%;
-      width: 45%;
+      width: 50%;
       align-items: center;
         display: inline-block;
   }
@@ -185,7 +185,7 @@ p{
 	color: #D4D4D4;
   height: auto;
   margin: 1%;
-  width: 45%;
+  width: 50%;
   align-content: inline-block;
 }
 .soul:hover{
@@ -200,7 +200,7 @@ p{
   	color: #D4D4D4;
   	height: auto;
     margin: 1%;
-    width:45%;
+    width:50%;
     align-items: center;
       display: inline-block;
 }
@@ -217,7 +217,7 @@ p{
 	color: #D4D4D4;
   height: auto;
   margin: 1%;
-  width: 45%;
+  width: 50%;
   align-content: center;
 }
 .ana:hover{
@@ -232,7 +232,7 @@ p{
 	color: #D4D4D4;
 	height: auto;
   margin: 1%;
-  width: 45%;
+  width: 50%;
   align-items: center;
     display: inline-block;
 }
@@ -248,7 +248,7 @@ p{
 	color: #D4D4D4;
   height: auto;
   margin: 1%;
-  width: 45%;
+  width: 75%;
   align-content: center;
 
 }
@@ -264,11 +264,11 @@ p{
 	color: #D4D4D4;
 	height: auto;
   margin: 1%;
-  width: 45%;
+  width: 75%;
   align-items: center;
   display: inline-block;
 }
-.hon p, .soul p, .text p  {
+.hon p, .soul p, .text p, .ana p, .chi p  {
 	margin: 20px;
 	font-size: 18px;
 	align-content: center;
@@ -289,10 +289,24 @@ p{
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;}
-.soul, .galla, .ana, .chi{
-  flex: 35%;
-  max-width: 100%;
+
+.galla, .cray, .hehe, .mee{
+  flex: 45%;
+  max-width: 90%;
   padding: 0 4px;
+  margin-left: 5%;
+   }
+    .ana, .chi, .soul, .hon, .text{
+      flex:35%;
+      max-width: 100%;
+      padding: 0 4px;
+
+    }
+   .galla1   {
+     flex: 45%;
+     max-width: 50%;
+     padding: 0 4px;
+      }
    }
    .galla p{
      color: #ffffff;
