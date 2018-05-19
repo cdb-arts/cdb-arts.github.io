@@ -9,33 +9,39 @@
 <!-- CSS links-->
 <link rel="icon" href="../Home/logo.gif" type="image/gif">
 <link href="../css/portfoilo.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+<script src="../js/portfoilo.js"></script>
 
 </head>
 <body>
-<header>
-<!--Navigation Bar !-->
-<div id="mySidenav" class="sidenav">
+  <script>$(document).ready(function(){
+    $('.list').click(function(){
+      $(this).find('ul').toggleClass('open');
+    });
+  });</script>
+
+  <script src="../js/galla.js"></script>
+  <header>
+  <!--Navigation Bar !-->
+  <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&#9747;</a>
+  <div class="link">
   <a href="../Home/Portfolio.html"> About Chiara </a>
   <a href="../Web Design/Web-Design.html"> Web Design</a>
-  <a href="../UX-UI/UX-UI-Design.html">UX/UI Design </a>
-  <a  href="graphic-work.html"> Graphic Design </a>
-  <a href="../Photos/photos.html"> Videos & Photos </a>
-
-
-</div>
-<div class="nav">
-<span style="font-size:2em; cursor:pointer;" style=" "onclick="openNav()" >&#9868; </span>
-</div>
-</div>
-<!-- End of Navigation Bar!-->
-<div class="logo">
-	<a href="../index.html"><img src="../Home/logo2.gif" width="20px" height="auto"></a>
-	</div>
-
-	</header>
+  <a href="..//UX-UI/UX-UI-Design.html">UX/UI Design </a>
+  <a href="../Digital-work/graphic-work.html"> Graphic Design </a>
+  <a href="../Photos/photos.html">  Photos </a>
+  </div>
+  </div>
+  <div class="nav">
+  <span style="font-size:2em; cursor:pointer;" style=" "onclick="openNav()" >&#9868; </span>
+  </div>
+  </div>
+  <!-- End of Navigation Bar!-->
+  <div class="logo">
+  	<a href="../index.html"><img src="../Home/logo3.png" width="40px" height="auto"></a>
+  	</div>
+  	</header>
 
 <div class="graphicwork">
 
@@ -52,19 +58,18 @@
      <li>Illustrator</li>
        <li> Photoshop </li>
          <li>  InDesign </li>
-   </ul>
-  </div>
-  		</div>
+          </ul>
+        </div>
+      </div>
     </div>
 
-<div id="photos">
+<div class="photos">
 
-   <h2><center> <strong> Projects </strong></center></h2>
-  <ul id="photo-gallery">
+  <ul class="photo-gallery">
 
-<li>  <a href="images/thumb_IMG_1508_1024.jpg" >  <img src="images/thumb_IMG_1508_1024.jpg"   alt="img02" ></a></li>
+    <li><a href="images/thumb_IMG_1508_1024.jpg">  <img src="images/thumb_IMG_1508_1024.jpg"   alt="img02" ></a></li>
 
- <li><a href="images/Chiara_BoisaAubin_w1_3.jpg">  <img src="images/Chiara_BoisaAubin_w1_3.jpg"   alt="img02" ></a></li>
+    <li><a href="images/Chiara_BoisaAubin_w1_3.jpg">  <img src="images/Chiara_BoisaAubin_w1_3.jpg"   alt="img02" ></a></li>
 
   	<li><a href="../Home/moto2.jpg"><img src="../Home/moto2.jpg"  alt="img03" ></a></li>
 
@@ -89,13 +94,10 @@
     <li><a href="images/geo1.jpg">  <img src="images/geo1.jpg"   alt="img13" ></a></li>
 
     <li><a href="images/geo2.jpg">  <img src="images/geo2.jpg"   alt="img14" ></a></li>
-
-
-   		</ul>
+        </ul>
   	 </div>
 
      <div class="footer">
-     <footer>
 	<ul>
 	<li> <a href="https://github.com/chiaraboisaubin"><img src="../icons/github-icon.gif" height="auto" width="5%"></a></li>
 	<li> <a href="https://www.linkedin.com/in/chiara-boisaubin-08848b16/"><img src="../icons/linkedin-icon.gif"  height="auto" width="5%"></a></li>
@@ -105,26 +107,7 @@
   <li><a href="https://www.youtube.com/channel/UCtbJ7UQDU5Lkf2S9JAvOV2g"> <img src="../icons/youtube-icon.gif"  height="auto" width="5%"></a></li>
 	<li><a href="https://www.behance.net/ChiaraBo" target="_blank"> <img src="../icons/Behance-icon.png"  height="auto" width="5%"></a></li>
 </ul>
-
 	</div>
-
-	</footer>
-<script>
-function openNav() {
-    document.getElementById("mySidenav").style.width = "250px";
-}
-
-function closeNav() {
-    document.getElementById("mySidenav").style.width = "0";
-}
-</script>
-<script>$(document).ready(function(){
-  $('.list').click(function(){
-    $(this).find('ul').toggleClass('open');
-  });
-});</script>
-
-<script src="../js/galla.js"></script>
 </body>
 
 </html>
