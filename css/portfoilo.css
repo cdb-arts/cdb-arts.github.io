@@ -32,7 +32,7 @@ body {
 
 header{
 	height:45px;
-	background-color:#BF2696;
+	background-color:#97DDDF;
 	position: relative;
 	width: 100%;
 }
@@ -62,7 +62,7 @@ header{
 	z-index: 1;
 	top: 0;
 	right: 0;
-	background-color: #BF2696;
+	background-color: #97DDDF;
 	overflow-x: hidden;
 	transition: 0.5s;
 	padding-top: 100px;
@@ -85,7 +85,7 @@ header{
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-	color: #CAB33C;
+	color: #BF2696;
 }
 
  .closebtn {
@@ -428,7 +428,7 @@ margin: 5%;
 	width: 100%;
 	background:  center, linear-gradient(
     rgba(14, 133, 121, 0.87),
-    rgba(191, 38, 150, 0.70)), url("../Home/chi.jpg");
+    rgba(20, 69, 76, 1)), url("../Home/chi.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -440,20 +440,6 @@ margin: 5%;
   0%{opacity: 0;}
   100%{opacity: 1;}
 
-}
-
-.hu:hover{
-  min-height: auto;
-  width: 100%;
-  background:  center, linear-gradient(
-     rgba(191, 38, 150, 0.70),
-     rgba(14, 133, 121, 0.87)), url("../Home/chi.jpg");
-     -webkit-background-size: cover;
-     -moz-background-size: cover;
-     -o-background-size: cover;
-     background-size: cover;
-     background-repeat: no-repeat;
-     -webkit-animation: fadeIn 4s;
 }
 
 	.hu p,.hu li{
@@ -852,9 +838,8 @@ flex-wrap: wrap;
    -webkit-transform: translate3d(0,0,0);
  	 clear: both;
  	:nth-of-type(2n) {
-    background:  center, linear-gradient(
-       rgba(151, 221, 178, .5),
-       rgba(191, 38, 150, 0.70));
+    background-color:
+      rgba(14, 133, 121, 0.87);
 	 }}
  	 .label {
 		font-size: 16px;
