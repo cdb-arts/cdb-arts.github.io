@@ -1,12 +1,8 @@
 
-  @import url("https://use.typekit.net/ltq7qpj.css");
 	@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Serif');
   /*for the graph on the About page*/
-  @import "compass/css3";
-
   @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,400italic|Montserrat:400,700);
-  @import "compass/reset";
-  $fontSans : 'Montserrat', sans-serif;
+
 
 
   $red : #BF2696;
@@ -21,13 +17,10 @@
       -o-transition: $transition-property $transition-time $method;
       transition: $transition-property $transition-time $method;
   }
-body {
-	font-family: "proxima-soft",sans-serif;
+body {font-family: "Dosis", sans-serif;
 	text-decoration: none;
 	background-color: #ffffff;
 	-webkit-font-smoothing: antialiased;
-
-
 }
 
 header{
@@ -111,8 +104,13 @@ h3{
 	padding: 20pt;
 }
 p{
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'Dosis', sans-serif;
 	color: #807777;
+}
+.co{
+  font-weight: lighter;
+  color: #807777;
+  margin-left: 5%;
 }
 .top{
 border-bottom: #559192 2px solid;
@@ -297,7 +295,7 @@ border-bottom: #559192 2px solid;
   color: #D4D4D4;
 }
 .galla:visited, .galla h1, .galla a{
-	padding: 20px;
+	padding: 10px;
 	text-decoration: none;
 	color: #D4D4D4;
 
