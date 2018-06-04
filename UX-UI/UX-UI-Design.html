@@ -35,67 +35,66 @@
  </div>
 
  </header>
+ <script>
+ $(document).on("click",".transit", function(){
+   $("body").transit();
+ });
+ setTimeout(function start (){
 
- <div class="he">
+   $('.bar').each(function(i){
+     var $bar = $(this);
+     $(this).append('<span class="count"></span>')
+     setTimeout(function(){
+       $bar.css('width', $bar.attr('data-percent'));
+     }, i*100);
+   });
 
-    <center>  <h2> <strong> UI/UX Design </strong></h2></center>
-      <p>Organize sitemaps to make sure pages are easy to navigate. create wireframes, mockups, and UX/UI prototypes.<br><br> Assist with building some sites as well.</p>
-     <div id="background-img"></div>
-     <div id="container">
-      <div id="List-1" class="list">
-        <div class="icon"></div>
-        <div class="title"> Design & Research Methods</div>
-        <ul style="text-decoration: none" >
-       <li>User Research & Persona Creation </li>
-       <li>Mockup Design </li>
-       <li>Wireframe Production </li>
-       <li>Interaction Design</li>
-       <li>Information Architecture </li>
-       <li>Usability Testing</li>
-       <li>Usability Engineering</li>
-       <li>Visual Design </li>
-        </ul>
-      </div>
-      <div id="List-1" class="list">
-        <div class="icon"></div>
-        <div class="title">Tools</div>
-        <ul style="text-decoration: none" >
-       <li>User Research & Persona Creation </li>
-       <li>Illustrator </li>
-       <li>Photoshop</li>
-       <li>After Effects</li>
-       <li>InDesign </li>
-       <li>Adobe XD</li>
-       <li>Sketch</li>
-       <li>Invision</li>
-        </ul>
-       </div>
-        </div>
-      </div>
+ $('.count').each(function () {
+     $(this).prop('Counter',0).animate({
+         Counter: $(this).parent('.bar').attr('data-percent')
+     }, {
+         duration: 2000,
+         easing: 'swing',
+         step: function (now) {
+             $(this).text(Math.ceil(now) +'%');
+         }
+     });
+ });
 
- <div class="galla">
- <div class="hon">
- 	<a href="../Web Design/chowdown.html"> <center> <h2> Chow Down</h2></center>
- 				<p>A restaurant web and mobile application. Wanted to have the app functional for the customers and the restaurant's users. Click here to see more about the project.  </p></a>
+ }, 500)
+ </script>
+ <div class="graph">
+ <div class="hi">
+ <h1> Codes </h1>
+     <div class="holder">
+   	<div class="bar cf" data-percent="90%"><span class="label light">HTML/HTML5</span></div>
+   	<div class="bar cf" data-percent="90%"><span class="label">CSS</span></div>
+     	<div class="bar cf" data-percent="75%"><span class="label">SASS/SCSS</span></div>
+   	<div class="bar cf" data-percent="70%"><span class="label light">Javascript</span></div>
+   	<div class="bar cf" data-percent="70%"><span class="label light">jQuery</span></div>
+   	<div class="bar cf" data-percent="75%"><span class="label light">Responsive Web Design</span></div>
+   	<div class="bar cf" data-percent="70%"><span class="label light">React JS</span></div>
+   	<div class="bar cf" data-percent="70%"><span class="label light">Bootstrap</span></div>
+   	<div class="bar cf" data-percent="65%"><span class="label">PHP</span></div>
+   </div>
+ </div>
+   <div class="bye">
+     <h1> Design </h1  >
+     <div class="bar cf" data-percent="88%"><span class="label">Wireframes</span></div>
+     <div class="bar cf" data-percent="88%"><span class="label">Prototypes</span></div>
+     <div class="bar cf" data-percent="88%"><span class="label">Mockups</span></div>
+     <div class="bar cf" data-percent="85%"><span class="label">Research</span></div>
+     <div class="bar cf" data-percent="82%"><span class="label">Visual Design</span></div>
+     <div class="bar cf" data-percent="80%"><span class="label">UX/UI</span></div>
+   	<div class="bar cf" data-percent="70%"><span class="label">Photoshop</span></div>
+   	<div class="bar cf" data-percent="75%"><span class="label light">Illustrator</span></div>
+   	<div class="bar cf" data-percent="76%"><span class="label">InDesign</span></div>
+     <div class="bar cf" data-percent="80%"><span class="label">Sketch</span></div>
+     <div class="bar cf" data-percent="80%"><span class="label">Experience Design</span></div>
+   </div>
  </div>
 
-
- <div class="soul">
- 		<a href="../Soul-Marcos/Soul-Marcos.html">
- 	<center><h2>Soul Marcos </h2></center>
- 			<p>This website is for a DJ in New York that I am designing and developing. This client wanted a site to display their music,  show upcoming events, and connect to his social media.
- 			</p></a>
- 		</div>
-
- <div class="ana">
- 		<a href="../Analist/Analist.html">
- 	<center><h2>Analist </h2></center>
- 			<p> Building a social platform for anime lovers to list the animes they have seen, create and make reviews, and assist where to watch anime. </a>
- 		</div>
- 			</div>
-
-
- 	<footer >
+ 	<footer>
       <div class="footer">
         <ul>
         	<li> <a href="https://github.com/chiaraboisaubin" target="_blank"><img src="../icons/github-icon.gif" height="auto" width="5%"></a></li>
