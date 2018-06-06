@@ -113,7 +113,7 @@ h3{
 	padding: 20pt;
 }
 
-p{
+p, ul{
 	font-family: 'Noto Sans', sans-serif;
 	color: #807777;
 }
@@ -891,8 +891,6 @@ form{
 	font-family: $fontSans; If I want to show the numbers*/
  }
 
-
-
 .sweet {
 background:linear-gradient(
       rgba(0, 0, 0, 0.70),
@@ -912,30 +910,41 @@ background:linear-gradient(
 .button{
 	padding: 20px;
 }
+
+
 button{
 
-	padding: 1rem;
-	color: #D4D4D4;
-	background-color: #0A7A7E;
-	border: none;
+	background-color: #BF269F;
+	color: #ffffff;
+	padding: 20px;
+	overflow-x: hidden;
+	transition: 0.5s;
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	z-index: 1;
 	border-radius: 20px;
 	display: inline-block;
-
+	border: none;
+	margin: 1% auto;
+	text-decoration: none;
 }
 button a{
-	color: #D4D4D4;
-	text-decoration: none;
-	font-size: 1em;
+		color: #ffffff;
+		text-decoration: none;
 }
 button:hover{
 	background-color: #0FB1B7;
+	color: #ffffff;
 }
 button:visited{
 	background-color: #0A7A7E;
+	color: #ffffff;
 }
 
 button:focus{
 	background-color: #0A7A7E;
+		color: #ffffff;
 }
 
 
