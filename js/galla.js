@@ -1,24 +1,21 @@
 
-var $overlay = $('<div id="overlay"></div>');
-var $image = $("<img>");
+//loading page
+ (function) (){
+   var perload = document.getElementById("preload");
+   var loading = 0;
+   var id = setlInterval(frame, 64);
 
-
-$overlay.append($image);
-
-$("body").append($overlay);
-
-
-  $("#photo-gallery a").click( function(event) {
-    event.preventDefault();
-    var imageLocation = $(this).attr("href");
-
-
-    $image.attr("src", imageLocation);
-
-
-    $overlay.show();
-  } );
-
-  $("#overlay").click(function() {
-    $( "#overlay" ).hide();
-  });
+   function frame(){
+     if(loading == 100){
+       clearInterval(id);
+       window.open("Home/Portfolio.html","_self");
+     }
+}
+else{
+   loading = loading + 1;
+   if(loading == 90){
+     preload.style.animation ="fadeout 1s ease";
+      }
+    }
+  }
+})();
