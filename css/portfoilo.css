@@ -821,9 +821,9 @@ form{
 }
 .hi {
   margin: 0 auto;
-	margin-left: 25%;
-  flex:25%;
-	max-width: 25%;
+	margin-left: 5%;
+  flex:30%;
+	max-width: 75%;
 }
 .hi h1, .bye h1{
   color: #559192;
@@ -927,24 +927,21 @@ button{
 	display: inline-block;
 	border: none;
 	margin: 1% auto;
-	text-decoration: none;
+
 }
 button a{
-		color: #ffffff;
-		text-decoration: none;
+	text-decoration: none;
+	color: #ffffff;
 }
 button:hover{
 	background-color: #0FB1B7;
-	color: #ffffff;
 }
 button:visited{
-	background-color: #0A7A7E;
 	color: #ffffff;
 }
 
 button:focus{
 	background-color: #0A7A7E;
-		color: #ffffff;
 }
 
 
@@ -1110,9 +1107,12 @@ video{
 		.hm p{ font-size: 1.5em;
 		}
 		.hi {
-
+		  flex:50%;
+			max-width: 75%;
 			margin-left: 15%;
-
+		}
+		.hi h1{
+			margin-left: 5%;
 		}
 }
 @media only screen and (max-width:631px) {
