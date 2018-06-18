@@ -813,7 +813,9 @@ form{
 	url("../motor-vent/motor-vent-mockup-.jpg"),center;
     height: auto;
 		width: 100%;
-    padding-top: 13%;
+		padding: auto;
+		padding-bottom: 20%;
+		padding-top: 20%;
 		margin: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -826,9 +828,10 @@ form{
 
 .winter h2, .winter p {
 	color: #D4D4D4;
+	margin: auto;
+	width: 50%;
 
 }
-
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
@@ -1223,8 +1226,6 @@ video{
 
 /* for mobile */
 @media only screen and (max-width:700px) {
-	.winter{
-		text-align: center;}
 
 		.winter h1 {
 			font-size: 2em;
