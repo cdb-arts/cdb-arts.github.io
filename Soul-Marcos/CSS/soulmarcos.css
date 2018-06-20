@@ -1,0 +1,185 @@
+
+$ primary-color: #68161C;
+$ font-size: 16px;
+$ background-img: ../Soul-Marcos/code/image;
+$ background-color: ##EDEDED;
+@keyframes hu{
+  0% {top: 4%;}
+}
+* {
+    box-sizing: border-box;
+}
+
+body{
+background-color: #ffffff;
+font-family: 'Noto Sans', sans-serif;
+font-weight: lighter;
+
+}
+a{
+  text-decoration: none;
+  font: 'Tajawal', sans-serif;
+  font-size: 24px;
+}
+li{
+    list-style-type: none;
+}
+h1{
+  color: #540600;
+  font-size: 40px;
+  margin-left: 5%;
+}
+header{
+    overflow: hidden;
+    background-color: rgba(166,159,158,.09);
+    padding: 1%;
+}
+header a{
+  padding: 12px auto;
+}
+
+.topnav a:hover {
+  animation-duration: 1s;
+  animation-name: hu;
+  color: orange;
+}
+.topnav{
+  padding: 0 auto;
+  margin-left: 35%;
+  word-spacing: 20px;
+}
+.topnav a{
+  color: #540600;
+  margin-left: 0 auto;
+}
+.icon{
+  display: none;
+  color: #540600;
+  font-size: 50px;
+  margin-bottom: 10px;
+  margin-left: 35%;
+}
+.recen{
+  display: flex;
+  flex: auto;
+}
+.music{
+  flex: 50%;
+  max-width: 30%;
+  padding: 0 50px;
+  margin: 1%;
+}
+.music img{
+  width: 100%;
+  height: auto;
+  margin: 5%;
+}
+
+footer ul{
+  list-style-type: none;
+  margin-left: 35%;
+  padding: 0;
+  overflow: hidden;
+}
+footer li{
+  float: left;
+}
+ footer a{
+   display: block;
+   text-align: center;
+   padding: 14px 16px;
+   margin: auto;
+ }
+
+  button, button a:visited {
+   border: none;
+   background-color: #540600;
+   padding: 1em;
+   border-radius: 20px;
+   display: inline-block;
+   color: #ffffff;
+   text-decoration: none;
+ }
+
+  @media screen and (max-width: 800px) {
+    footer ul{
+      margin-left: 30%;
+    }
+}
+@media screen and (max-width: 660px) {
+  .topnav{
+    margin-left: 25%;
+  }
+  footer ul{
+    margin-left: 25%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+}
+@media only screen and (max-width:580px){
+  footer ul{
+    margin-left: 20%;
+  }
+
+    .topnav a {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .topnav.responsive {position: relative;}
+    .topnav.responsive .icon {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: center;
+    }
+    .music{
+      flex: 100%;
+      max-width: 100%;
+    }
+    .topnav{
+      margin-left: 0;
+    }
+}
+.events p{
+  margin: 10%;
+  font-family: 'Montserrat', sans-serif;
+}
+@media only screen and (max-width:540px){
+
+}
+@media only screen and (max-width:480px){
+  footer ul{
+    margin-left: 15%;
+  }
+}
+@media only screen and (max-width:411px){
+  footer ul{
+    margin-left: 10%;
+  }
+
+}
+@media only screen and (max-width:375px){
+
+footer ul{
+  margin-left: 2%;
+}
+}
+@media only screen and (max-width:320){
+
+footer ul{
+  margin-left: 1%;
+}
+}
+@media only screen and (max-width: 312px){
+
+footer ul{
+  margin-left: 0;
+}
+}

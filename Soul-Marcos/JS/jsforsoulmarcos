@@ -1,0 +1,23 @@
+
+SC.initialize({
+  client_id: 'YOUR_CLIENT_ID',
+  redirect_uri: 'http://example.com/callback'
+});
+
+// update user's profile description
+SC.connect().then(function() {
+   SC.put('/me', {
+     user: { description: 'I am using the SoundCloud API!' }
+   });
+});
+
+
+//nav menu//
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
