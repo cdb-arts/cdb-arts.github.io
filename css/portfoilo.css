@@ -565,13 +565,16 @@ margin-left: 5%;
 	font-size: 12px;
 }
 .hu p{
-		margin-top: 100px;
+		margin-top: 20%;
 }
 .hu li{
 padding: 1%;
 list-style:none;
 }
 
+.hu h3{
+	margin-left: 5%;
+}
 
 .pro {
 	width: 50%;
