@@ -28,3 +28,14 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+//For the email button that appears and disappear //
+ window.onscroll = function() {scrollFunction()};
+ function scrollFunction(){
+ if (document.body.scrollTop > 5 || document.documentElementscrollTop> 5){
+   document.getElementById("contactMe").style.display="block";
+}
+else {
+  document.getElementById("contactMe").style.display="none";
+}
+ }
