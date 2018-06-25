@@ -134,7 +134,6 @@ h1{
 	font-size: 40px;
 	color:#096A6A;
 	display: block;
-	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 }
 h2{
@@ -364,14 +363,9 @@ border-bottom: #559192 2px solid;
 		padding-top: 10%;
 	}
 
- .galla h1 {
-	text-decoration: none;
-	color: #D4D4D4;
-
-}
 
 .other{
-	color: #ff0d00;
+	color: #BF269F;
 	margin-left: 40%;
 	display: block;
 	font-style: 20px;
@@ -399,6 +393,7 @@ border-bottom: #559192 2px solid;
 .galla h1, .intro h1, .galla1 h1{
 color: #BF269F;
 margin-left: 5%;
+text-align: none;
 }
 .galla p, .intro p{
 	margin-left: 5%;
@@ -469,13 +464,12 @@ margin-left: 5%;
 .heh{
 	flex: 25%;
 	max-width: 25%;
-	margin-left: 8%;
-
+	margin-left: 5%;
 }
 
 .lala{
-	flex: 40%;
-  max-width: 40%;
+	flex: 35%;
+  max-width: 35%;
 	margin-left: 5%;
 }
 .gover{
@@ -1226,9 +1220,7 @@ video{
 	.heh{
 	 	flex: 75%;
 	 	max-width: 75%;
-		margin-left: 30%;
-
-	 }
+	}
  .footer{
 	 margin-left: 5%;
    letter-spacing: 4px;
