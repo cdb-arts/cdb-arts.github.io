@@ -8,15 +8,8 @@
 <!-- CSS links-->
 <link rel="icon" href="../Home/logo.gif" type="image/gif">
 <link href="../css/portfoilo.css" rel="stylesheet">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-  <script src="../js/portfoilo.js"></script>
 </head>
 <body>
-  <script>$(document).ready(function(){
-    $('.list').click(function(){
-      $(this).find('ul').toggleClass('open');
-    });
-  });</script>
 
   <!--Navigation Bar !-->
   <header>
@@ -108,8 +101,14 @@
             <li> <a href="https://www.instagram.com/cdb_arts/" target="_blank"><img src="../icons/instagram-icon.gif" height="20px" width="20px"></a></li>
            </ul>
     	</div>
-
     		</footer>
-</body>
+  </body>
+  <script>$(document).ready(function(){
+    $('.list').click(function(){
+      $(this).find('ul').toggleClass('open');
+      });
+  });</script>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="../js/portfoilo.js"></script>
 </html>

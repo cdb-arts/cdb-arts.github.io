@@ -9,40 +9,8 @@
 
 <link rel="icon" href="../Home/logo.gif" type="image/gif">
 <link href="../css/portfoilo.css" rel="stylesheet">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
- <script src="../js/portfoilo.js"></script>
-
 </head>
 <body>
-  <script>
-  $(document).on("click",".transit", function(){
-  	$("body").transit();
-  });
-  setTimeout(function start (){
-
-    $('.bar').each(function(i){
-      var $bar = $(this);
-      $(this).append('<span class="count"></span>')
-      setTimeout(function(){
-        $bar.css('width', $bar.attr('data-percent'));
-      }, i*100);
-    });
-
-  $('.count').each(function () {
-      $(this).prop('Counter',0).animate({
-          Counter: $(this).parent('.bar').attr('data-percent')
-      }, {
-          duration: 2000,
-          easing: 'swing',
-          step: function (now) {
-              $(this).text(Math.ceil(now) +'%');
-          }
-      });
-  });
-
-  }, 500)
-</script>
-
 <header>
 <!--Navigation Bar !-->
 <center><h1 class="name"> CHIARA BOISAUBIN </h1></center>
@@ -251,4 +219,35 @@ experience</li>
 	</div>
 		</footer>
       </body>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+       <script src="../js/portfoilo.js"></script>
+
+      <script>
+      $(document).on("click",".transit", function(){
+        $("body").transit();
+      });
+      setTimeout(function start (){
+
+        $('.bar').each(function(i){
+          var $bar = $(this);
+          $(this).append('<span class="count"></span>')
+          setTimeout(function(){
+            $bar.css('width', $bar.attr('data-percent'));
+          }, i*100);
+        });
+
+      $('.count').each(function () {
+          $(this).prop('Counter',0).animate({
+              Counter: $(this).parent('.bar').attr('data-percent')
+          }, {
+              duration: 2000,
+              easing: 'swing',
+              step: function (now) {
+                  $(this).text(Math.ceil(now) +'%');
+              }
+          });
+      });
+
+      }, 500)
+    </script>
         </html>
