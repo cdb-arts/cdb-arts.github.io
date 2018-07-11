@@ -766,8 +766,7 @@ form{
 .welcome{
 	    background:linear-gradient(
 	      rgba(14, 133, 121, 0.87),
-	      rgba(191, 38, 150, 0.70)),
-		url("../Analist/Prototype/poster.jpg"),center;
+	      rgba(191, 38, 150, 0.70)),center;
 	    height: auto;
 			width: 100%;
 			padding: auto;
