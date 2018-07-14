@@ -358,8 +358,8 @@ p, ul{
 /* for the header for galla for analist, chowdown, and motorchi */
 .other{
 	color: #BF269F;
-	margin-left: 40%;
 	display: block;
+	margin-left: 5%;
 	font-style: 20px;
 }
 
@@ -572,6 +572,13 @@ text-align: none;
 	flex-wrap: wrap;
 	padding: 0 4px;
 
+}
+
+.about button{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
 }
 
 .tro{
@@ -1317,7 +1324,7 @@ video{
 	}
 		.winter h1 {
 			font-size: 2em;
-			letter-spacing: 4px;
+
 		}
 
 video{
