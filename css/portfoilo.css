@@ -16,7 +16,7 @@ body {font-family: 'Montserrat', sans-serif;
 	margin: 0;
 }
 
-header{
+header, footer{
 	position: relative;
 	width: 100%;
   background-color: rgba(0, 212, 208, 1);
@@ -1154,27 +1154,31 @@ video{
   top:0;
   display: flex;
 }
-footer a{
+footer a, footer ul{
 		text-decoration: none;
 
 }
 .footer {
 	margin: 0 auto;
-  border-top: solid  1px #BF2696;
+	text-align: center;
 
 }
 
 .footer li{
 	display: inline-block;
 	font-size: 20px;
+	text-decoration: none;
 }
 
-.copy a{
+.copy, .copy a{
 	margin-left: 5%;
 	padding: 20px;
-	color: #8C8C8C;
+	text-align: center;
+		color: #8C8C8C;
 }
-
+.copy:hover{
+	opacity: .8;
+}
 
 .fa:hover{
 	border: none;
@@ -1196,8 +1200,9 @@ footer a{
 
 }
 
+
  .fa-github, .fa-linkedin, .fa-behance, .fa-google, .fa-youtube, .fa-instagram {
-	color: #11AFA5;
+	color: #ffffff;
 }
 
 .topnav a{
