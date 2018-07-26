@@ -396,9 +396,10 @@ p, ul{
 
 /* making image responsive for the I like to... part of the protofoilo.html*/
 .image {
-  display: block;
-  width: 100%;
+	display: block;
+  max-width: 100%;
   height: auto;
+  margin: auto;
 }
 
 
