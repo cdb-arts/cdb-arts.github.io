@@ -21,13 +21,14 @@ header, footer{
 	width: 100%;
   background-color: rgba(0, 212, 208, 1);
   text-align: center;
+	padding: 1%;
 }
 
 /* For the header for CHIARA BOISAUBIN */
 .name{
 	font-family: 'Catamaran', sans-serif;
 	font-weight: lighter;
-	font-size: 50px;
+	font-size: 8vw;
 	color: #FFFFFF;
 	display: block;
 	margin-left: auto;
@@ -47,10 +48,10 @@ header, footer{
 	float: left;
   display: block;
   color: #ffffff;
-	padding-left: 15%;
+	padding-left: 10%;
   text-align: center;
   text-decoration: none;
-  font-size: 18px;
+  font-size: 3vw;
 
 }
 
@@ -134,7 +135,7 @@ p, ul{
   font-size: 15px;
   border: none;
   outline: none;
-  background-color: rgba(191,38,159, .8);
+  background-color: rgba(191,38,159, 1);
   color: white;
   cursor: pointer;
   padding: 20px;
@@ -142,7 +143,7 @@ p, ul{
 }
 
 #myBtn:hover {
-  background-color: rgba(0, 212, 208, .8)
+  background-color: rgba(26,161,156, .8)
 }
 /* motorchi box for Web-Design.html page */
 .text {
@@ -397,7 +398,7 @@ p, ul{
 /* making image responsive for the I like to... part of the protofoilo.html*/
 .image {
 	display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
   margin: auto;
 }
@@ -1063,7 +1064,7 @@ button{
 	color: #ffffff;
 	padding: 20px;
 	overflow-x: hidden;
-	transition: 0.5s;
+	transition: ease-out 0.9s;
 	-webkit-transform: scale(1.1);
 	-ms-transform: scale(1.1);
 	transform: scale(1.1);
@@ -1082,15 +1083,18 @@ button a{
 
 button:hover{
 	  background-color: rgba(0, 212, 208, 1);
+		transition: .4s ease-out ;
 }
 
 button:visited{
 	color: #ffffff;
 }
-
-button:focus{
-	background-color: #0A7A7E;
-}
+ button:active:after{
+	 padding: 0;
+	 margin: 0;
+	 opacity: 0;
+	 transition: 1s;
+ }
 
 .hm{
 	float: left;
@@ -1176,10 +1180,12 @@ footer a, footer ul{
 	margin-left: 5%;
 	padding: 20px;
 	text-align: center;
-		color: #8C8C8C;
+	color: #8C8C8C;
+	transition: ease-in .3s;
 }
 .copy a:hover{
-	color: #0D7F7C;
+	color: #ffffff;
+	transition: ease-out .3s;
 }
 
 .fa:hover{
@@ -1409,9 +1415,7 @@ video{
     width: 100%;
     text-align: left;
   }
-header{
-height: 75px;
-	}
+
 	.lala{
  	 flex: 85%;
  	 max-width: 85%;
@@ -1464,10 +1468,7 @@ height: 75px;
 	}
 }
 		@media only screen and (max-width: 470px){
-			.name {
-		font-size: 30px;
-		padding-top: 20px;
-	}
+
 	.topnav.responsive {
 	position: relative;
 	bottom: 20%;
@@ -1496,10 +1497,7 @@ p{font-size: 14px;}
 
 		}
 	@media only screen and (max-width: 320px){
-		.name {
-	font-size: 25px;
-	padding-top: 20px;
-}
+
 .topnav.responsive {
 position: relative;
 bottom: 15%;
@@ -1524,10 +1522,7 @@ bottom: 15%;
 	.hm{
 		float: right;
 	}
-	.name {
-font-size: 20px;}
 
-}
 .layer1{
 	top: 30%;
 }
