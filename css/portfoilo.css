@@ -465,9 +465,9 @@ text-align: none;
 
 /* For the galla for analist, chowdown */
 .heh{
-	flex: 25%;
-	max-width: 25%;
-	margin-left: 5%;
+	flex: 20%;
+	max-width: 20%;
+	margin-left: 10%;
 }
 
 .heh1{
@@ -486,6 +486,9 @@ text-align: none;
 .gover{
 	flex: 40%;
 	max-width: 40%;
+
+}
+.gover p{
 	margin-left: 5%;
 }
 
@@ -1284,9 +1287,13 @@ footer a, footer ul{
  }
 
 .heh{
-	 	flex: 75%;
-	 	max-width: 75%;
+	 	flex: 50%;
+	 	max-width: 25%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
 	}
+
 
  .web{
  	flex:85%;
@@ -1495,6 +1502,13 @@ video{
 .layer1 {
 	 top: 45%;
 }
+.heh{
+	 	flex: 75%;
+	 	max-width: 75%;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
 }
 /* For Iphone X	*/
 	@media only screen and (max-width: 375px){
