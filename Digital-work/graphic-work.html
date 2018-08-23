@@ -53,27 +53,41 @@
     </div>
   </div>
 
-<div class="photos">
+  <h3 class="other">Posters </h3>
+<div id="photos">
+  <ul id="photo-gallery">
+<li><a href="images/freetvblogwithtv.jpg" width="30%" height="auto"  alt="" > <div class="into"> <img src="images/freetvblogwithtv.jpg" alt="img08" ></div></a></li>
+<li><a href="images/the-road-is-calling.jpg" width="30%" height="auto"   alt="" > <img src="images/the-road-is-calling.jpg"  alt="img09" ></a></li>
+<li><a href="../Analist\Logo\iphone_x.png" width="30%" height="auto"  alt="" > <img src="../Analist\Logo\iphone_x.png"  alt="img09" ></a></li>
+<li><a href= "../motor-vent/motor-vent-mockup.jpg" width="30%" height="auto"  alt="" >  <img src="../motor-vent/motor-vent-mockup.jpg" alt="img10" ></a></li>
+<li><a href="../Analist\Logo\poster.jpg" width="30%" height="auto"  alt="" > <img src="../Analist\Logo\poster.jpg"  alt="img09" ></a></li>
+<li><a href= "../Web Design\images\Tablet-cd.jpg" width="30%" height="auto"  alt="" >  <img src="../Web Design\images\Tablet-cd.jpg" alt="img10" ></a></li>
+<li><a href="images/little-tea-cup-2.jpg" width="30%" height="auto"  alt="" >  <img src="images/little-tea-cup-2.jpg"   alt="img12" ></a></li>
+<li><a href="images/creative-circle-mockup.jpg" width="30%" height="auto"   alt="" >  <img src="images/creative-circle-mockup.jpg" alt="img10" ></a></li>
+<li><a href= "../Web Design\images\iphonex.jpg" width="30%" height="auto"   alt="" >  <img src="../Web Design\images\iphonex.jpg" alt="img10" ></a></li>
+<li><a href="../Home/moto2.jpg" alt="" ><img src="../Home/moto2.jpg" width="30%" height="auto"  alt="img03" ></a></li>
+<li><a href="images\girlrunningwithlogo copy.jpg" alt="" ><img src="images\girlrunningwithlogo copy.jpg" width="30%" height="auto"  alt="img03" ></a></li>
 
-  <ul class="photo-gallery">
 
+  </ul>
+</div>
+
+<div class="hu">
+<h3 class="other">icons </h3>
+<div id="photos">
+<ul id="photo-gallery">
     <li><a href="images/thumb_IMG_1508_1024.jpg"  alt="" >  <img src="images/thumb_IMG_1508_1024.jpg"   alt="img02" ></a></li>
 
     <li><a href="images/Chiara_BoisaAubin_w1_3.jpg"  alt="" >  <img src="images/Chiara_BoisaAubin_w1_3.jpg"   alt="img02" ></a></li>
 
   	<li><a href="../Home/moto2.jpg" alt="" ><img src="../Home/moto2.jpg"  alt="img03" ></a></li>
 
-		<li><a href="images/background.jpg"  alt="" >  <img src="images/background.jpg"   alt="img04" ></a></li>
 
-    <li><a href="images/ballroom5.jpg"  alt=""  >  <img src="images/ballroom5.jpg" alt="img05" ></a></li>
 
  		<li><a href="images/warrior.jpg"  alt="" >  <img src="images/warrior.jpg" alt="img06" ></a> </li>
 
   	<li><a href="images/flowerpower.jpg" alt=""  >  <img src="images/flowerpower.jpg" alt="img07" ></a></li>
 
-		<li><a href="images/freetvblogwithtv.jpg"  alt="" >  <img src="images/freetvblogwithtv.jpg" alt="img08" ></a></li>
-
-		<li><a href="images/the-road-is-calling.jpg"  alt="" > <img src="images/the-road-is-calling.jpg"  alt="img09" ></a></li>
 
  		<li><a href="images/creative-circle-mockup.jpg"  alt="" >  <img src="images/creative-circle-mockup.jpg" alt="img10" ></a></li>
 
@@ -101,8 +115,35 @@
        </div>
        </div>
 		</footer>
+
       </body>
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
             <script src="../js/portfoilo.js"></script>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <script>
+            var $overlay = $('<div id="overlay"></div>');
+      var $image = $("<img>");
+
+      //An image to overlay
+      $overlay.append($image);
+
+      //Add overlay
+      $("body").append($overlay);
+
+        //click the image and a scaled version of the full size image will appear
+        $("#photo-gallery a").click( function(event) {
+          event.preventDefault();
+          var imageLocation = $(this).attr("href");
+
+          //update overlay with the image linked in the link
+          $image.attr("src", imageLocation);
+
+          //show the overlay
+          $overlay.show();
+        } );
+
+        $("#overlay").click(function() {
+          $( "#overlay" ).hide();
+        });
+      </script>
 </html>

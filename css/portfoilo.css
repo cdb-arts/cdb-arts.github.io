@@ -166,7 +166,7 @@ p, ul{
 }
 .text:hover {
  background:  linear-gradient(
-	 rgba(77,76,75,1),
+	   rgba(14, 133, 121, 0.87),
 	 rgba(04,89,93,1)), url("../motorchi/images/motor-chi-tee.jpg");
    -webkit-background-size: cover;
  	-moz-background-size: cover;
@@ -199,7 +199,7 @@ p, ul{
 
 .hon:hover{
     background: linear-gradient(
-      rgba(77,76,75,1),
+      rgba(14, 133, 121, 0.879),
       rgba(04,89,93,1)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.png");
       -webkit-background-size: cover;
     	-moz-background-size: cover;
@@ -235,7 +235,7 @@ p, ul{
 
 .soul:hover{
   background: linear-gradient(
-		rgba(77,76,75,1),
+  rgba(14, 133, 121, 0.87),
 		rgba(04,89,93,1)), url("../Soul-Marcos/Logo/soulmarcoss-logo.jpg");
     -webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -268,7 +268,7 @@ p, ul{
 
 .ana:hover{
 	background: linear-gradient(
-			rgba(77,76,75,1),
+			  rgba(14, 133, 121, 0.87),
 			rgba(04,89,93,1)), url("../Analist/Logo/Analist-logo-background.png");
   -webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -301,8 +301,39 @@ p, ul{
 
 .chi:hover{
   background: linear-gradient(
-		rgba(77,76,75,1),
+		  rgba(14, 133, 121, 0.87),
 		rgba(04,89,93,1)), url("../Home/logo2.gif");
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #D4D4D4;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+.ash{
+  background: linear-gradient(
+	   rgba(0, 0, 0, 0.66),
+     rgba(0, 0, 0, 0.66)), url("../ashley/art-icon.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #D4D4D4;
+	height: 100%;
+	width: 100%;
+	display: block;
+
+}
+
+.ash:hover{
+  background: linear-gradient(
+  rgba(14, 133, 121, 0.87),
+		rgba(04,89,93,1)), url("../ashley/art-icon.png");
   -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -347,13 +378,13 @@ p, ul{
 }
 
 /* paragrapgh for the web design */
-.hon p, .soul p, .text p, .ana p, .chi p  {
+.hon p, .soul p, .text p, .ana p, .chi p, .ash p  {
 	margin: 20px;
 	font-size: 18px;
 	align-content: center;
-  color: #D4D4D4;}
+  color: #ffffff;}
 
-.hon, .soul, .text, .ana, .chi{
+.hon, .soul, .text, .ana, .chi, .ash{
 		padding-bottom: 20px;
 		padding-top: 10%;
 	}
@@ -371,7 +402,8 @@ p, ul{
 	flex:40%;
 	max-width: 40%;
 	padding: 0 4px;
-	margin-bottom:  5%;
+	margin-top: 5%;
+	margin-bottom:  2%;
 	margin-left: 5%;
 }
 
@@ -444,9 +476,15 @@ p, ul{
 }
 
 /* responsive part of the galla for analist, chowdown, and motorchi */
-.galla, .graph{
+.galla, .graph, .who{
   display: flex;
   flex-wrap: wrap;
+}
+
+.galla button{
+	margin-left: auto;
+	margin-right: auto;
+	width: 40%;
 }
 
 .galla a{
@@ -456,15 +494,21 @@ p, ul{
 
 .galla h1, .intro h1, .galla1 h1{
 color: #BF269F;
-margin-left: 5%;
 text-align: none;
-
 }
 
-.galla p, .intro p{
+ .galla p{
+	 margin-left: 8%;
+ }
+
+.intro p{
 	margin-left: 5%;
 }
-
+ .who{
+	 margin-left: auto;
+	 margin-right: auto;
+	 width: 50%;
+ }
 /* For the galla for analist, chowdown */
 .heh{
 	flex: 20%;
@@ -473,8 +517,8 @@ text-align: none;
 }
 
 .heh1{
-	flex: 20%;
-	max-width: 20%;
+	flex: 8%;
+	min-width: 25%;
 	margin-left: 5%;
 
 }
@@ -488,12 +532,9 @@ text-align: none;
 .gover{
 	flex: 40%;
 	max-width: 40%;
-
-}
-.gover p{
 	margin-left: 5%;
-}
 
+}
 
 .gover1{
 	flex: 30%;
@@ -922,43 +963,66 @@ form{
 .into h2, .photos h2{
 	border-bottom: solid 1px #7D7D7D
 }
-.photos{
-  display: flex;
-	flex-wrap: wrap;
-
+#photos {
+  opacity: .88;
 }
 
-.photo-gallery img {
+#photos img {
   width: 30%;
-  height: auto;
   float: left;
   display: block;
-  margin: 1%;
-  padding:  0 1%;
-}
-.photos ul {
-  list-style: none;
-  margin:  auto;
-  display: block;
-  max-width: 100%;
+  margin: 2px;
 
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    height: 10%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+ul {
+  list-style: none;
+  margin: 0px auto;
+  padding: 10px;
+  display: block;
+  text-align: center;
 }
 
 #overlay {
   background: rgba(0,0,0, .8);
-  width: 100%;
+  min-width: 100% ;
   height: 100%;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   display: none;
   text-align: center;
+   animation-duration: 3s;
+  animation-name: slidein;
+
 }
 
 #overlay img {
-  margin: 10% auto 0;
-  width: 30%;
+  margin: 10% ;
+  width: 50%;
   border-radius: 5px;
+   -webkit-transition: width 2s ease-in;
+   transition: width 2s;
+}
+
+#photos {
+	display: flex;
+  flex-wrap: wrap;
+}
+
+#photo-gallery {
+  width: 100%;
+  flex: 10%;
 }
 .graph1 h1{
 	margin-left: 5%;
@@ -1335,6 +1399,11 @@ footer a, footer ul{
 
 		}
 
+		#photo-gallery img {
+		  flex: 55%;
+			width: 20%;
+		}
+
 video{
 			max-width: 100%;
 			float: left;
@@ -1367,6 +1436,19 @@ video{
 		.layer1 {
 			top: 64%;
 	}
+	.who{
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.heh1{
+		flex: 15%;
+		width: 25%;
+
+
+	}
+
 }
 
 .dropdown-content{
@@ -1406,6 +1488,11 @@ video{
   }
 	.layer1 {
 		top: 63%;
+}
+
+#photo-gallery img {
+  flex: 40%;
+	width: 100%;
 }
 }
 @media screen and (max-width: 600px) {
@@ -1455,9 +1542,7 @@ video{
 	 margin-left: 8px;
 
 	}
-	button{
-			margin-left: 25%;
-	}
+
 }
 @media screen and (max-width: 584px) {
 	.layer1 {
@@ -1517,6 +1602,11 @@ video{
 
 h1{font-size: 1em;}
 p{font-size: 14px;}
+.photo-gallery img {
+  flex: 60%;
+	width: 60%;
+	margin-left: 15%;
+}
 .welcome{
 	padding-top: 50%;
 	padding-bottom: 100%;
