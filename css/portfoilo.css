@@ -730,9 +730,7 @@ form{
 	font-weight: bold;
 	text-decoration: none;
 
-	}
 }
-
 .back a:hover{
 	color: #BF269F;
 	border: soild  2px #BF269F);
@@ -1391,13 +1389,9 @@ footer a, footer ul{
 
 /* for mobile */
 @media only screen and (max-width:700px) {
-	.layer1 {
-		top: 55%;
-	}
-		.winter h1 {
-			font-size: 2em;
+	.layer1 {top: 55%;}
 
-		}
+  .winter h1 {font-size: 2em;}
 
 		#photo-gallery img {
 		  flex: 55%;
@@ -1408,8 +1402,7 @@ video{
 			max-width: 100%;
 			float: left;
 			margin: auto;
-
-		}
+    }
 
 		.middle{
 		 flex: 30%;
@@ -1444,17 +1437,11 @@ video{
 
 	.heh1{
 		flex: 15%;
-		width: 25%;
-
-
-	}
-
-}
+		width: 25%;}
 
 .dropdown-content{
 	background-color: none;
 	}
-
 }
 
 @media only screen and (max-width:680px) {
@@ -1548,6 +1535,7 @@ video{
 	.layer1 {
 		 top: 48%;
 	}
+}
 @media screen and (max-width: 554px) {
   .overlay-desc h1{
   	font-size: 4vw;
@@ -1638,15 +1626,12 @@ bottom: 15%;
 
 
 /* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-	.enter{padding 25%;}
+@media only screen and (max-width: 300px){
+	.enter{ padding: 25%;}
 
-	.hm{
-		float: right;
-	}
+	.hm{	float: right;}
 
-.layer1{
-	top: 30%;
+  .layer1{	top: 30%;}
 }
 @media only screen and (max-width: 270px) {
 	.topnav.responsive {
