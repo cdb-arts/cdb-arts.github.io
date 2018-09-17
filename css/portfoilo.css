@@ -28,7 +28,7 @@ header, footer{
 .name{
 	font-family: 'Catamaran', sans-serif;
 	font-weight: lighter;
-	font-size: 4vw;
+	font-size: 3vw;
 	color: #FFFFFF;
 	display: block;
 	margin-left: auto;
@@ -43,6 +43,15 @@ header, footer{
 	bottom: 15px;
 
 }
+.rawl a{
+	font-size:10vw;
+}
+.icon  {
+	font-size: 8vw;
+	color: #ffffff;
+
+}
+
 
 .topnav a, .dropdown{
 	float: left;
@@ -51,10 +60,8 @@ header, footer{
 	padding-left: 10%;
   text-align: center;
   text-decoration: none;
-  font-size: 2vw;
-	margin-left: 4%;
-
-
+  font-size:2.5vw;
+	margin-left: 2%;
 }
 
 .topnav a:hover {
@@ -80,11 +87,7 @@ header, footer{
 	right: 5%;
 
 }
-.icon a {
-	font-size: 50px;
-	color: #ffffff;
 
-}
 /* default for headers */
 
 h1{
@@ -450,7 +453,7 @@ p, ul{
 }
 
 .overlay {
-	border-radius: 900px;
+	border-radius: 100%;
   position: absolute;
   top: 0;
   left: 0;
@@ -529,10 +532,23 @@ text-align: none;
 
 }
 
+.lala2 {
+	flex: 25%;
+  max-width: 50%;
+
+}
+.oh{
+	flex: 75%;
+
+}
+
+.oh p{
+	font-size:2vw;
+}
 .gover{
 	flex: 40%;
 	max-width: 40%;
-	margin-left: 5%;
+	margin-left: 3%;
 
 }
 
@@ -547,12 +563,12 @@ text-align: none;
 .lala img, .middle img, .side img, .wee img{
 	margin: 5%;
   /*vertical-align: middle;*/
-	width: 90%;
+	width: 35%;
 	height: auto;
 }
 
-.lala h2{
-	font-size: 40px;
+.lala h2, .oh h2 {
+	font-size: 30px;
 	color: #BF269F;
 	border: none;
 	padding: 0;
@@ -621,14 +637,13 @@ text-align: none;
 }
 
 .pro {
-	width: 50%;
+	width: 100%;
 	height: auto;
 	-moz-border-radius:25%;
  -webkit-border-radius: 25%;
- border-radius: 25%;
- margin-left: auto;
- margin-right: auto;
- display: block;
+	 border-radius: 25%;
+	 margin-top: 10%;
+
 }
 
 .about {
@@ -1491,7 +1506,11 @@ video{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {
+	.topnav a, .dropdown{
+		font-size: 3vw;
+		text-align: center;S
+	}
+	.topnav.responsive {
 	position: relative;
  	bottom: 60%;
 }
@@ -1515,10 +1534,15 @@ video{
     text-align: left;
   }
 
-	.lala{
+	.lala, .lala2{
  	 flex: 85%;
  	 max-width: 85%;
   }
+	.pro{
+		width: 50%;
+		margin-left: 30%;
+		margin-right: auto;
+	}
 	.middle{
    flex: 75%;
    max-width: 75%;
@@ -1528,6 +1552,14 @@ video{
 	 max-width: 100%;
 	 margin-left: 8px;
 
+	}
+	.name{
+		font-size: 6vw;
+		margin-top: 10%;
+	}
+
+	.oh p{
+		font-size: 3vw;
 	}
 
 }
