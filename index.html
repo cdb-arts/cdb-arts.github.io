@@ -1,49 +1,283 @@
- <!DOCTYPE html>
- <!-- Hello! welcome to my code, these are my personal code. Please look through it !-->
+<!DOCTYPE html>
+<!-- Hello! welcome to my code, these are my personal code. Please look through it !-->
 <html lang="en">
 <head>
-<title>Home</title>
+<title>About</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <!-- CSS links-->
+
 <link rel="icon" href="../Home/logo.gif" type="image/gif">
 <link href="css/portfoilo.css" rel="stylesheet">
 </head>
 <body>
-  <div id="preload">
-<div class="welcome" width="100%" height="auto">
-<div class="winter"><center>
-<img src="Home/logo3.png"  alt="" width="15%" height="auto">
-	<h1> CHIARA BOISAUBIN</h1>
-	<p> <em>Front End Developer // UX UI Designer </em> </p>
-	</center>
-	</div>
-	<div class="enter">
-		<center><a href="Home/Portfolio.html" class="transition">Enter Here!</a></center>
-	</div>
-		</div>
-  </div>
- </body>
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-   <script src="../js/portfoilo.js"></script>
-   <script src="../js/gtag.js"></script>
-      <script src="../js/galla.js"></script>
-  <script type="text/javascript">
-$(document).ready(function() {
-   $("body").css("display", "none");
+<header>
 
-   $("body").fadeIn(1000);
+<!--Navigation Bar !-->
+   <h1 class="name"> CHIARA BOISAUBIN </h1>
+     <div class="topnav" id="myTopnav">
+       <a href="Home/Portfolio.html"> Home</a>
+         <a href="Web Design/Web-Design.html"> Projects</a>
+           <a  href="Digital-work/graphic-work.html"> Digital Art </a>
+             <a  href="Photos/photos.html"> Videos </a>
+               <div class="rawl">
+                 <a href="javascript:void(0);" class="icon" onclick="myFunction()"> &#9868; </a>
+       </div>
+     </div>
+ </header>
+<!-- End of Navigation Bar!-->
 
-   $("a.transition").click(function(event){
-       event.preventDefault();
-       linkLocation = this.href;
-       $("body").fadeOut(1000, redirectPage);
-   });
 
-   function redirectPage() {
-       window.location = linkLocation;
-   }
-});
-</script>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+ <div class="about">
+   <div class="galla">
+     <div class="lala2">
+       <img class="pro" src="icons/chi2.jpg"   alt="">
+         </div>
+
+ <div class="oh">
+   <h2> Hiya! </h2>
+     <div class="animated hu" id="animated hu">
+       <p> My name is Chiara BoisAubin. I currently live in Boston, MA. I attended Wheaton College for Asian Studies and Studio Art and went to Art Institute of Pittsburgh for Digital Design Certification focusing on web design and development. Designing and coding is something that I enjoy doing.
+ Web development allows me to use my passion for technology and being able to be creative and build products that can be useful for people; turning an idea into reality. I care about user experience & figuring out what people enjoy on products.
+
+       </div>
+     </div>
+   </div>
+ </div>
+
+<div class="graph1">
+<h2>I like to...</h2>
+ <div class="sci">
+   <div class="crazy">
+     <div class="humble">
+       <img src="adventure-icon.png"  alt=""  width="75%" height="auto" class="image">
+         <div class="overlay">
+           <div class="layer"> <p> adventure </p>
+             </div>
+           </div>
+         </div>
+       </div>
+
+<div class="crazy">
+ <div class="humble">
+   <img src="motorcycle-icon.png"  alt=""  width="75%" height="auto" class="image">
+     <div class="overlay">
+       <div class="layer"> <p> riding </p></div>
+       </div>
+     </div>
+   </div>
+
+ <div class="crazy">
+   <div class="humble">
+     <img src="camera-icon.png"  alt=""  width="75%" height="auto" class="image">
+       <div class="overlay">
+         <div class="layer"> <p> taking photos </p>
+         </div>
+       </div>
+     </div>
+   </div>
+
+ <div class="crazy">
+   <div class="humble">
+     <img src="gamer-icon.png"  alt=""  width="75%" height="auto" class="image">
+       <div class="overlay">
+         <div class="layer"> <p> gaming </p>
+         </div>
+       </div>
+     </div>
+   </div>
+
+ <div class="crazy">
+   <div class="humble">
+     <img src="movie-icon.png"  alt=""  width="75%" height="auto" class="image">
+       <div class="overlay">
+         <div class="layer">
+           <p> movie lover </p>
+             </div>
+           </div>
+         </div>
+       </div>
+
+ <div class="crazy">
+   <div class="humble">
+     <img src="ipad-icon.png"   alt="" width="75%" height="auto" class="image">
+       <div class="overlay">
+         <div class="layer">
+           <p>reading </p>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+ <div class="graph1">
+   <h3> Skills </h3>
+     <div class="graph">
+       <div class="hi">
+         <h4> Codes </h4>
+           <div class="holder">
+   <div class="bar cf" data-percent="90%"><span class="label light">HTML</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label">CSS</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label">Sass</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label light">JavaScript</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label light">jQuery</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label light">React JS</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label light">Bootstrap</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label light">Grunt</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label light">Node</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label">PHP</span></div>
+   </div>
+ </div>
+
+ <div class="hi">
+   <h4> Interaction</h4>
+     <div class="holder">
+
+   <div class="bar cf" data-percent="90%"><span class="label">User Research </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label">Wireframing</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label">Prototyping</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label">Information Architecture</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label">Usability Testing </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label light">Responsive Web Design</span></div>
+ </div>
+</div>
+
+ <div class="hi">
+   <h4> Design</h4>
+     <div class="holder">
+   <div class="bar cf" data-percent="90%"><span class="label">Visual Design</span></div>
+   <div class="bar cf" data-percent="90%"><span class="label">Persona Creation </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label"> Mockup Design </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label">Illustration </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label">Visual Design</span></div>
+   </div>
+ </div>
+
+ <div class="hi">
+   <h4> Software  </h4>
+     <div class="holder">
+   <div class="bar cf" data-percent="90%"><span class="label"> Sketch </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label"> Invision </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label"> Adobe Creative Suite </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label"> Mircosoft Suite </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label"> Scene7 </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label"> Jira </span></div>
+   <div class="bar cf" data-percent="90%"><span class="label"> Github </span></div>
+   </div>
+ </div>
+
+ <div class="hi">
+   <h4> CMS </h4>
+     <div class="holder">
+       <div class="bar cf" data-percent="90%"><span class="label"> Wordpress </span></div>
+         <div class="bar cf" data-percent="90%"><span class="label"> Durpal </span></div>
+       </div>
+     </div>
+   </div>
+ </div>
+<!--
+ <div class="graph1">
+     <h4> Experience </h4>
+       <div class="galla">
+         <div class="lala">
+           <h5> Rue La La </h5>
+             <p><i>Contract Front-End/Web Specialist | Boston, MA | August 2017- January 2018</i></p>
+         </div>
+ <div class="lala">
+       <ul>
+       <li>Developed custom boutique pages using HTML and CSS</li>
+       <li> Input content on their CMS and troubleshoot errors with engineers </li>
+       <li> Ensured the technical feasibility of UI/UX designs</li>
+       <li> Organized plans with communications team to promote user</li>
+       <li> Updated email templates through Salesforce</li>
+       </ul>
+     </div>
+
+ <div class="lala">
+   <h5>  MakesSense </h5>
+ <p><i>Front-End Developer | Boston, MA | October 2016 - November 2017</i></p>
+     </div>
+
+ <div class="lala">
+   <ul>
+ <li> Modernized existing websites to be responsive and work on mobile devices</li>
+ <li> Converted existing codes to React JS to improve UI development</li>
+ <li> Crafted UX flows, designed interfaced, and conducted user studies</li>
+ <li> Led user research and user testing sessions for ChowDown project
+   </li>
+ </ul>
+</div>
+
+ <div class="lala">
+   <h5>  Chiara’s Designs </h5>
+     <p><i>  Front-End Developer // UX Designer | Boston, MA |  July 2015 - June 2018 </i></p>
+   </div>
+
+ <div class="lala">
+   <ul>
+   <li> Created prototypes for user testing using Adobe XD</li>
+   <li> Sketched and built wireframes for mobile and web browsers using Illustrator, and Sketch</li>
+   <li> Developed web pages using HTML, CSS, jQuery and React JS to enable optimum user
+   experience</li>
+   <li> Created visual posters for social media pages making traffic go up 15%</li>
+         </ul>
+       </div>
+     </div>
+   </div>
+   !-->
+<div class="about">
+<button><a href="../icons/Chiara-BoisAubin-CV.pdf" target="_blank"> Download my resume </button></a>
+</div>
+<footer>
+<div class="footer">
+ <ul>
+  <li> <a href="https://github.com/chiaraboisaubin" class="fa fa-github" target="_blank"></a></li>
+  <li> <a href="https://www.linkedin.com/in/chiara-boisaubin" class="fa fa-linkedin" target="_blank"></a></li>
+  <li> <a href="https://www.behance.net/ChiaraBo" class="fa fa-behance" target="_blank"> </a></li>
+  <li> <a href="mailto:chiara.boisaubin@gmail.com" class="fa fa-google"></a></li>
+  <li> <a href="https://www.youtube.com/channel/UCtbJ7UQDU5Lkf2S9JAvOV2g" class="fa fa-youtube" target="_blank"></a></li>
+  <li> <a href="https://www.instagram.com/cdb_arts/" class="fa fa-instagram" target="_blank"></a></li>
+ </ul>
+ <div class="copy">
+ <small>
+ <a href="https://github.com/chiaraboisaubin/chiaraboisaubin.github.io"> Codes are on github</a></small> | <small>	&#169; 2018 Designed annd Developed by Chiara BoisAubin</small>
+ </div>
+ </div>
+</footer>
+</body>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="../js/portfoilo.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <script>
+     $(document).on("click",".transit", function(){
+       $("body").transit();
+     });
+     setTimeout(function start (){
+
+       $('.bar').each(function(i){
+         var $bar = $(this);
+         $(this).append('<span class="count"></span>')
+         setTimeout(function(){
+           $bar.css('width', $bar.attr('data-percent'));
+         }, i*100);
+       });
+
+     $('.count').each(function () {
+         $(this).prop('Counter',0).animate({
+             Counter: $(this).parent('.bar').attr('data-percent')
+         }, {
+             duration: 2000,
+             easing: 'swing',
+             step: function (now) {
+                 $(this).text(Math.ceil(now) +'%');
+             }
+         });
+     });
+
+     }, 500)
+   </script>
 </html>

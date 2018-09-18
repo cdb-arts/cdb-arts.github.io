@@ -56,37 +56,27 @@
           </div>
         </div>
 
-  <div class="galla">
-    <div class="middle">
-		<a href="images/denver-colorado.jpg"  alt=""  target="_blank">  <img src="images/denver-colorado.jpg"  alt="" width="100%"></a>
-</div>
-<div class="middle">
-	<a href="images/crisp-sky.jpg"  alt="" target="_blank">  <img src="images/crisp-sky.jpg"  alt=""  width="100%"></a>
-  </div>
-  <div class="middle">
-	<a href="images/boat-america.jpg"  alt="" target="_blank">  <img src="images/boat-america.jpg"  alt=""  width="100%"></a>
-  </div>
-  <div class="middle">
-		<a href="images/IMGP0442.JPG"  alt="" target="_blank">  <img src="images/IMGP0442.JPG"  alt=""  width="100%" ></a>
-  </div>
-  <div class="middle">
-		 <a href="images/IMGP0335.JPG"  alt="" target="_blank">  <img src="images/IMGP0335.JPG"  alt="" width="100%" ></a>
-  </div>
-  <div class="middle">
-		 <a href="images/IMGP0257.JPG"  alt="" target="_blank">  <img src="images/IMGP0257.JPG"  alt="" width="100%"></a>
-  </div>
-  <div class="middle">
-	 <a href="images/IMGP0503.JPG"  alt=""  target="_blank">  <img src="images/IMGP0503.JPG"  alt="" width="100%"></a>
-  </div>
-  <div class="middle">
-		 <a href="images/IMGP0437.JPG"  alt="" target="_blank">  <img src="images/IMGP0437.JPG"  alt="" width="100%"></a>
-  </div>
-  <div class="middle">
-		 <a href="images/IMGP0565.JPG"  alt="" target="_blank">  <img src="images/IMGP0565.JPG"  alt="" width="100%"></a>
-  </div>
-  <div class="middle">
-		<a href="images/IMGP0173.JPG"  alt="" target="_blank">  <img src="images/IMGP0173.JPG"  alt="" width="100%"></a>
-</div>
+        <div id="photos">
+          <ul id="photo-gallery">
+		<li><a href="images/denver-colorado.jpg"  width="30%" height="auto"  alt="" > <div class="into">  <img src="images/denver-colorado.jpg"  alt="" ></div></a></li>
+
+	<li><a href="images/crisp-sky.jpg"  width="30%" height="auto"  alt="" > <div class="into"> <img src="images/crisp-sky.jpg"  alt="" ></div></a></li>
+
+	<li><a href="images/boat-america.jpg"  width="30%" height="auto"  alt="" > <div class="into">  <img src="images/boat-america.jpg"  alt="" ></div></a></li>
+
+	<li>	<a href="images/IMGP0442.JPG"  width="30%" height="auto"  alt="" > <div class="into">  <img src="images/IMGP0442.JPG"  alt=""  ></div></a></li>
+
+	<li>	 <a href="images/IMGP0335.JPG"  width="30%" height="auto"  alt="" > <div class="into">  <img src="images/IMGP0335.JPG"  alt=""  ></div></a></li>
+
+	<li>	 <a href="images/IMGP0257.JPG"  width="30%" height="auto"  alt="" > <div class="into">  <img src="images/IMGP0257.JPG"  alt=""></div></a></li>
+
+	<li> <a href="images/IMGP0503.JPG"  width="30%" height="auto"  alt="" > <div class="into"> <img src="images/IMGP0503.JPG"  alt="" ></div></a></li>
+
+		<li> <a href="images/IMGP0437.JPG"  width="30%" height="auto"  alt="" > <div class="into">  <img src="images/IMGP0437.JPG"  alt="" ></div></a></li>
+
+	<li>	 <a href="images/IMGP0565.JPG"  width="30%" height="auto"  alt="" > <div class="into">  <img src="images/IMGP0565.JPG"  alt="" ></div></a></li>
+
+	<li>	<a href="images/IMGP0173.JPG"  width="30%" height="auto"  alt="" > <div class="into">  <img src="images/IMGP0173.JPG"  ></div></a></li>
         </ul>
           </div>
 
@@ -152,6 +142,32 @@
                 });
               });
         </script>
+        <script>
+        var $overlay = $('<div id="overlay"></div>');
+  var $image = $("<img>");
+
+  //An image to overlay
+  $overlay.append($image);
+
+  //Add overlay
+  $("body").append($overlay);
+
+    //click the image and a scaled version of the full size image will appear
+    $("#photo-gallery a").click( function(event) {
+      event.preventDefault();
+      var imageLocation = $(this).attr("href");
+
+      //update overlay with the image linked in the link
+      $image.attr("src", imageLocation);
+
+      //show the overlay
+      $overlay.show();
+    } );
+
+    $("#overlay").click(function() {
+      $( "#overlay" ).hide();
+    });
+  </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
         <script src="../js/portfoilo.js"></script>
      </body>
