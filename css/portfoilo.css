@@ -563,7 +563,7 @@ text-align: none;
 .lala img, .middle img, .side img, .wee img{
 	margin: 5%;
   /*vertical-align: middle;*/
-	width: 35%;
+	width: 75%;
 	height: auto;
 }
 
@@ -1457,6 +1457,19 @@ video{
 .dropdown-content{
 	background-color: none;
 	}
+	.lala img, .middle img, .side img, .wee img{
+		margin: 5%;
+		/*vertical-align: middle;*/
+		width: 75%;
+		height: auto;
+	}
+	.lala img, .middle img, .side img, .wee img{
+		margin: 10%;
+		/*vertical-align: middle;*/
+		width: 100%;
+		height: auto;
+	}
+		
 }
 
 @media only screen and (max-width:680px) {
