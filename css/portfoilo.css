@@ -1012,12 +1012,17 @@ form{
 }
 
 #photos img {
-  width: 30%;
+	width: 30%;
+	height: auto;
   float: left;
   display: block;
   margin: 2px;
-
 }
+
+#photo-gallery li{
+	list-style: none;
+}
+
 @keyframes slidein {
   from {
     margin-left: 100%;
