@@ -100,23 +100,20 @@ h1{
 
 h2{
 	font-family: 'Quicksand', sans-serif;
-	color:#F0CA0E;
+	color:#BF269F;
 	margin-left: 5%;
 }
 
 h3, .graph1 h4{
 	font-size: 18pt;
-	color:#096A6A;
+	color:#BF269F;
 	display: block;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
-	margin: 0, 0, 0, 5%;
+
 
 }
 
-.graph1 h4, .graph1 h3 {
-		margin-left: 5%;
-	}
 
 p, ul{
 	font-family: 'Noto Sans', sans-serif;
@@ -148,7 +145,7 @@ p, ul{
 }
 
 #myBtn:hover {
-  background-color: rgba(26,161,156, .8)
+  background-color: rgba(145,29,121, .8);
 }
 /* motorchi box for Web-Design.html page */
 .text {
@@ -196,14 +193,48 @@ p, ul{
 	height: 100%;
 	width: 100%;
 	display: block;
+}
+
+
+
+.hon:hover{
+    background: linear-gradient(
+			rgba(14, 133, 121, 0.87),
+			rgba(04,89,93,1)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.png");
+      -webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	color: #D4D4D4;
+    	height: 100%;
+      width: 100%;
+			display: block;
 
 
 }
 
-.hon:hover{
+.con{
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.66),
+      rgba(0, 0, 0, 0.98));
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #D4D4D4;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+
+
+.con:hover{
     background: linear-gradient(
-      rgba(14, 133, 121, 0.879),
-      rgba(04,89,93,1)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.png");
+			rgba(14, 133, 121, 0.87),
+			rgba(04,89,93,1));
       -webkit-background-size: cover;
     	-moz-background-size: cover;
     	-o-background-size: cover;
@@ -359,29 +390,41 @@ p, ul{
 	bottom: 0;
 	left: 0;
 	right: 0;
+	width: 100%;
+	z-index: 1;
+}
+.graph{
+	flex:100%;
+	max-width: 100%;
+
+}
+.graph1{
+	margin-left: 5%;
 }
 
-.cute {
+.cute video{
 	position:relative;
-	max-height: 100%;
-	max-width: 100%;
-	z-index: -1
+	height: auto;
+	width: 100%;
+	z-index: -1;
 }
 .layer1 {
   font-size: 40px;
   position: absolute;
-	top: 70%;
+	top: 50%;
 	left: 0;
 	right: 0;
 	bottom: 0;
-  text-align: center;
+	text-align: center;
+	
 }
 .layer1  h1{
 	color: #ffffff;
+
 }
 
 /* paragrapgh for the web design */
-.hon p, .soul p, .text p, .ana p, .chi p, .ash p  {
+.hon p, .soul p, .text p, .ana p, .chi p, .ash p, .con p  {
 	margin: 20px;
 	font-size: 18px;
 	align-content: center;
@@ -393,12 +436,6 @@ p, ul{
 	}
 
 /* for the header for galla for analist, chowdown, and motorchi */
-.other{
-	color: #BF269F;
-	display: block;
-	margin-left: 5%;
-	font-style: 20px;
-}
 
 /* galla for web-design.html */
 .web{
@@ -408,6 +445,9 @@ p, ul{
 	margin-top: 5%;
 	margin-bottom:  2%;
 	margin-left: 5%;
+}
+.web h2{
+	color: #DBAA01;
 }
 
  .middle{
@@ -458,7 +498,7 @@ p, ul{
   top: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 232,120,.8);
+  background-color: rgba(242, 208,24,.8);
   overflow: hidden;
   width: 100%;
   height:0;
@@ -481,7 +521,8 @@ p, ul{
 /* responsive part of the galla for analist, chowdown, and motorchi */
 .galla, .graph, .who{
   display: flex;
-  flex-wrap: wrap;
+	flex-wrap: wrap;
+
 }
 
 .galla button{
@@ -497,12 +538,10 @@ p, ul{
 
 .galla h1, .intro h1, .galla1 h1{
 color: #BF269F;
-text-align: none;
+
+
 }
 
- .galla p{
-	 margin-left: 8%;
- }
 
 .intro p{
 	margin-left: 5%;
@@ -513,22 +552,19 @@ text-align: none;
 	 width: 50%;
  }
 /* For the galla for analist, chowdown */
-.heh{
-	flex: 20%;
-	max-width: 20%;
-	margin-left: 10%;
-}
+
 
 .heh1{
-	flex: 8%;
-	min-width: 25%;
+	flex: 15%;
+	min-width: 15%;
 	margin-left: 5%;
+
 
 }
 
 .lala{
-	flex: 50%;
-  max-width: 50%;
+	flex: 40%;
+  width: 40%;
 
 }
 
@@ -543,13 +579,13 @@ text-align: none;
 }
 
 .oh p{
-	font-size:2vw;
+	font-size: 12px;
+	margin-left: 10%;
 }
 .gover{
-	flex: 40%;
+	flex:40%;
 	max-width: 40%;
-	margin-left: 3%;
-
+	margin-left: 5%
 }
 
 .gover1{
@@ -632,9 +668,6 @@ text-align: none;
 			padding-bottom: 20%;}
 */
 /* for the elments in the graph1 */
-	.graph1 p{
-		margin-left: 5%;
-}
 
 .pro {
 	width: 100%;
@@ -650,9 +683,7 @@ text-align: none;
 	display: flex;
 	flex-wrap: wrap;
 	padding: 0 4px;
-	margin: 5%;
-
-
+	
 }
 
 .about button{
@@ -998,12 +1029,12 @@ form{
     width: 100%;
   }
 }
-ul {
-  list-style: none;
+.galla ul {
+ list-style: circle;
   margin: 0px auto;
   padding: 10px;
-  display: block;
-  text-align: center;
+	display: block;
+
 }
 
 #overlay {
@@ -1037,20 +1068,16 @@ ul {
   width: 100%;
   flex: 10%;
 }
-.graph1 h1{
-	margin-left: 5%;
 
-}
 .graph{
   display: flex;
   flex-wrap: wrap;
 
 }
 .hi {
-  margin: 0 auto;
 	margin-left: 5%;
-  flex:30%;
-	max-width: 75%;
+	flex: 30%;
+	max-width: 100%;
 }
 .hi h4, .bye h1{
   color: #559192;
@@ -1067,14 +1094,13 @@ ul {
   		clear: both;
 		// border-bottom: 1px solid $border;
 		&:before {
-			content: "\2023";
+		
 			padding: 0 1em 0 0;
 		}
  	}
  }
 
  .graph ul:before,  .graph li:before {
-  content: "\2023";
   padding: 0 1em 0 0;
 }
 
@@ -1101,7 +1127,7 @@ ul {
  	 .label {
 		font-size: 16px;
     background:
-      rgba(191, 38, 150, 1);
+		rgba(0, 212, 208, 1);
 		width: 100%;
 		display: inline-block;
 		position: relative;
@@ -1180,7 +1206,7 @@ button a{
 }
 
 button:hover{
-	  background-color: rgba(0, 212, 208, 1);
+	  background-color:rgba(145, 29 ,121,.8);
 		transition: .4s ease-out ;
 }
 
@@ -1221,7 +1247,7 @@ button:visited{
 
 video{
 	height: auto;
-	max-width:100%;}
+	width: 50%;}
 
 .vido{
 	margin: 10%;
@@ -1259,12 +1285,7 @@ video{
 }
 footer a, footer ul{
 		text-decoration: none;
-
-}
-.footer {
-	margin-left: auto;
-	margin-right: auto;
-
+		align-content: center;
 }
 
 .footer li{
@@ -1294,6 +1315,7 @@ footer a, footer ul{
 	-webkit-transform: scale(1.3);
 	-ms-transform: scale(1.3);
 	transform: scale(1.3);
+	color: #BF269F  ;
  }
 
 .fa{
@@ -1314,7 +1336,17 @@ footer a, footer ul{
 
 
 @media screen and (max-width: 885px) {
-
+	.graph1{
+		flex:80%;
+		max-width: 80%;
+		align-content: center;
+	}
+.gover img{
+	margin-left: 40%;
+}
+.layer1{
+	top: 25%;
+}
 }
 
 
@@ -1322,7 +1354,8 @@ footer a, footer ul{
   .column {
     flex: 50%;
     max-width: 50%;
-  }
+	}
+
 
 	.crazy{
 		flex: 35%;
@@ -1336,9 +1369,7 @@ footer a, footer ul{
 }
 
 @media only screen and (max-width:780px) {
-	.layer1 h1{
-		font-size: 40px;
-	}
+
 }
 
 /*For Tablet */
@@ -1349,13 +1380,10 @@ footer a, footer ul{
 		.humble {
 			max-width: 25%;
 		}
-		.layer1 {
-			top: 65%;
-	}
-
+		
  .lala{
 	 flex: 65%;
-	 max-width: 75%;
+		width: 75%;
 	 margin-left: 5%;
  }
 
@@ -1365,15 +1393,9 @@ footer a, footer ul{
  	margin-left: 5%;
  }
 
-.heh{
-	 	flex: 50%;
-	 	max-width: 25%;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-	}
-
-
+ .gover img{
+	margin-left: 10%;
+}
  .web{
  	flex:85%;
  	max-width: 85%;
@@ -1391,20 +1413,16 @@ footer a, footer ul{
 
 @media only screen and (max-width:734px) {
 
-	.layer1 {
-			top: 60%;
-	}
+
+
 }
 
 @media only screen and (max-width:720px) {
-	.layer1 {
-		top: 58%;
-	}
+
 }
 
 /* for mobile */
 @media only screen and (max-width:700px) {
-	.layer1 {top: 55%;}
 
   .winter h1 {font-size: 2em;}
 
@@ -1412,12 +1430,6 @@ footer a, footer ul{
 		  flex: 55%;
 			width: 20%;
 		}
-
-video{
-			max-width: 100%;
-			float: left;
-			margin: auto;
-    }
 
 		.middle{
 		 flex: 30%;
@@ -1441,8 +1453,6 @@ video{
 			margin-top: 20px;
 		}
 
-		.layer1 {
-			top: 64%;
 	}
 	.who{
 		margin-left: auto;
@@ -1451,71 +1461,65 @@ video{
 	}
 
 	.heh1{
-		flex: 15%;
-		width: 25%;}
+		flex: 50%;
+		width: 50%;}
 
 .dropdown-content{
 	background-color: none;
 	}
 	.lala img, .middle img, .side img, .wee img{
 		margin: 5%;
-		/*vertical-align: middle;*/
+
 		width: 75%;
 		height: auto;
 	}
 	.lala img, .middle img, .side img, .wee img{
 		margin: 10%;
-		/*vertical-align: middle;*/
-		width: 100%;
+		width: 75%;
 		height: auto;
 	}
 		
 }
 
 @media only screen and (max-width:680px) {
-	.layer1 {
-		top: 53%;
-}
+
 }
 
 @media only screen and (max-width:660px) {
-	.layer1 {
-		top: 52%;
-}
+
 }
  @media only screen and (max-width:640px) {
-	 .layer1 {
-  		top: 50%;
-  }
+
 }
  @media only screen and (max-width:620px) {
-	 .layer1 {
-   		top: 49.9%;
-   }
+
  }
   @media screen and (max-width: 600px) {
-		.layer1 {
-    		top: 49.2%;
-    }
+
   .column {
     flex: 100%;
     max-width: 100%;
   }
-	.layer1 {
-		top: 63%;
-}
 
 #photo-gallery img {
   flex: 40%;
 	width: 100%;
 }
+.heh1 video, .graph1 video{
+	margin-left: 20%;
+}
+
 }
 @media screen and (max-width: 600px) {
   .topnav a, .dropdown .dropbtn {display: none;}
   .topnav a.icon {
     float: right;
     display: block;
-  }
+	}
+	.graph1 p{
+		text-align: center;
+	}
+
 }
 
 @media screen and (max-width: 600px) {
@@ -1548,13 +1552,14 @@ video{
   }
 
 	.lala, .lala2{
- 	 flex: 85%;
- 	 max-width: 85%;
-  }
+ 	 flex: 100%;
+	 width: 100%;
+	}
+
 	.pro{
 		width: 50%;
-		margin-left: 30%;
-		margin-right: auto;
+		margin-left: 70%;
+		margin-right: 70%;
 	}
 	.middle{
    flex: 75%;
@@ -1566,37 +1571,52 @@ video{
 	 margin-left: 8px;
 
 	}
+.other{
+		text-align: center;
+		margin-left: none;
+	}
 	.name{
 		font-size: 6vw;
 		margin-top: 10%;
 	}
 
 	.oh p{
-		font-size: 3vw;
+		font-size: 12px;
 	}
 
+.graph1{
+	flex:100%;
+	max-width: 100%;
 }
+
+  display: flex;
+	flex-wrap: wrap;}
+	
+.heh{
+	flex: 25%;
+	max-width:25%;
+	margin-left: 8%;
+}
+.layer1{
+	top: 20%;
+}
+}
+
 @media screen and (max-width: 584px) {
-	.layer1 {
-		 top: 48%;
-	}
+
 }
 @media screen and (max-width: 554px) {
   .overlay-desc h1{
   	font-size: 4vw;
   }
-	.layer1 {
-		top: 48.5%;
-}
+
 }
 @media screen and (max-width: 525px) {
   .overlay-desc h1{
   	font-size: 4vw;
   }
 }
-.layer1 {
-	 top: 47%;
-}
+
 
 @media screen and (max-width: 500px) {
   .nav{
@@ -1606,9 +1626,7 @@ video{
   .logo{
     padding: .5%;
 }
-.layer1 {
-	 top: 46%;
-	}
+
 }
 		@media only screen and (max-width: 470px){
 
@@ -1619,16 +1637,7 @@ video{
 .layer p {
 	font-size: 10px;
 }
-.layer1 {
-	 top: 45%;
-}
-.heh{
-	 	flex: 75%;
-	 	max-width: 75%;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-	}
+
 }
 /* For Iphone X	*/
 	@media only screen and (max-width: 375px){
@@ -1646,10 +1655,6 @@ p{font-size: 14px;}
 	height: 100%;
 	width: 100%;
 				}
-.layer1 {
-	top: 43%;
-	 	   }
-
 		}
 	@media only screen and (max-width: 320px){
 
@@ -1663,10 +1668,6 @@ bottom: 15%;
   padding: 5px;
   border-radius: 2px;
 }
-.layer1 {
-	top: 40%;
-	 	   }
-
 }
 
 
@@ -1676,7 +1677,7 @@ bottom: 15%;
 
 	.hm{	float: right;}
 
-  .layer1{	top: 30%;}
+
 }
 @media only screen and (max-width: 270px) {
 	.topnav.responsive {
