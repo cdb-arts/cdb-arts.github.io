@@ -1071,7 +1071,7 @@ form{
 
 #photo-gallery {
   width: 100%;
-  flex: 10%;
+	flex: 10%;
 }
 
 .graph{
@@ -1528,6 +1528,10 @@ footer a, footer ul{
 }
 
 @media screen and (max-width: 600px) {
+	#photo-gallery {
+		margin-right: 20%;
+	}
+	
 	.topnav a, .dropdown{
 		font-size: 3vw;
 		text-align: center;S
