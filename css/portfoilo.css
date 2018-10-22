@@ -1653,6 +1653,9 @@ bottom: 15%;
   padding: 5px;
   border-radius: 2px;
 }
+button a{
+	font-size: .8em; 
+}
 }
 
 
