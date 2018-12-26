@@ -8,39 +8,69 @@
 
 /* codes that will be use consited */
 
-body {font-family: 'Montserrat', sans-serif;
-	text-decoration: none;
-	background-color: #ffffff;
+body {
+	font-family: 'Montserrat', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
 	margin: 0;
+	background: linear-gradient(342deg, #99317e, #4f1da1, #042638, #4f0956);
+	background-size: 800% 800%;
+	-webkit-animation: AnimationName 25s ease infinite;
+	-moz-animation: AnimationName 25s ease infinite;
+	-o-animation: AnimationName 25s ease infinite;
+	animation: AnimationName 25s ease infinite;
+}
+
+.error{
+	padding: .5%;
+	color: white;
+	text-align: center;
+	background:  #12a58cd1;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
 }
 
 header, footer{
 	position: relative;
 	width: 100%;
-  background-color: rgba(0, 212, 208, 1);
+  background-color: rgba(0, 212, 208, .3);
   text-align: center;
 	padding: 1%;
 }
 
 /* For the header for CHIARA BOISAUBIN */
-.name{
+.name {
 	font-family: 'Catamaran', sans-serif;
-	font-weight: lighter;
-	font-size: 3vw;
+	font-weight: 700;
+	font-size: calc(1.6em + 2vw);
 	color: #FFFFFF;
 	display: block;
 	margin-left: auto;
 	width: 100%;
-
 }
 
 /* This is the menu ror header*/
 .topnav {
-  overflow: hidden;
-  background-color: rgba(0, 212, 208, .9	);
-	bottom: 15px;
+	justify-content: space-evenly;
 
 }
 .rawl a{
@@ -52,27 +82,22 @@ header, footer{
 
 }
 
-
 .topnav a, .dropdown{
-	float: left;
-  display: block;
-  color: #ffffff;
-	padding-left: 10%;
-  text-align: center;
-  text-decoration: none;
-  font-size:2.5vw;
-	margin-left: 2%;
+	display: inline-flex;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	font-size: calc(1.5em + 1vw);
+	justify-content: space-evenly;
+	margin: auto 2%;
 }
+
 
 .topnav a:hover {
   color: #BF269F;
 	border: soild  2px #BF269F;
-	overflow-x: hidden;
-	transition: 0.5s;
-	-webkit-transform: scale(1.1);
-	-ms-transform: scale(1.1);
-	transform: scale(1.1);
-	z-index: 1;
+	transition: 1s;
+
 
 }
 
@@ -88,6 +113,16 @@ header, footer{
 
 }
 
+.oh p {
+	font-size: calc(1em + .5vw);
+	margin: 0 10%;
+	color: #dedcdb;
+}
+
+.oh h2{
+	margin: 0 10%;
+}
+
 /* default for headers */
 
 h1{
@@ -100,8 +135,11 @@ h1{
 
 h2{
 	font-family: 'Quicksand', sans-serif;
-	color:#BF269F;
-	margin-left: 5%;
+	font-size: calc(1.5em + 1vw);
+	color: #FFED00;
+	border: none;
+	padding: 0;
+	margin: 0% 5%;
 }
 
 h3, .graph1 h4{
@@ -137,150 +175,44 @@ p, ul{
   font-size: 15px;
   border: none;
   outline: none;
-  background-color: rgba(191,38,159, 1);
-  color: white;
+	background-color:rgba(222, 219 ,219,.8);
+	color:rgba(191, 38, 150, 1);
   cursor: pointer;
   padding: 20px;
   border-radius: 4px;
 }
 
 #myBtn:hover {
-  background-color: rgba(145,29,121, .8);
+	background-color: rgba(145,29,121, .9);
+	color: rgba(222, 219 ,219,.8);
 }
+
 /* motorchi box for Web-Design.html page */
 .text {
- background:  linear-gradient(
-      rgba(0, 0, 0, 0.66),
-      rgba(0, 0, 0, 0.68)), url("../motorchi/images/motor-chi-tee.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #D4D4D4;
-	height: 100%;
-	width: 100%;
-	display: block;
+	background:  linear-gradient(
+			 rgba(0, 0, 0, 0.66),
+			 rgba(0, 0, 0, 0.68)), url("../motorchi/images/motor-chi-tee.jpg");
 
+ }
 
-}
-.text:hover {
- background:  linear-gradient(
-	   rgba(14, 133, 121, 0.87),
-	 rgba(04,89,93,1)), url("../motorchi/images/motor-chi-tee.jpg");
-   -webkit-background-size: cover;
- 	-moz-background-size: cover;
- 	-o-background-size: cover;
- 	background-size: cover;
- 	background-repeat: no-repeat;
- 	color: #D4D4D4;
-	height: 100%;
-	width: 100%;
-	display: block;
-
-    }
 /* ChowDown box for Web-Design.html page */
 .hon{
 	background:  linear-gradient(
       rgba(0, 0, 0, 0.66),
       rgba(0, 0, 0, 0.98)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.png");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #D4D4D4;
-	height: 100%;
-	width: 100%;
-	display: block;
-}
-
-
-
-.hon:hover{
-    background: linear-gradient(
-			rgba(14, 133, 121, 0.87),
-			rgba(04,89,93,1)), url("../Web Design/CHOWDOWN-COMMING-SOON/ChowDown_Transparent.png");
-      -webkit-background-size: cover;
-    	-moz-background-size: cover;
-    	-o-background-size: cover;
-    	background-size: cover;
-    	background-repeat: no-repeat;
-    	color: #D4D4D4;
-    	height: 100%;
-      width: 100%;
-			display: block;
-
-
 }
 
 .con{
 	background:  linear-gradient(
       rgba(0, 0, 0, 0.66),
       rgba(0, 0, 0, 0.98));
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #D4D4D4;
-	height: 100%;
-	width: 100%;
-	display: block;
 }
 
-
-
-.con:hover{
-    background: linear-gradient(
-			rgba(14, 133, 121, 0.87),
-			rgba(04,89,93,1));
-      -webkit-background-size: cover;
-    	-moz-background-size: cover;
-    	-o-background-size: cover;
-    	background-size: cover;
-    	background-repeat: no-repeat;
-    	color: #D4D4D4;
-    	height: 100%;
-      width: 100%;
-			display: block;
-
-
-}
 
 /* soulmarcos box for Web-Design.html page */
 .soul{
-
-	background:  linear-gradient(
-      rgba(0, 0, 0, 0.66),
-      rgba(0, 0, 0, 0.88)), url("../Soul-Marcos/Logo/soulmarcoss-logo.jpg");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #D4D4D4;
-	height: 100%;
-	width: 100%;
-	display: block;
-
-
-}
-
-.soul:hover{
-  background: linear-gradient(
-  rgba(14, 133, 121, 0.87),
-		rgba(04,89,93,1)), url("../Soul-Marcos/Logo/soulmarcoss-logo.jpg");
-    -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-  	background-repeat: no-repeat;
-  	color: #D4D4D4;
-		height: 100%;
-		width: 100%;
-		display: block;
-
+	background: linear-gradient(	rgba(0, 0, 0, 0.66),
+	rgba(0, 0, 0, 0.66)), url("../Soul-Marcos/Logo/soulmarcoss-logo.jpg");
 }
 
 /* analist box for Web-Design.html page */
@@ -288,31 +220,6 @@ p, ul{
     background: linear-gradient(
 	rgba(0, 0, 0, 0.66),
     rgba(0, 0, 0, 0.66)), url("../Analist/Logo/Analist-logo-background.png");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #D4D4D4;
-	height: 100%;
-	width: 100%;
-	display: block;
-
-}
-
-.ana:hover{
-	background: linear-gradient(
-			  rgba(14, 133, 121, 0.87),
-			rgba(04,89,93,1)), url("../Analist/Logo/Analist-logo-background.png");
-  -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #D4D4D4;
-	height: 100%;
-	width: 100%;
-	display: block;
 
 }
 
@@ -321,37 +228,14 @@ p, ul{
   background: linear-gradient(
 	   rgba(0, 0, 0, 0.66),
      rgba(0, 0, 0, 0.66)), url("../Home/logo2.gif");
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #D4D4D4;
-	height: 100%;
-	width: 100%;
-	display: block;
 
 }
-
-.chi:hover{
-  background: linear-gradient(
-		  rgba(14, 133, 121, 0.87),
-		rgba(04,89,93,1)), url("../Home/logo2.gif");
-  -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #D4D4D4;
-	height: 100%;
-	width: 100%;
-	display: block;
-}
-
 .ash{
-  background: linear-gradient(
-	   rgba(0, 0, 0, 0.66),
-     rgba(0, 0, 0, 0.66)), url("../ashley/art-icon.png");
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.66),
+		rgba(0, 0, 0, 0.66)), url("../ashley/art-icon.png");
+}
+.ash, .chi, .ana, .soul, .con, .hon, .text{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -364,20 +248,27 @@ p, ul{
 
 }
 
-.ash:hover{
-  background: linear-gradient(
-  rgba(14, 133, 121, 0.87),
-		rgba(04,89,93,1)), url("../ashley/art-icon.png");
-  -webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	color: #D4D4D4;
-	height: 100%;
-	width: 100%;
-	display: block;
+
+
+.con:hover, .soul:hover, 
+.hon:hover, .text:hover,
+.ana:hover, .chi:hover {
+    background: linear-gradient(342deg, #00d4d0, #0094de);
+      -webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+    	background-size: cover;
+    	background-repeat: no-repeat;
+    	color: #D4D4D4;
+    	height: 100%;
+      width: 100%;
+			display: block;
+			transition: .5s ease;
+
+
 }
+
+
 
 /* this is motorchi.html top video loop with the black */
 .darkness{
@@ -399,7 +290,7 @@ p, ul{
 
 }
 .graph1{
-	margin-left: 5%;
+	margin: 0 10%;
 }
 
 .cute video{
@@ -426,13 +317,12 @@ p, ul{
 /* paragrapgh for the web design */
 .hon p, .soul p, .text p, .ana p, .chi p, .ash p, .con p  {
 	margin: 20px;
-	font-size: 18px;
+	font-size: calc(1em + .5vw);
 	align-content: center;
   color: #ffffff;}
 
 .hon, .soul, .text, .ana, .chi, .ash{
-		padding-bottom: 20px;
-		padding-top: 10%;
+	padding: 10%;
 	}
 
 /* for the header for galla for analist, chowdown, and motorchi */
@@ -445,9 +335,17 @@ p, ul{
 	margin-top: 5%;
 	margin-bottom:  2%;
 	margin-left: 5%;
+
 }
-.web h2{
+
+.web h3, .galla h3{
 	color: #DBAA01;
+	font-size: calc(1.5em + 1vw);
+}
+
+.galla p{
+	font-size: calc(1em + .5vw); 
+	color: #D4D4D4;
 }
 
  .middle{
@@ -456,10 +354,11 @@ p, ul{
 	margin-left: 5%;
 }
 
-/* this is for I like to.. for graph*/
+
 .sci{
 	display: flex;
-	flex-wrap: wrap;
+	justify-content: center;
+	flex-wrap: wrap
 }
 
 .crazy{
@@ -516,6 +415,7 @@ p, ul{
 }
 .layer p {
 	font-weight: bold;
+	font-size: calc(1em + .5vw);
 }
 
 /* responsive part of the galla for analist, chowdown, and motorchi */
@@ -536,9 +436,9 @@ p, ul{
 	color: #FFFFFF;
 }
 
-.galla h1, .intro h1, .galla1 h1{
-color: #BF269F;
-
+.galla h1, .intro h1, .galla1 h1, .galla h2{
+	color: #FFED00;
+	text-align: center;
 
 }
 
@@ -553,19 +453,33 @@ color: #BF269F;
  }
 /* For the galla for analist, chowdown */
 
+.galla p:nth-child(2){
+	width: 60%;
+}
 
 .heh1{
-	flex: 15%;
-	min-width: 15%;
-	margin-left: 5%;
+	flex: 25%;
+	margin: 0 5%;
+	
+}
+.heh1 img:nth-child(2){
+	margin: 15% 5%;
+}
 
+.heh2{
+	flex: 25%;
+	min-width: 25%;
+	display: inline-flex
+}
 
+.heh2 img{
+	width: 20%;
+	height: 20%
 }
 
 .lala{
-	flex: 40%;
-  width: 40%;
-
+	flex: 25%;
+	max-width: 50%
 }
 
 .lala2 {
@@ -578,10 +492,11 @@ color: #BF269F;
 
 }
 
-.oh p{
-	font-size: 12px;
-	margin-left: 10%;
+.center{
+	width: 100%;
+  text-align: center;
 }
+
 .gover{
 	flex:40%;
 	max-width: 40%;
@@ -603,7 +518,7 @@ color: #BF269F;
 	height: auto;
 }
 
-.lala h2, .oh h2 {
+.lala h2,  {
 	font-size: 30px;
 	color: #BF269F;
 	border: none;
@@ -669,21 +584,18 @@ color: #BF269F;
 */
 /* for the elments in the graph1 */
 
-.pro {
-	width: 100%;
-	height: auto;
-	-moz-border-radius:25%;
- -webkit-border-radius: 25%;
-	 border-radius: 25%;
-	 margin-top: 10%;
-
+	.pro {
+    width: 50%;
+    height: auto;
+    -moz-border-radius: 25%;
+    -webkit-border-radius: 25%;
+    border-radius: 25%;
+    margin: 15% 50%;
 }
 
 .about {
-	display: flex;
-	flex-wrap: wrap;
-	padding: 0 4px;
-	
+	margin: 5%;
+
 }
 
 .about button{
@@ -694,12 +606,6 @@ color: #BF269F;
 	width: 50%;
 	font-size: 20px;
 	font-weight: 200;
-}
-
-.tro{
-	flex: 100%;
-	width: 100%;
-	padding: 1%;
 }
 
 .resturants img {
@@ -1081,9 +987,9 @@ form{
 	max-width: 100%;
 }
 .hi h4, .bye h1{
-  color: #559192;
+	font-size: calc(1.5em + .5vw);
+	color:#FFED00;
 	font-family: 'Catamaran', sans-serif;
-	font-size: 20px;
 }
 
 .graph ul, .graph li  {
@@ -1114,14 +1020,19 @@ form{
  }
 
  	 .label {
-		font-size: 16px;
-    background:
-		rgba(0, 212, 208, 1);
-		width: 100%;
-		display: inline-block;
-		position: relative;
-		z-index: 2;
-		font-weight: bold;
+		background: linear-gradient(342deg, #00d4d0, #0094de);
+		background-size: 400% 400%;
+		-webkit-animation: AnimationName 30s ease infinite;
+		-moz-animation: AnimationName 30s ease infinite;
+		-o-animation: AnimationName 30s ease infinite;
+		animation: AnimationName 30s ease infinite;	
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 1%;
 }
 
  .count {
@@ -1151,7 +1062,7 @@ background:linear-gradient(
 	color: #D4D4D4;
 	width: 100%;
 	align-content: center;
-	padding: 10%;
+	padding: 5%;
 	margin: 0;
 -webkit-font-smoothing: antialiased;
 }
@@ -1168,8 +1079,7 @@ background:linear-gradient(
 
 button{
 
-	background-color: #BF269F;
-	color: #ffffff;
+	background-color:#dedcdb;
 	padding: 20px;
 	overflow-x: hidden;
 	transition: ease-out 0.9s;
@@ -1186,11 +1096,11 @@ button{
 
 button a{
 	text-decoration: none;
-	color: #ffffff;
+	color: #BF269F;
 }
 
 button:hover{
-	  background-color:rgba(145, 29 ,121,.8);
+	  background-color:rgba(222, 219 ,219,.8);
 		transition: .4s ease-out ;
 }
 
@@ -1270,6 +1180,7 @@ video{
 footer a, footer ul{
 		text-decoration: none;
 		align-content: center;
+		padding: 0;
 }
 
 .footer li{
@@ -1280,10 +1191,8 @@ footer a, footer ul{
 }
 
 .copy, .copy a{
-	margin-left: 5%;
-	padding: 20px;
 	text-align: center;
-	color: #8C8C8C;
+	color: #3b3a39;
 	transition: ease-in .3s;
 }
 .copy a:hover{
@@ -1296,9 +1205,6 @@ footer a, footer ul{
 	text-align: center;
 	transition: all 0.5s;
 	cursor: pointer;
-	-webkit-transform: scale(1.3);
-	-ms-transform: scale(1.3);
-	transform: scale(1.3);
 	color: #BF269F  ;
  }
 
@@ -1312,370 +1218,81 @@ footer a, footer ul{
 
 }
 
-
  .fa-github, .fa-linkedin, .fa-behance, .fa-google, .fa-youtube, .fa-instagram {
 	color: #ffffff;
 }
 
-
-
-@media screen and (max-width: 885px) {
-	.graph1{
-		flex:80%;
-		max-width: 80%;
-		align-content: center;
-	}
-.gover img{
-	margin-left: 40%;
-}
-.layer1{
-	top: 25%;
-}
-}
-
-
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-	}
-
-
-	.crazy{
-		flex: 35%;
-		max-width: 85%;
-		margin-left: 15%;
-	}
-
-	.humble {
-		max-width: 30%;
-	}
-}
-
-@media only screen and (max-width:780px) {
-
-}
-
-/*For Tablet */
-@media only screen and (max-width:768px) {
-		h1{
-		font-size: 1.5em;}
-
-		.humble {
-			max-width: 25%;
-		}
-		
- .lala{
-	 flex: 65%;
-		width: 75%;
-	 margin-left: 5%;
- }
-
- .gover{
- 	flex: 75%;
- 	max-width: 75%;
- 	margin-left: 5%;
- }
-
- .gover img{
-	margin-left: 10%;
-}
- .web{
- 	flex:85%;
- 	max-width: 85%;
-	margin-left: 8%;
-
- }
-
- .hu p{
-		margin-top: 20px;
-		margin-left: 5%;
-	}
-}
-
-
-
-@media only screen and (max-width:734px) {
-
-
-
-}
-
-@media only screen and (max-width:720px) {
-
-}
-
-/* for mobile */
-@media only screen and (max-width:700px) {
-
-  .winter h1 {font-size: 2em;}
-
-		#photo-gallery img {
-		  flex: 55%;
-			width: 20%;
-		}
-
-		.middle{
-		 flex: 30%;
-		 max-width: 30%;
-		 margin-left: 8%;
-	 }
-
-		.hm h1{
-		font-size: 2em;
-		font-weight: 200;}
-		.hm p{ font-size: 1.5em;
-		}
-
-		.hi {
-		  flex:50%;
-			max-width: 100%;
-			margin-left: 5%;
-		}
-
-		.hu p{
-			margin-top: 20px;
-		}
-
-
-	.who{
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-	}
-
-	.heh1{
-		flex: 50%;
-		width: 50%;}
-
-.dropdown-content{
-	background-color: none;
-	}
-	.lala img, .middle img, .side img, .wee img{
-		margin: 5%;
-
-		width: 75%;
-		height: auto;
-	}
-	.lala img, .middle img, .side img, .wee img{
-		margin: 10%;
-		width: 75%;
-		height: auto;
-	}
-}
-
-@media only screen and (max-width:680px) {
-
-}
-
-@media only screen and (max-width:660px) {
-
-}
- @media only screen and (max-width:640px) {
-
-}
- @media only screen and (max-width:620px) {
-
- }
-  @media screen and (max-width: 600px) {
-
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
-
-#photo-gallery img {
-  flex: 40%;
-	width: 100%;
-}
-.heh1 video, .graph1 video{
-	margin-left: 20%;
-}
-
-}
-@media screen and (max-width: 600px) {
-  .topnav a, .dropdown .dropbtn {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-	}
-	.graph1 p{
-		text-align: center;
-	}
-
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 766px) {
 	#photo-gallery {
 		margin-right: 20%;
 	}
 	
-	.topnav a, .dropdown{
-		font-size: 3vw;
+	.web h3{
 		text-align: center;
 	}
-	.topnav.responsive {
-	position: relative;
- 	bottom: 60%;
-}
-  .topnav.responsive a.icon {
+	.topnav a, .dropdown{
+		font-size: calc(1em + 1.5vw);
+		text-align: center;
+	}
+
+  .topnav .responsive .icon a:hover {
     position: absolute;
     right: 0;
 		top: 0;
   }
   .topnav.responsive a {
-    float: none;
     display: block;
-    text-align: left;
   }
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {
-		position: relative;
-	top: 0;}
+
 	.dropdown-content { background-color: none;}
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
-  }
-
-	.lala, .lala2{
- 	 flex: 100%;
-	 width: 100%;
+	}
+	
+	.topnav a, .dropdown .dropbtn {display: none;}
+  .topnav a.icon {
+		font-size: 1.5em;
+    display: block;
 	}
 
+	.overlay {
+		border-radius: 100%;
+    left: 25%;
+    right: 0;
+    width: 50%;
+
+	}
 	.pro{
-		width: 50%;
-		margin-left: 70%;
-		margin-right: 70%;
+		margin: 15% 75%;
 	}
-	.middle{
-   flex: 75%;
-   max-width: 75%;
- }
+	
+	.crazy{
+    flex: 50%;
+   margin: auto;
+	}
+
 	.web{
-	 flex:100%;
-	 max-width: 100%;
-	 margin-left: 8px;
-
+    flex: 75%;
+		max-width: 100%;
+		margin: 5%;
 	}
-.other{
+
+	.lala2 {
+    flex: 50%;
+		max-width: 50%;
+	}
+	.hi{
+    flex: 100%;
+    max-width: 100%;
+	}
+	
+	h2{
 		text-align: center;
-		margin-left: none;
+    margin: 5%;
 	}
-	.name{
-		font-size: 6vw;
-		margin-top: 10%;
-	}
-
-	.oh p{
-		font-size: 12px;
-	}
-
-.graph1{
-	flex:100%;
-	max-width: 100%;
-}
-
-.heh{
-	flex: 25%;
-	max-width:25%;
-	margin-left: 8%;
-}
-.layer1{
-	top: 20%;
-}
-}
-
-@media screen and (max-width: 584px) {
-
-}
-@media screen and (max-width: 554px) {
-  .overlay-desc h1{
-  	font-size: 4vw;
-  }
-
-}
-@media screen and (max-width: 525px) {
-  .overlay-desc h1{
-  	font-size: 4vw;
-  }
-}
-
-
-@media screen and (max-width: 500px) {
-  .nav{
-	right:0;
-	width: 10%;
-  }
-  .logo{
-    padding: .5%;
-}
-
-}
-		@media only screen and (max-width: 470px){
-
-	.topnav.responsive {
-	position: relative;
-	bottom: 20%;
-}
-.layer p {
-	font-size: 10px;
-}
-
-}
-/* For Iphone X	*/
-	@media only screen and (max-width: 375px){
-
-h1{font-size: 1em;}
-p{font-size: 14px;}
-.photo-gallery img {
-  flex: 60%;
-	width: 60%;
-	margin-left: 15%;
-}
-.welcome{
-	padding-top: 50%;
-	padding-bottom: 100%;
-	height: 100%;
-	width: 100%;
-				}
-		}
-	@media only screen and (max-width: 320px){
-
-.topnav.responsive {
-position: relative;
-bottom: 15%;
-}
-#myBtn {
-
-  font-size: 10px;
-  padding: 5px;
-  border-radius: 2px;
-}
-button a{
-	font-size: .8em; 
-}
-}
-
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px){
-	.enter{ padding: 25%;}
-
-	.hm{	float: right;}
-
-
-}
-@media only screen and (max-width: 270px) {
-	.topnav.responsive {
-	position: relative;
-	bottom: 5%;
-	}
-}
-@media only screen and (max-width: 151px) {
-	.topnav.responsive {
-	position: relative;
-	bottom: 1%;
+	.image{
+		width: 50%;
 	}
 }

@@ -14,34 +14,7 @@
 
 </head>
 <body>
-  <script>
-  $(document).on("click",".transit", function(){
-    $("body").transit();
-  });
-  setTimeout(function start (){
 
-    $('.bar').each(function(i){
-      var $bar = $(this);
-      $(this).append('<span class="count"></span>')
-      setTimeout(function(){
-        $bar.css('width', $bar.attr('data-percent'));
-      }, i*100);
-    });
-
-  $('.count').each(function () {
-      $(this).prop('Counter',0).animate({
-          Counter: $(this).parent('.bar').attr('data-percent')
-      }, {
-          duration: 2000,
-          easing: 'swing',
-          step: function (now) {
-              $(this).text(Math.ceil(now) +'%');
-          }
-      });
-  });
-
-  }, 500)
-  </script>
   <header>
   <!--Navigation Bar !-->
   <h1 class="name"> CHIARA BOISAUBIN </h1>
@@ -71,7 +44,7 @@
 
 </div>
 <div class="nav">
-<span style="font-size:2em; cursor:pointer;" style=" "onclick="openNav()" >&#9868; </span>
+<span style="font-size:2em; cursor:pointer;" style=" "onclick="openNav()" > &#9868; </span>
 </div>
 </div>
 <!-- End of Navigation Bar!-->
@@ -80,7 +53,34 @@
  </div>
 
  </header>
+ <script>
+  $(document).on("click",".transit", function(){
+    $("body").transit();
+  });
+  setTimeout(function start (){
 
+    $('.bar').each(function(i){
+      var $bar = $(this);
+      $(this).append('<span class="count"></span>')
+      setTimeout(function(){
+        $bar.css('width', $bar.attr('data-percent'));
+      }, i*100);
+    });
+
+  $('.count').each(function () {
+      $(this).prop('Counter',0).animate({
+          Counter: $(this).parent('.bar').attr('data-percent')
+      }, {
+          duration: 2000,
+          easing: 'swing',
+          step: function (now) {
+              $(this).text(Math.ceil(now) +'%');
+          }
+      });
+  });
+
+  }, 500)
+  </script>
  </body>
 
  </html>
