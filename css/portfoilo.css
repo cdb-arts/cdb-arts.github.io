@@ -13,14 +13,16 @@ body {
 	-webkit-font-smoothing: antialiased;
 	padding: 0;
 	margin: 0;
-	background: linear-gradient(342deg, #99317e, #4f1da1, #042638, #4f0956);
+	background: linear-gradient(100deg, #042638, #4f1da1, #4f0956, #99317e);
 	background-size: 800% 800%;
-	-webkit-animation: AnimationName 25s ease infinite;
-	-moz-animation: AnimationName 25s ease infinite;
-	-o-animation: AnimationName 25s ease infinite;
-	animation: AnimationName 25s ease infinite;
+	-webkit-animation: AnimationName 15s ease infinite;
+	-moz-animation: AnimationName 15s ease infinite;
+	-o-animation: AnimationName 15s ease infinite;
+	animation: AnimationName 15s ease infinite;
 }
-
+a:visited, a{
+	text-decoration: none;
+}
 .error{
 	padding: .5%;
 	color: white;
@@ -52,7 +54,7 @@ body {
 header, footer{
 	position: relative;
 	width: 100%;
-  background-color: rgba(0, 212, 208, .3);
+  background-color: rgba(8, 14, 14, .64);
   text-align: center;
 	padding: 1%;
 }
@@ -61,7 +63,7 @@ header, footer{
 .name {
 	font-family: 'Catamaran', sans-serif;
 	font-weight: 700;
-	font-size: calc(1.6em + 2vw);
+	font-size: calc(1.5em + 1.5vw);
 	color: #FFFFFF;
 	display: block;
 	margin-left: auto;
@@ -81,13 +83,16 @@ header, footer{
 	color: #ffffff;
 
 }
+.other{
+	color: #ffffff;
+}
 
 .topnav a, .dropdown{
 	display: inline-flex;
 	color: #ffffff;
 	text-align: center;
 	text-decoration: none;
-	font-size: calc(1.5em + 1vw);
+	font-size: calc(1.2em + 1vw);
 	justify-content: space-evenly;
 	margin: auto 2%;
 }
@@ -119,9 +124,7 @@ header, footer{
 	color: #dedcdb;
 }
 
-.oh h2{
-	margin: 0 10%;
-}
+
 
 /* default for headers */
 
@@ -143,23 +146,21 @@ h2{
 }
 
 h3, .graph1 h4{
-	font-size: 18pt;
-	color:#BF269F;
+	font-size: 1.2em;
+	color:#FFED00;
 	display: block;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bold;
-
-
 }
 
 
 p, ul{
 	font-family: 'Noto Sans', sans-serif;
-	color: #807777;
+	color: #D4D4D4;
 }
 
 .lala h5{
-	font-size: 18pt;
+	font-size: 1em;
 	font-family: 'Quicksand', sans-serif;
 	color:rgba(191, 38, 150, 1);
 	margin: 0;
@@ -171,7 +172,7 @@ p, ul{
   position: fixed;
   bottom: 15px;
   right: 30px;
-  z-index: 99;
+  z-index: 1;
   font-size: 15px;
   border: none;
   outline: none;
@@ -245,6 +246,11 @@ p, ul{
 	height: 100%;
 	width: 100%;
 	display: block;
+	padding: 20%;
+	-webkit-animation: AnimationName 15s ease-in-out;
+	-moz-animation: AnimationName 15s ease-in-out ;
+	-o-animation: AnimationName 15s ease-in-out ;
+	animation: AnimationName 15s ease-in-out ;
 
 }
 
@@ -253,7 +259,7 @@ p, ul{
 .con:hover, .soul:hover, 
 .hon:hover, .text:hover,
 .ana:hover, .chi:hover {
-    background: linear-gradient(342deg, #00d4d0, #0094de);
+    background: linear-gradient(190deg, #0125FF, #0094de);
       -webkit-background-size: cover;
     	-moz-background-size: cover;
     	-o-background-size: cover;
@@ -263,9 +269,11 @@ p, ul{
     	height: 100%;
       width: 100%;
 			display: block;
-			transition: .5s ease;
-
-
+			opacity: .5;
+			-webkit-animation: AnimationName 1s ease-in-out;
+			-moz-animation: AnimationName 1s ease-in-out ;
+			-o-animation: AnimationName 1s ease-in-out ;
+			animation: AnimationName 1s ease-in-out ;
 }
 
 
@@ -290,7 +298,7 @@ p, ul{
 
 }
 .graph1{
-	margin: 0 10%;
+	margin: 0 5%;
 }
 
 .cute video{
@@ -307,6 +315,7 @@ p, ul{
 	right: 0;
 	bottom: 0;
 	text-align: center;
+	color: rgba(113, 118, 119, 0.993);
 	
 }
 .layer1  h1{
@@ -321,26 +330,15 @@ p, ul{
 	align-content: center;
   color: #ffffff;}
 
-.hon, .soul, .text, .ana, .chi, .ash{
-	padding: 10%;
-	}
 
-/* for the header for galla for analist, chowdown, and motorchi */
-
-/* galla for web-design.html */
-.web{
-	flex:40%;
-	max-width: 40%;
-	padding: 0 4px;
-	margin-top: 5%;
-	margin-bottom:  2%;
-	margin-left: 5%;
-
-}
 
 .web h3, .galla h3{
 	color: #DBAA01;
 	font-size: calc(1.5em + 1vw);
+	display: flex;
+	width: 100%;
+	height: 50%;
+	flex-flow: column-reverse;
 }
 
 .galla p{
@@ -415,7 +413,8 @@ p, ul{
 }
 .layer p {
 	font-weight: bold;
-	font-size: calc(1em + .5vw);
+	font-size: calc(1em + .1vw);
+	color: #292d30;
 }
 
 /* responsive part of the galla for analist, chowdown, and motorchi */
@@ -429,16 +428,16 @@ p, ul{
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;
+	
 }
 
-.galla a{
+.galla a {
 	text-decoration: none;
-	color: #FFFFFF;
+	color: rgb(103, 98, 107);
 }
 
-.galla h1, .intro h1, .galla1 h1, .galla h2{
+.galla h1, .intro h1, .galla1 h1, .about h2, .hu {
 	color: #FFED00;
-	text-align: center;
 
 }
 
@@ -453,28 +452,24 @@ p, ul{
  }
 /* For the galla for analist, chowdown */
 
-.galla p:nth-child(2){
-	width: 60%;
-}
-
 .heh1{
 	flex: 25%;
 	margin: 0 5%;
 	
 }
 .heh1 img:nth-child(2){
-	margin: 15% 5%;
+	margin: 5%;
 }
 
 .heh2{
-	flex: 25%;
-	min-width: 25%;
+	flex: 50%;
+	max-width: 50%;
 	display: inline-flex
 }
 
 .heh2 img{
-	width: 20%;
-	height: 20%
+	width: 50%;
+	height: 50%
 }
 
 .lala{
@@ -511,7 +506,7 @@ p, ul{
 
 
 
-.lala img, .middle img, .side img, .wee img{
+ .middle img, .side img, .wee img{
 	margin: 5%;
   /*vertical-align: middle;*/
 	width: 75%;
@@ -594,7 +589,7 @@ p, ul{
 }
 
 .about {
-	margin: 5%;
+	margin: 1% 0 0;
 
 }
 
@@ -647,6 +642,11 @@ form{
 	align-items: center;
 	padding: 25px;
 	height: 300px;
+	-webkit-animation: AnimationName 1s ease;
+	-moz-animation: AnimationName 1s ease ;
+	-o-animation: AnimationName 1s ease ;
+	animation: AnimationName 1s ease ;
+
 }
 
 .honey1{	position: relative;
@@ -675,10 +675,13 @@ form{
 	display: inline;
 	margin-left: 5%;
 }
+.back{
+	margin: 2% 1%;
+}
 
 .back a{
-	color:red;
-	font-size: 30px;
+	color: #ffffff;
+	font-size: 1em;
 	font-weight: bold;
 	text-decoration: none;
 
@@ -913,13 +916,7 @@ form{
   opacity: .88;
 }
 
-#photos img {
-	width: 30%;
-	height: auto;
-  float: left;
-  display: block;
-  margin: 2px;
-}
+
 
 #photo-gallery li{
 	list-style: none;
@@ -966,15 +963,7 @@ form{
    transition: width 2s;
 }
 
-#photos {
-	display: flex;
-  flex-wrap: wrap;
-}
 
-#photo-gallery {
-  width: 100%;
-	flex: 10%;
-}
 
 .graph{
   display: flex;
@@ -983,7 +972,7 @@ form{
 }
 .hi {
 	margin-left: 5%;
-	flex: 30%;
+	flex: 25%;
 	max-width: 100%;
 }
 .hi h4, .bye h1{
@@ -1014,7 +1003,7 @@ form{
  	margin: 2% 0;
  	color:#ffffff;
  	position: relative;
- 	 transition:width 2s, background .2s;
+ 	 transition:width 10s, background 10s ease-in;
   /* -webkit-transform: translate3d(0,0,0); */
  	 clear: both;
  }
@@ -1022,21 +1011,21 @@ form{
  	 .label {
 		background: linear-gradient(342deg, #00d4d0, #0094de);
 		background-size: 400% 400%;
-		-webkit-animation: AnimationName 30s ease infinite;
-		-moz-animation: AnimationName 30s ease infinite;
-		-o-animation: AnimationName 30s ease infinite;
-		animation: AnimationName 30s ease infinite;	
+		-webkit-animation: AnimationName 5s ease infinite;
+		-moz-animation: AnimationName 5s ease infinite;
+		-o-animation: AnimationName 5s ease infinite;
+		animation: AnimationName 5s ease infinite;	
     width: 100%;
     display: inline-block;
     position: relative;
-    z-index: 2;
+    z-index: 1;
     font-weight: bold;
     border-radius: 15px;
     padding: 1%;
 }
 
  .count {
-	position: absolute;
+	 display: none;
 	right: .25em;
 	/*top: .75em;
  	padding: .15em;
@@ -1096,7 +1085,7 @@ button{
 
 button a{
 	text-decoration: none;
-	color: #BF269F;
+	color: rgb(103, 98, 107);
 }
 
 button:hover{
@@ -1192,7 +1181,7 @@ footer a, footer ul{
 
 .copy, .copy a{
 	text-align: center;
-	color: #3b3a39;
+	color: #9ba1a1;
 	transition: ease-in .3s;
 }
 .copy a:hover{
@@ -1218,11 +1207,37 @@ footer a, footer ul{
 
 }
 
+.web{
+	flex: 2%;
+	width:25%;
+	margin: 5%;
+}
+
  .fa-github, .fa-linkedin, .fa-behance, .fa-google, .fa-youtube, .fa-instagram {
 	color: #ffffff;
 }
 
+@media screen and (max-width: 950px) {
+	.hi{
+		flex: 35%;
+	}
+
+}
+
 @media screen and (max-width: 766px) {
+	.heh2 {
+    flex: 25%;
+    width: 100%;
+    display: inline-flex;
+		margin: 0% 9%;
+}
+
+
+.heh2 img {
+	width: 50%;
+	height: 50%;
+}
+
 	#photo-gallery {
 		margin-right: 20%;
 	}
@@ -1274,9 +1289,9 @@ footer a, footer ul{
 	}
 
 	.web{
-    flex: 75%;
-		max-width: 100%;
-		margin: 5%;
+		flex: 25%;
+    width: 100%;
+    margin: 5%;
 	}
 
 	.lala2 {
@@ -1295,4 +1310,24 @@ footer a, footer ul{
 	.image{
 		width: 50%;
 	}
+
+	.heh1{
+		flex: 100%
+	}
+	.other{
+		text-align: center;
+	}
+	.graph1 video{
+		width: 100%;
+	}
+	.galla video, .galla img{
+		display: flex;
+    justify-content: center;
+		align-items: center;
+		margin: auto;
+}
+.layer1{
+	top: 23%;
+}
+
 }
