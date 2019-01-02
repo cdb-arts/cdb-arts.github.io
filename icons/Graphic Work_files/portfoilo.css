@@ -159,7 +159,12 @@ p, ul{
 	color: #D4D4D4;
 }
 
-
+.lala h5{
+	font-size: 1em;
+	font-family: 'Quicksand', sans-serif;
+	color:rgba(191, 38, 150, 1);
+	margin: 0;
+}
 
 /* Top buton */
 #myBtn {
@@ -449,7 +454,7 @@ p, ul{
 
 .heh1{
 	flex: 25%;
-
+	margin: 0 5%;
 	
 }
 .heh1 img:nth-child(2){
@@ -467,8 +472,20 @@ p, ul{
 	height: 50%
 }
 
+.lala{
+	flex: 25%;
+	max-width: 50%;
+	display: inline-table;
+	margin: 2%;
+}
+
+.lala2 {
+	flex: 25%;
+  max-width: 50%;
+
+}
 .oh{
-	flex: 50%;
+	flex: 75%;
 
 }
 
@@ -498,7 +515,14 @@ p, ul{
 	height: auto;
 }
 
+.lala h2,  {
+	font-size: 30px;
+	color: #BF269F;
+	border: none;
+	padding: 0;
+	margin-left: 5%;
 
+}
 
 .lala video{
 	margin: 5%;
@@ -506,13 +530,6 @@ p, ul{
 	height: auto;
 }
 
-.lala{
-	width: 100%;
-	flex: 25%;
-}
-.lala img{
-	width: 50%;
-}
 .galla iframe{
 	width: 100%;
 	height: auto;
@@ -565,7 +582,7 @@ p, ul{
 /* for the elments in the graph1 */
 
 	.pro {
-    max-width: 25%;
+    width: 50%;
     height: auto;
     -moz-border-radius: 25%;
     -webkit-border-radius: 25%;
@@ -906,15 +923,16 @@ form{
 }
 
 #photo-gallery {
-	max-width: 100%;
-	/* flex: 50%; */
-	margin: auto 15%;
-	justify-content: center;
-	flex: initial;
+  width: 100%;
+	flex: 10%;
 }
 
 #photos img {
-	width:25%;
+	width: 30%;
+	height: auto;
+  float: left;
+  display: block;
+  margin: 2px;
 }
 
 #photo-gallery li{
@@ -1293,6 +1311,10 @@ footer a, footer ul{
     margin: 5%;
 	}
 
+	.lala2 {
+    flex: 50%;
+		max-width: 50%;
+	}
 	.hi{
     flex: 100%;
     max-width: 100%;
@@ -1324,7 +1346,5 @@ footer a, footer ul{
 .layer1{
 	top: 23%;
 }
-#photos img {
-	width:45%;
-}
+
 }
