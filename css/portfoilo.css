@@ -252,7 +252,11 @@ p, ul{
 	padding: 20px;
 	background-color: #7d1d64;
 }
+.about button{
+    display: flex;
+    align-items: center;
 
+}
 #myBtn:hover {
 	background-color: rgba(145,29,121, .9);
 	color: rgba(222, 219 ,219,.8);
@@ -448,8 +452,7 @@ p, ul{
 }
 
 .galla button{
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
 	width: 40%;
 
 }
@@ -1064,10 +1067,15 @@ background:linear-gradient(
 	transform: scale(1.1);
 	z-index: 1;
 	border-radius: 40px;
-	display: inline-block;
 	border: none;
-	margin: 1%;
+	margin: 1% auto;
 
+}
+
+.about  a{
+	text-decoration: none;
+	color: rgba(40, 42, 74);
+	font-weight: 400;
 }
 
 button a{
@@ -1249,7 +1257,7 @@ h2 .show{
 	.web{
 		flex: 25%;
     width: 100%;
-    margin: 5%;
+    margin: 5% auto;
 	}
 
 	.hi{
