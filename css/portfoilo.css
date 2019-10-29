@@ -1069,19 +1069,20 @@ background:linear-gradient(
 	border-radius: 40px;
 	border: none;
 	margin: 1% auto;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
 
 }
 
 .about  a{
 	text-decoration: none;
 	color: rgba(40, 42, 74);
-	font-weight: 400;
 }
 
 button a{
 	text-decoration: none;
 	color: rgba(40, 42, 74);
-	font-weight: 400;
+
 }
 
 button:hover{
@@ -1257,7 +1258,7 @@ h2 .show{
 	.web{
 		flex: 25%;
     width: 100%;
-    margin: 5% auto;
+	margin: 5% 2%;
 	}
 
 	.hi{
@@ -1355,6 +1356,9 @@ h2 .show{
 		width: 45%;
 		flex: 25%;
 
+}
+.topHeavy h1 {
+	font-size: 5em;
 }
 #other p{
 	margin: -.5em 0 0;
