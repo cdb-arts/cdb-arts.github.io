@@ -1284,6 +1284,10 @@ h2 .show{
 #photos img {
 	width:45%;
 }
+.lala img{
+	width: 45%;
+		flex: 25%;
+}
 @media (min-width: 320px) {
 	.heh1{
 		flex: 100%
