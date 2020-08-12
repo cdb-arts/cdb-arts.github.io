@@ -1,0 +1,484 @@
+<template>
+    <div id="app">
+        <!-- 
+        Inside #app you have access ule ule users array containing all user objects
+        you need to accomplish ule test you were sent. 
+  
+        You can see how we defined ule users below starting at line 28
+  
+        All your styles should go down in ule style tag below
+  
+        Here are some helpful resources 
+          1) https://vuejs.org/v2/guide/list.html (for looping and rendering)
+          2) https://vuejs.org/v2/guide/syntax.html (for basic templating understanding)
+  
+      -->
+        <div class="container">
+            <div class="topNav">
+            </div>
+
+            <div class="topContainer">
+                <div class="search">
+                    <h1> Search User </h1>
+                    <input aria-placeholder="input" type="text" placeholder="Search By Name"> </input>
+                </div>
+
+
+                <div class="sort">
+                    <label>Sort by: </label>
+                    <div class="custom-select">
+                        <select aria-placeholder="">
+                            <option value="payments"> Payments: lowest to highest </option>
+                            <option value="name (A-Z)"> Name (A-Z) </option>
+                            <option value="credit"> Credit: lowest to highest </option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="containerforprofile">
+                <div class="profileBody" v-for="user in users">
+                    <div class="text-container1">
+                        <h2>{{user.name}}</h2>
+                        <p>{{user.email}}</p>
+                    </div>
+                    <img v-bind:src="user.media.image" bind:alt="user.altText" />
+
+
+
+                    <div class="textcontainer2">
+                        <ul class="list">
+                            <li id="listWithcolor" :style="{color: user.media.color}">{{user.payment_details.amount}}
+                            </li>
+                            <li>amount</li>
+                        </ul>
+
+                        <ul class="list">
+                            <li id="listWithcolor" :style="{color: user.media.color}">{{user.payment_details.payments}}
+                            </li>
+                            <li>payments</li>
+                        </ul>
+
+                        <ul class="list">
+                            <li id="listWithcolor" :style="{color: user.media.color}">{{user.payment_details.credits}}
+                            </li>
+                            <li>credits</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script>
+    export default {
+        name: "App",
+        data() {
+            return {
+                users: [
+                    {
+                        name: "Patrick Lebsack",
+                        email: "patrick.leb@site.co",
+                        media: {
+                            image:
+                                "https://uploads.codesandbox.io/uploads/user/8f652309-3be4-4b57-bd70-c41009fa0205/CdFf-patrick.jpg",
+                            altText: "portait of Patrick",
+                            color: "#DD60AD"
+                        },
+                        payment_details: {
+                            amount: "$75,500",
+                            payments: "23",
+                            credits: "18"
+                        }
+                    },
+                    {
+                        name: "Chelsey Dietrich",
+                        email: "chels.dietrich@site.co",
+                        media: {
+                            image:
+                                "https://uploads.codesandbox.io/uploads/user/8f652309-3be4-4b57-bd70-c41009fa0205/TnxV-chelsey.jpg",
+                            altText: "portait of Chelsey",
+                            color: "#2D6B8B"
+                        },
+                        payment_details: {
+                            amount: "$67,567",
+                            payments: "12",
+                            credits: "23"
+                        }
+                    },
+                    {
+                        name: "Glenna Reichert",
+                        email: "glenna.reichert@site.co",
+                        media: {
+                            image:
+                                "https://uploads.codesandbox.io/uploads/user/8f652309-3be4-4b57-bd70-c41009fa0205/S6hS-glenna.jpg",
+                            altText: "portait of Glenna",
+                            color: "#E86735"
+                        },
+                        payment_details: {
+                            amount: "$86,050",
+                            payments: "45",
+                            credits: "32"
+                        }
+                    },
+                    {
+                        name: "Chelsey Dietrich",
+                        email: "chels.dietrich@site.co",
+                        media: {
+                            image:
+                                "https://uploads.codesandbox.io/uploads/user/8f652309-3be4-4b57-bd70-c41009fa0205/TnxV-chelsey.jpg",
+                            altText: "portait of Chelsey",
+                            color: "#2D6B8B"
+                        },
+                        payment_details: {
+                            amount: "$67,567",
+                            payments: "12",
+                            credits: "23"
+                        }
+                    },
+                    {
+                        name: "Glenna Reichert",
+                        email: "glenna.reichert@site.co",
+                        media: {
+                            image:
+                                "https://uploads.codesandbox.io/uploads/user/8f652309-3be4-4b57-bd70-c41009fa0205/S6hS-glenna.jpg",
+                            altText: "portait of Glenna",
+                            color: "#E86735"
+                        },
+                        payment_details: {
+                            amount: "$86,050",
+                            payments: "45",
+                            credits: "32"
+                        }
+                    },
+                    {
+                        name: "Patrick Lebsack",
+                        email: "patrick.leb@site.co",
+                        media: {
+                            image:
+                                "https://uploads.codesandbox.io/uploads/user/8f652309-3be4-4b57-bd70-c41009fa0205/CdFf-patrick.jpg",
+                            altText: "portait of Patrick",
+                            color: "#DD60AD"
+                        },
+                        payment_details: {
+                            amount: "$75,500",
+                            payments: "23",
+                            credits: "18"
+                        }
+                    }
+                ]
+            };
+        }
+    };
+
+
+</script>
+
+<style lang="scss">
+    $colorblack: #000000 ;
+    #app {
+        font-family: "Avenir", Helvetica, Arial, sans-serif;
+        -webkit-font-smoouling: antialiased;
+        -moz-osx-font-smoouling: grayscale;
+        text-align: center;
+        color: #2c3e50;
+        position: relative;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        border: 0;
+    }
+
+    h1 {
+        font-size: 28px;
+        color: #000000;
+        font-weight: 400;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    ul {
+        margin: 1em auto;
+        padding: 0;
+    }
+
+    .topNav {
+        background-color: #C4C4C4;
+        padding: 1% 0;
+        position: relative;
+        width: 100%;
+
+    }
+
+    #listWithcolor {
+        font-size: 19px;
+        font-weight: 500;
+    }
+
+    .container {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .topContainer {
+        margin: 55px auto;
+        position: relative;
+        width: 88%;
+    }
+
+    .text-container1 {
+        position: absolute;
+        top: 55%;
+        left: 26%;
+        background-color: #ffffff;
+        padding: 0px 25px;
+        opacity: 0.8;
+        text-align: center;
+        line-height: 1px;
+        z-index: 1;
+    }
+
+    .containerforprofile {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px auto;
+        overflow: hidden;
+        justify-content: center;
+
+    }
+
+    .profileBody {
+        margin: 10px;
+        height: auto;
+        position: relative;
+
+    }
+
+    .profileBody h2 {
+        font-weight: 100;
+        font-size: 24px;
+
+    }
+
+    .profileBody p {
+        font-weight: 100;
+    }
+
+    input,
+    select,
+    .textcontainer2,
+    .profileBody img {
+        box-shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.15);
+
+    }
+
+    .profileBody img {
+        transition: transform .2s;
+    }
+
+    .profileBody img:hover {
+        transform: scale(1.05)
+    }
+
+    input {
+        text-align: left;
+        border: none;
+        color: #787878;
+        width: 95%;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    input:focus {
+        background-color: #b3d8eb;
+    }
+
+    select {
+        background-color: #ffffff;
+        border: none;
+        width: 264px;
+        height: 43px;
+        color: #787878;
+        font-size: 16px;
+        padding: 0 25px;
+    }
+
+    .select-selected:after {
+        display: none;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .textcontainer2 {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin: -5px auto 0;
+
+    }
+
+
+    .sort label {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .sort {
+        margin: 1em;
+    }
+
+
+    @media (min-width:768px) {
+        .profileBody img {
+            width: 100%;
+        }
+
+        .profileBody {
+            width: 45%;
+        }
+
+        .containerforprofile {
+            width: 95%;
+        }
+
+        input {
+            width: 400px;
+        }
+
+        .text-container1 {
+            width: 54%;
+            left: 16%;
+            top: 50%;
+        }
+    }
+
+    @media (min-width:992px) {
+        .sort {
+            display: inline-flex;
+            position: relative;
+            left: 10vw;
+            margin: 3em 0 0 0;
+        }
+
+        .textcontainer2,
+            {
+            width: 100%;
+        }
+
+        .sort label {
+            margin: .5em 1em;
+        }
+
+        .text-container1 {
+            left: 23%;
+            width: 45%;
+            top: 80vw;
+        }
+
+        .topContainer {
+            margin: 55px auto;
+            display: flex;
+            position: relative;
+            width: 80vw;
+        }
+
+        .profileBody {
+            margin: 10px;
+            width: 74%;
+            flex: 43%;
+
+        }
+
+        .search {
+            text-align: left;
+            line-height: 1px;
+            position: relative;
+            right: 5vw;
+        }
+
+    }
+
+    @media (min-width: 1024px) {
+        .sort {
+            left: 0%;
+        }
+
+        search {
+            right: 28%;
+        }
+
+        .text-container1 {
+            left: 20%;
+            width: 55%;
+            top: 60%;
+        }
+
+        .topContainer {
+            width: 70vw;
+        }
+    }
+
+    @media (min-width:1200px) {
+        .containerforprofile {
+            width: 80%;
+        }
+
+        .search {
+            right: 5vw;
+        }
+
+        .topContainer {
+            width: 70vw;
+        }
+
+        .sort {
+            left: 15vw;
+        }
+
+        .profileBody {
+            margin: 10px;
+            width: 74%;
+            flex: 25%;
+        }
+
+        .text-container1 {
+            left: 12%;
+            width: 65%;
+            top: 10vw;
+        }
+
+    }
+
+    @media (min-width:1500px) {
+        .text-container1 {
+            top: 12vw;
+        }
+    }
+
+    @media (min-width:1500px) {
+        .text-container1 {
+            top: 12vw;
+        }
+
+        .sort {
+            left: 35vw;
+        }
+
+    }
+
+    @media (min-width:2400px) {
+        .containerforprofile {
+            width: 60%;
+        }
+
+    }
+</style>
