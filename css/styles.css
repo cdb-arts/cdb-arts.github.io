@@ -1173,6 +1173,7 @@ form {
 }
 
 .label {
+    display: inline-block;
     background: linear-gradient(342deg, #00d4d0, #0094de);
     background-size: 400% 400%;
     -webkit-animation: AnimationName 5s ease infinite;
@@ -1180,9 +1181,10 @@ form {
     -o-animation: AnimationName 5s ease infinite;
     animation: AnimationName 5s ease infinite;
     width: 100%;
-    display: inline-block;
     z-index: 1;
     border-radius: 15px;
+    border: 5px solid black;
+    color: darkslategrey;
     padding: 1%;
     font-weight: bold;
 }
@@ -1230,7 +1232,7 @@ form {
 }
 
 .about {
-    margin: auto;
+    margin: 3em auto;
 }
 
 .about button {
@@ -1244,7 +1246,6 @@ form {
     transform: scale(1.1);
     z-index: 1;
     border-radius: 40px;
-    border: none;
     margin: 1% auto;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
